@@ -116,12 +116,7 @@ b{
 .float-left{
 	margin-left: 20%;
 }
-.margin-auto{
-	margin: center;
-}
-.float-right{
-	margin-right: 5%;
-}
+
 .center{
 	width: 100%;
 	height: 80px;
@@ -153,7 +148,6 @@ b{
 img{
 	width: 100px;
 	height: 100px;
-	width: 32%
 	margin-left: 15%;
 	margin-right: 15%; 
 	padding: 10px;
