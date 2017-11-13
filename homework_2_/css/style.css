@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	width: 1008px;
+	margin: 0 auto;
+	font-family: arial, sans-serif;
+}
+header{
+	width: 1008px;
+	height: 62px;
+	background-color: #02918c
+}
+.logo{
+	margin: 12px;
+	display: inline-block;
+	padding: 0 100px;
+}
+.about-me{
+	width: 1008px;
+	padding: 0;
+	text-align: center;
+}
+.text{
+	padding: 60px 60px 20px;
+}
+h1{
+	color: #02918c;
+	height: 46px;
+	padding: 10px;
+}
+p{
+	color: #7e8287;
+	padding: 5px 40px;
+	line-height: 2;
+}
+.items{
+	padding: 20px;
+}
+.item{
+	width: 20%;
+	margin: 45px 10px;
+	display: inline-block;
+}
+.item h4{
+    font-size: 18px;
+    color: #7e8287;
+	padding: 10px 0;
+}
+.item p{
+    color: #7e8287;
+    font-size: 14px;
+	line-height: 1;
+	padding: 0;
+}
+footer{
+	height: 79px;
+	padding: 0;
+	background-color: #000
+}
+footer p{
+	color: #7e8287;
+	font-size: 12px;
+	padding-top: 35px;
+	text-align: center;
+}
