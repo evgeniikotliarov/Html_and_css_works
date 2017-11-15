@@ -54,3 +54,27 @@ ul li a{
 	padding: 5px 5px;
 	color: #3b4350;
 }
+.project{
+	margin: 20px 50px;
+	display: table;
+}
+.about{
+	background-color: #f5f5f5;
+}
+.project-item{
+	width: 50%;
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.project-item-txt{
+	padding: 36px;
+	background: #4caf50;
+	color: #fff;
+}
+.project-item-txt h2{
+	font-size: 36px;
+	color: #fff;
+	font-weight: normal;
+}
