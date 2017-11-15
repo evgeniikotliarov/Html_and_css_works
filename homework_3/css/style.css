@@ -78,3 +78,80 @@ ul li a{
 	color: #fff;
 	font-weight: normal;
 }
+.category{
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+	padding: 0 0 30px;
+}
+p{
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: normal;
+	line-height: 25px;
+	margin: 0 -17px;
+}
+.project-item-img{
+	background: #949494;
+}
+.about-items{
+	margin:  0 40px;
+}
+.about-item{
+	width: 39%;
+	display: inline-block;
+	text-align: center;
+	padding: 0 30px 50px;
+}
+.conteiner-section h2{
+	text-align: center;
+	color: #3b4350;
+	font-size: 36px;
+	padding: 80px 130px 20px;
+}
+.description{
+	text-align: center;
+	font-size: 16px;
+	color: #525252;
+	margin: 0 120px 80px;
+	line-height: 30px;
+}
+.about-item i{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	background-color: #4caf50;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.item-1 i{
+	background-image: url(../img/ic-certificate.png);
+}
+.item-2 i{
+	background-image: url(../img/ic-user.png);
+}
+.about-item span{
+	display: block;
+	font-size: 35px;
+	color: #525252;
+}
+h3 a{
+	text-decoration: none;
+}
+.about-item p{
+	font-size: 16px;
+	color: #525252;
+	line-height: 30px;
+}
+footer{
+	background-color: #4caf50;
+	padding: 0;
+}
+footer p{
+	font-size: 14px;
+	color: #ffffff;
+	padding: 30px 100px;
+	text-align: right;
+}
