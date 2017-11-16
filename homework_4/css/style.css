@@ -96,3 +96,49 @@ nav ul li a{
     overflow: hidden;
 
 }
+.item-child-2{
+    margin: 10px 0 10px 10px;
+    overflow: hidden;
+
+}
+h3{
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    margin: 10px 0;
+}
+h3 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+.description{
+    font-size: 14px;
+    color: #000;
+}
+.image-box-right{
+    margin: 10px 0 10px 30px;
+    float: right;
+}
+.item-living-1{
+    margin: 10px 0 10px 10px;
+    overflow: hidden;
+}
+.image-box-left{
+    float: left;
+    margin: 10px 30px 10px 0;
+}
+footer{
+    border-top: dashed 3px #595959;
+    padding: 20px;
+}
+footer p{
+    text-align: left;
+    color: #595959;
+    font-size: 19px;
+    font-weight: bold;
+}
+footer .contact{
+    color: #000;
+}
