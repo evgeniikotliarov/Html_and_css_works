@@ -79,3 +79,30 @@ p{
     font-size: 14px;
     font-weight: normal;
 }
+.content-block{
+    margin: 80px 0;
+}
+.block-1{
+    background-color: white;
+    display: table-cell;
+    width: 40%;
+}
+.block-2{
+    background-color: #96bb25;
+    display: table-cell;
+}
+.track-your{
+    color: #fd715f;
+    font-weight: normal;
+    font-size: 18px;
+}
+.lifestyle{
+    color: #a2ca28;
+}
+.black-text{
+    line-height: 2;
+    color: black;
+}
+.text{
+    margin: 45px;
+}
