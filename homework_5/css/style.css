@@ -37,3 +37,45 @@ nav ul li a{
     font-size: 13px;
     color: white;
 }
+.fitness{
+    padding-top: 50px;
+}
+h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: normal;
+}
+.boxes{
+}
+.box-1{
+    vertical-align: top;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+.box-2{
+    width: 33%;
+    vertical-align: top;
+    display: inline-block;
+}
+.box-3{
+    width: 33%;
+    vertical-align: top;
+    display: inline-block;
+}
+h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+}
+h4 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
