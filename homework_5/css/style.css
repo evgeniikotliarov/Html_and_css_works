@@ -106,3 +106,48 @@ p{
 .text{
     margin: 45px;
 }
+footer{
+    overflow: hidden;
+    background-color: #0d1119;
+}
+footer h4{
+    font-size: 18px;
+    color: white;
+}
+.about{
+    float: left;
+    width: 50%;
+    margin: 100px 0;
+
+}
+.social{
+    float: right;
+    margin: 100px 0;
+}
+.about-items{
+}
+.about-item {
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.item-1 {
+    background-image: url(../img/facebook.png);
+    background-color: #2e3192;
+}
+.item-2 {
+    background-image: url(../img/twitter.png);
+    background-color: #00aeef;
+}
+.item-3 {
+    background-image: url(../img/youtube.png);
+    background-color: #ed3123;
+}
+.item-4 {
+    background-image: url(../img/in.png);
+    background-color: #171a8f;
+}
