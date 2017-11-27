@@ -45,7 +45,7 @@ body {
     text-decoration: none;
 
     color: white;
-    border: .1px solid #2da0f9;
+    border: 1px solid #2da0f9;
     border-radius: 50px 50px;
     background:    -moz-linear-gradient(top, rgba(45,160,249,1) 0%, rgba(0,115,204,1) 100%);
     background: -webkit-linear-gradient(top, rgba(45,160,249,1) 0%,rgba(0,115,204,1) 100%);
@@ -64,7 +64,7 @@ body {
     text-decoration: none;
 
     color: #b42825;
-    border: .1px solid rgba(73, 71, 71, .5);
+    border: 1px solid rgba(73, 71, 71, .5);
     border-radius: 2px;
     background:    -moz-linear-gradient(top, rgba(227,119,116,1) 0%, rgba(208,69,67,1) 100%);
     background: -webkit-linear-gradient(top, rgba(227,119,116,1) 0%,rgba(208,69,67,1) 100%);
@@ -127,7 +127,7 @@ body {
     text-transform: uppercase;
 
     color: #fff;
-    border: solid #3258bd .1px;
+    border: solid #3258bd 1px;
     border-radius: 5px;
     background-color: #3258bd;
     box-shadow: 0 4px 2px 0 rgba(37, 64, 141, 1);
@@ -144,7 +144,7 @@ body {
 
     text-decoration: none;
 
-    border: solid #3258bd .1px;
+    border: solid #3258bd 1px;
     border-radius: 3px;
     background: url(../img/home.png) no-repeat 16px 15px,#2c52b7;
     box-shadow: 0 3px 5px 0 rgba(37, 64, 141, .75);
@@ -161,7 +161,7 @@ body {
     text-decoration: none;
 
     color: white;
-    border: .1px solid #2da0f9;
+    border: 1px solid #2da0f9;
     border-radius: 50px 50px;
     background: rgb(6,115,184);
     background:    -moz-linear-gradient(top, rgba(6,115,184,1) 0%, rgba(25,135,204,1) 50%, rgba(6,115,184,1) 50%);
@@ -260,7 +260,7 @@ input.home-btn {
     text-transform: uppercase;
 
     color: #fff;
-    border: solid #3258bd .1px;
+    border: solid #3258bd 1px;
     border-radius: 5px;
     background-color: #3258bd;
     box-shadow: 0 4px 2px 0 rgba(37, 64, 141, 1);
@@ -277,7 +277,7 @@ input.home-btn {
 
     text-decoration: none;
 
-    border: solid #3258bd .1px;
+    border: solid #3258bd 1px;
     border-radius: 3px;
     background: url(../img/home.png) no-repeat 16px 15px,#2c52b7;
     box-shadow: 0 3px 5px 0 rgba(37, 64, 141, .75);
