@@ -27,3 +27,31 @@ body {
 .box {
     padding: 25px 50px;
 }
+.btn-1:before {
+    display: inline-block;
+
+    padding: 6px 10px;
+
+    content: '';
+    vertical-align: middle;
+
+    background: url('../img/apple.png') 0 0 no-repeat;
+}
+.btn-1 {
+    font-size: 11px;
+
+    padding: 5px 14px 5px 11px;
+
+    text-decoration: none;
+
+    color: white;
+    border: .1px solid #2da0f9;
+    border-radius: 50px 50px;
+    background:    -moz-linear-gradient(top, rgba(45,160,249,1) 0%, rgba(0,115,204,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(45,160,249,1) 0%,rgba(0,115,204,1) 100%);
+    background:         linear-gradient(to bottom, rgba(45,160,249,1) 0%,rgba(0,115,204,1) 100%);
+    -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
+    -moz-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .6), 0 2px 3px 0 rgba(255, 255, 255, .6) inset;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .6);
+}
