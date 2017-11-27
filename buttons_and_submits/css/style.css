@@ -115,3 +115,41 @@ body {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .5);
     text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);
 }
+.btn-4 {
+    font-size: 16px;
+    font-weight: bold;
+
+    position: relative;
+
+    padding: 15px 86px 15px 40px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: solid #3258bd .1px;
+    border-radius: 5px;
+    background-color: #3258bd;
+    box-shadow: 0 4px 2px 0 rgba(37, 64, 141, 1);
+}
+.btn-4 i {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: block;
+
+    width: 48px;
+    height: 48px;
+
+    text-decoration: none;
+
+    border: solid #3258bd .1px;
+    border-radius: 3px;
+    background: url(../img/home.png) no-repeat 16px 15px,#2c52b7;
+    box-shadow: 0 3px 5px 0 rgba(37, 64, 141, .75);
+}
+.btn-4:hover i {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .5);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);
+}
