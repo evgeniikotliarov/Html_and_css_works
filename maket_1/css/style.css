@@ -52,3 +52,93 @@ nav ul li a{
 nav ul li a:hover{
     color: #2da0f9;
 }
+.block-fone{
+    background-color: #81e4ed;
+    width: 100%;
+}
+.promo{
+    position: relative;
+    padding: 19px 0 32px;
+}
+
+.promo p{
+    font-size: 50px;
+    color: white;
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 111px;
+    left: 63px;
+    line-height: 1.2;
+}
+.item-fone{
+    background-color: #e8ebf1;
+    width: 100%;
+}
+.boxes{
+    padding: 55px 0 30px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+
+}
+.item-1{
+    background: url(../img/pencil.png) no-repeat 10px 5px #2aacc8;
+}
+.item-2{
+    background: url(../img/full_screen.png) no-repeat 9px 10px #2aacc8;
+}
+.item-3{
+    background: url(../img/view_list.png) no-repeat 11px 10px #2aacc8;
+
+}
+.item-4{
+    background: url(../img/plane.png) no-repeat 9px 8px #2aacc8;
+}
+.head{
+    position: relative;
+}
+h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0 0 50px;
+}
+h4 a{
+    display: block;
+    padding: 17px 0;
+    color: #8ac7d9;
+    text-decoration: none;
+    font-weight: normal;
+}
+.box p{
+    font-size: 13px;
+    margin: 0 20px 0 0;
+    padding: 18px 0 16px;
+}
+.box{
+    display: inline-block;
+    width: 24.6%;
+}
+.head {
+    overflow: hidden;
+}
+h2{
+    border-bottom: 1px solid #dfe1e5;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+h2::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/cursor.png") 0 0  no-repeat;
+    padding: 5px 18px 0 0;
+}
