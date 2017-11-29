@@ -184,3 +184,16 @@ h2.another-icon{
     text-transform: uppercase;
     padding: 20px 0;
 }
+.text-block p{
+    color: #5e5e5e;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: normal;
+    padding: 10px 0;
+}
+i{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 0;
+    display: block;
+}
