@@ -142,3 +142,45 @@ h2::before{
     background: url("../img/cursor.png") 0 0  no-repeat;
     padding: 5px 18px 0 0;
 }
+.content-image{
+    padding: 5px 0;
+}
+.btn-1:before {
+    display: inline-block;
+    padding: 15px 25px;
+    content: '';
+    vertical-align: middle;
+    background: url(../img/download.png) 0 0 no-repeat;
+}
+.btn-1 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px 23px 13px 13px;
+    text-decoration: none;
+    color: black;
+    border: 0.1px solid #2da0f9;
+    border-radius: 5px;
+    background:linear-gradient(to bottom, rgba(45,160,249,1) 0%,rgba(0,115,204,1) 100%);
+}
+.download{
+    text-align: center;
+    padding: 20px 0 12px;
+    border-bottom: 1px solid #dfe1e5;
+}
+.btn-1{
+    text-transform: uppercase;
+}
+h2.another-icon::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/comments.png") 0 0  no-repeat;
+    padding: 5px 18px 0 0;
+}
+h2.another-icon{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
