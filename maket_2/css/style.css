@@ -66,3 +66,24 @@ header{
     padding: 13px 48px 13px 48px;
     color: #459eef;
 }
+h2{
+    color: #2c2e37;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 97px 0 46px 0 ;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-bottom: 75px;
+}
+.item{
+    width: 33%;
+    padding: 21px 0 0 20px;
+}
