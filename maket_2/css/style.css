@@ -136,3 +136,54 @@ p:before{
     font-size: 32px;
     background: url('../img/quote_icon.png') 0 0 no-repeat;
 }
+.block-user{
+    width: 100%;
+    padding-bottom: 56px;
+}
+h6{
+    display: inline-block;
+    width: 48%;
+    position: relative;
+    padding-left: 124px;
+    padding-top: 43px;
+
+}
+h6 a{
+    color: #36aeea;
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 400;
+    text-decoration: none;
+}
+h6 a span{
+    color: #36aeea;
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.avatar-block{
+    padding-bottom: 103px;
+}
+.first:before{
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 29px;
+    left:35px;
+    border-radius: 50%;
+    font-size: 32px;
+    background: url('../img/author-1.jpg') 0 0 no-repeat;
+}
+.second:before{
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 29px;
+    left:35px;
+    border-radius: 50%;
+    font-size: 32px;
+    background: url('../img/author-2.jpg') 0 0 no-repeat;
+}
