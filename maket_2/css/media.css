@@ -1,0 +1,119 @@
+@media screen and (max-width: 1200px) {
+    .main-nav ul {
+        display: none;
+    }
+
+    .main-nav .call-us {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+        width: 90px;
+        height: 90px;
+        background: #459eef;
+        border: none;
+        float: right;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-btn i {
+        position: absolute;
+        width: 18px;
+        height: 2px;
+        background: #fff;
+        top: 50%;
+        left: 50%;
+        margin: -1px 0 0 -9px;
+    }
+
+    .nav-btn i::before,
+    .nav-btn i::after {
+        content: "";
+        width: 18px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+    }
+    .main-nav .call-us{
+        display: none;
+    }
+
+    .nav-btn i::before {
+        top: -6px;
+    }
+
+    .nav-btn i::after {
+        top: 6px;
+    }
+
+    .main-nav {
+        position: relative;
+    }
+    .main-nav:hover ul {
+        z-index: 100;
+        display: block;
+        margin: 0;
+        position: absolute;
+        background: rgba(54,174,234,0.7);
+        right: 90px;
+        top:90px;
+        list-style: none;
+        width: 50%;
+        padding: 0 20px;
+    }
+    .main-nav ul li{
+        display: block;
+    }
+    .main-nav ul li a{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .main-nav li:last-child a{
+        border:none;
+    }
+    .item{
+        width: 100%;
+        padding: 21px 0 0 20px;
+    }
+    h6{
+        display:block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom:65px ;
+    }
+    .first:before{
+        content: "";
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left:50%;
+        top:50%;
+
+    }
+    .icon-6{
+        text-align: center;
+    }
+    .icon-1{
+        text-align: center;
+    }
+    .icon-5{
+        text-align: center;
+    }
+    .social-icon{
+        width: 100%;
+        display:block;
+    }
+    .second:before{
+        left:50%;
+        top:50%;
+    }
+    h2{
+        padding-top: 200px;
+    }
+}
