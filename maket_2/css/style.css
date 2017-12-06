@@ -197,7 +197,7 @@ h6 a span{
     z-index: 100;
 }
 .form-row{
-    padding: 0px 15px 20px;
+    padding: 0 15px 20px;
     width: 100%;
 }
 h1{
@@ -215,4 +215,32 @@ h5{
     line-height: 29px;
     text-align: center;
     padding-bottom: 30px;
+}
+.field{
+    display: inline-block;
+    width: 100%;
+}
+.field input{
+    height: 60px;
+    padding: 0 0 0 18px;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: none;
+    color: #ccc;
+    width: 100%;
+}
+
+.form-row-button{
+    padding: 0 13px 10px;
+}
+button{
+    height: 70px;
+    padding: 0 3px 0 0;
+    border: 1px solid #21b8c6;
+    width: 100%;
+    color: #fff;
+    background: #21b8c6;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
