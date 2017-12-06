@@ -115,3 +115,24 @@ h2{
 .icon-5{
     padding-left: 65px;
 }
+p{
+    width: 48%;
+    display: inline-block;
+    color: #adadad;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    position: relative;
+    letter-spacing: 1px;
+    padding: 67px 0 0 30px;
+}
+p:before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 22px;
+    top: 37px;
+    left:35px;
+    font-size: 32px;
+    background: url('../img/quote_icon.png') 0 0 no-repeat;
+}
