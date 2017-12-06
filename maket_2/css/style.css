@@ -244,3 +244,26 @@ button{
     font-weight: bold;
     text-transform: uppercase;
 }
+.box-sub{
+    padding: 4px 0 2px 22px;
+}
+.box-sub p{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #7d8e9a;
+}
+.box-sub a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #475965;
+    text-decoration: none;
+}
+.last-image{
+    background: url("../img/footer-image.png") 0 0 no-repeat;
+    height: 1123px;
+    margin: -958px 0 0 0;
+    z-index: -1;
+    position: relative;
+}
