@@ -187,3 +187,32 @@ h6 a span{
     font-size: 32px;
     background: url('../img/author-2.jpg') 0 0 no-repeat;
 }
+.form-block{
+    margin: 0 auto;
+    width: 514px;
+    height: 496px;
+    padding: 19px;
+    background: #c9d1d7;
+    border-radius: 7px;
+    z-index: 100;
+}
+.form-row{
+    padding: 0px 15px 20px;
+    width: 100%;
+}
+h1{
+    color: #36aeea;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 12px;
+}
+h5{
+    color: #383e4a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    padding-bottom: 30px;
+}
