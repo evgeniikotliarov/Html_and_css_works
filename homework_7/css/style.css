@@ -12,3 +12,56 @@ body{
 	min-width: 900px;
 	margin: 0;
 }
+.container{
+	width: 1000px;
+	margin: 20px auto;
+
+}
+.content{
+	padding: 20px 0;
+	background: url("../img/hand.png") 0 100% no-repeat;
+}
+.main{
+	font-family: 'Raleway', sans-serif;
+	padding: 52px 20px 77px 301px;
+}
+h1{
+	padding: 15px 0;
+	font-weight: normal;
+	font-size: 30px;
+	color: #555555;
+}
+p{
+	padding: 10px 10px 20px 0;
+	font-size: 16px;
+	line-height: 1.7;
+	font-weight: normal;
+	color: #8c8c8c;
+}
+ul{
+	font-weight: normal;
+	font-size: 16px;
+	margin: 0;
+	padding: 20px 20px 20px 80px;
+	list-style-type: none;
+}
+li{
+	position: relative;
+	padding: 0 0 8px 22px;
+}
+li::before{
+	position: absolute;
+	content: '';
+	width: 20px;
+	height: 20px;
+	top:0;
+	left: -35px;
+	color: #000;
+	border-radius: 50%;
+	background: url("../img/link.png");
+}
+ul li a{
+	color: #8c8c8c;
+	text-decoration: none;
+	line-height: 1.4;
+}
