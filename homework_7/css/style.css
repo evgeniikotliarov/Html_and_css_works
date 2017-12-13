@@ -65,3 +65,62 @@ ul li a{
 	text-decoration: none;
 	line-height: 1.4;
 }
+.container-2{
+	border: solid 1px #7d7d7d;
+	width: 305px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background: #fff;
+}
+.content-2{
+	padding: 17px 25px 10px 24px;
+}
+h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	position: relative;
+	padding: 3px 35px 16px;
+	color: #1f1f1f;
+	border-bottom: 1px solid #7d7d7d;
+}
+h2::before{
+	position: absolute;
+	content: '';
+	height: 23px;
+	width: 24px;
+	top: 0;
+	left: 0;
+	background: url("../img/blue_man.png");
+}
+dl{
+	padding: 20px 0 10px 20px;
+	width: 250px;
+}
+dt{
+	padding: 0 0 3px 0;
+	color: #7d7d7d;
+	font-size: 12px;
+	line-height: 1.6;
+	position: relative;
+}
+dt a{
+	color: #4e4e4e;
+	font-size: 14px;
+}
+dt a::before{
+	position: absolute;
+	content: '\2714';
+	width: 20px;
+	height: 20px;
+	top:2px;
+	left: -20px;
+	color: #000;
+}
+dd{
+	padding: 0 0 15px;
+	color: #7d7d7d;
+	font-size: 12px;
+	line-height: 1.6;
+}
