@@ -184,3 +184,90 @@ h3{
 	color: #000;
 	font-size: 13px;
 }
+.bonus{
+	width: 350px;
+	margin: auto;
+}
+.container-4{
+	background-color:#d58c2c;
+	padding: 20px;
+}
+.content-4{
+	width: 200px;
+	margin: 0 auto;
+	background: url("../img/background_fon.jpg");
+	position: relative;
+
+}
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	background: black;
+	border-radius: 2px 2px;
+	padding: 5px 0;
+}
+.content-4 h4{
+	margin-bottom: 20px;
+}
+.content-4 ul{
+	margin: 0 ;
+	padding: 0;
+}
+.content-4 li{
+	padding: 4px 0 0 43px;
+	position: relative;
+	border-top: 1px solid #acd4fa;
+}
+.content-4 li::before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: url("../img/green_click.png") 0 0 no-repeat;
+}
+.content-4 li:hover::before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top:10px;
+	left: 7px;
+	background: url("../img/circle.png") 0 0 no-repeat;
+}
+.content-4 li:hover a{
+	color: #3e3932;
+}
+.content-4 li a{
+	color: #8b8a88;
+	font-size: 11px;
+	font-weight: normal;
+}
+.more{
+	border-bottom: solid 1px #acd4fa;
+	padding-bottom: 10px;
+}
+.page-block{
+	width: 150px;
+	height: 25px;
+	margin: 0 auto;
+}
+.page-block-2{
+	width: 190px;
+	height: 4px;
+	margin: 0 auto;
+	background: url("../img/bgfon.jpg");
+	border: solid 0.5px #8b8a88;
+}
+.page-block-3{
+	width: 180px;
+	height: 4px;
+	margin: 0 auto;
+	background: url("../img/bgfon.jpg");
+	border: solid 0.5px #8b8a88;
+}
