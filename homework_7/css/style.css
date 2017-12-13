@@ -124,3 +124,63 @@ dd{
 	font-size: 12px;
 	line-height: 1.6;
 }
+.container-3{
+	width: 305px;
+	margin: 0 auto;
+	background: #fff;
+}
+.content-3{
+	padding: 17px 25px 10px 24px;
+}
+h3{
+	font-family: arial, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	color: #414a5a;
+}
+.content-3{
+	padding: 10px;
+}
+.content-3 h3{
+	margin-bottom: 17px;
+}
+.content-3 ul{
+	margin: 0 ;
+	padding: 0;
+	/*list-style-type: square;*/
+}
+.content-3 li{
+	padding: 7px 0 7px 25px;
+	position: relative;
+}
+.content-3 li::before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	background: url(../img/blue_click.png) 0 0 no-repeat;
+}
+.content-3 li:hover::before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top:15px;
+	left: 10px;
+	background: url("../img/white_sq_2.png") 0 0  no-repeat;
+}
+.content-3 li:hover{
+	color: #fff;
+	background-color: #485460;
+	padding: 7px 0 7px 40px;
+	border-radius: 2px;
+}
+.content-3 li:hover a{
+	color: #fff;
+}
+.content-3 li a{
+	color: #000;
+	font-size: 13px;
+}
