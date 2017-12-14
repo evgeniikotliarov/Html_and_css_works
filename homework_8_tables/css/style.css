@@ -155,5 +155,54 @@ p{
 .tbl-2 tbody tr:nth-child(2n+1){
 	background-color: #f4fbfd;
 }
+.tbl-2 tbody tr:nth-child(2n+1) td:first-child{
+	border-top: solid 1px #d7e7ec;
+	border-bottom: solid 1px #d7e7ec;
+	border-left: solid 1px #d7e7ec;
+	border-radius: 2px 0 0 2px;
+}
+.tbl-2 tbody tr:nth-child(2n+1) td{
+	border-top: solid 1px #d7e7ec;
+	border-bottom: solid 1px #d7e7ec;
+	border-radius: 2px 0 0 2px;
+}
+.tbl-2 tbody tr:nth-child(2n+1) td:last-child{
+	border-top: solid 1px #d7e7ec;
+	border-bottom: solid 1px #d7e7ec;
+	border-right: solid 1px #d7e7ec;
+	border-radius: 0 2px 2px 0;
+}
 
+.tbl-2 tbody tr td:nth-child(3){
+	padding: 0 0 0 27px;
+}
+.rating{
+	display: inline-block;
+	vertical-align: middle;
+	height: 16px;
+	background: url("../img/star.png") 0 0 repeat-x;
+}
+.tbl-2 tbody tr td a{
+	text-decoration: none;
+	color: #45a8d0;
+}
+.tbl-2 tbody tr td:first-child span{
+	width: 242px;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+.tbl-2 tbody tr td:nth-child(2) span{
+	width: 190px;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+.bold{
+	font-weight: bold;
+}
 
