@@ -15,4 +15,44 @@ body{
 	min-width: 900px;
 	margin: 0;
 }
-
+.container{
+	width: 744px;
+	margin: 0 auto;
+	background-color: #f8f6e9;
+}
+.main-block{
+	width: 634px;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+}
+.tbl thead{
+	border-bottom: 2px solid #d8c59b;
+}
+.tbl thead tr th{
+	color:  #333333;
+	font-size: 11px;
+	font-weight: normal;
+	letter-spacing: 0.33px;
+	line-height: 10px;
+	vertical-align: top;
+}
+.tbl thead tr th{
+	padding: 0 0 0 5px;
+}
+.tbl thead tr th:nth-child(n+2){
+	background: url("../img/vertical_line.png") 0 0 no-repeat;
+}
+.plus{
+	content: '';
+	width: 12px;
+	height: 12px;
+	padding: 0 6px;
+	background: url("../img/plus.png") 0 0 no-repeat;
+}
+.minus{
+	content: '';
+	width: 12px;
+	height: 12px;
+	padding: 0 6px;
+	background: url("../img/minus.png") 0 0 no-repeat;
+}
