@@ -140,3 +140,59 @@ body{
 	font-size: 12px;
 }
 
+
+.block-2{
+	width: 334px;
+	background: #ffffff;
+	padding: 30px;
+	margin: 0 auto;
+}
+.form-block-2{
+	width: 304px;
+	border: dashed 2px #f6de94;
+	padding: 15px;
+}
+.questions{
+	width: 230px;
+	padding: 2px 0 0 20px;
+}
+.questions h2{
+	/*font-family: Verdana, sans-serif;*/
+	color: #585e5c;
+	font-size: 18px;
+	padding: 5px 0 5px;
+}
+.questions p{
+	font-size: 12px;
+	font-weight: bold;
+	color: #0d0d0d;
+}
+.form-row-2{
+	vertical-align: middle;
+	padding: 6px 10px 0px 50px;
+}
+.form-row-2 input[type="radio"] + label{
+	vertical-align: middle;
+	position: relative;
+}
+.form-row-2 input[type="radio"] + label::before{
+	content: "";
+	position: absolute;
+	top: -3px;
+	left: -16px;
+	width: 16px;
+	height: 16px;
+	background: url(../img/radio_sprite.png) -16px 0px no-repeat;
+}
+.form-row-2 input[type="radio"]:checked +label::before{
+	background-position: -1px 0px;
+}
+.form-row-2 input[type="radio"]{
+	display: none;
+}
+.form-row-2 label{
+	font-size: 12px;
+	padding: 0 0 0 7px;
+}
+.form-row-2 input label{
+}
