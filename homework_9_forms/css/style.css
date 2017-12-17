@@ -298,3 +298,26 @@ button{
 	font-weight: bold;
 	text-transform: uppercase;
 }
+.box-sub{
+	padding: 4px 0 2px 22px;
+}
+.box-sub p{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	color: #7d8e9a;
+}
+.box-sub a{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	color: #475965;
+	text-decoration: none;
+}
+.box-sub a::after{
+	content: "";
+	width: 10px;
+	height: 5px;
+	padding: 0 44px 0 0;
+	background: url("../img/arrow.png") 50% 50% no-repeat;
+}
