@@ -25,3 +25,29 @@ header{
 	margin: 0 auto;
 	padding: 0 0 0 90px;
 }
+.main-nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: normal;
+}
+.main-nav > ul > li{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.main-nav > ul > li > a{
+	padding: 25px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-weight: normal;
+	display: inline-block;
+	position: relative;
+}
+.main-nav > ul > li:hover > a{
+	background: #fff;
+	color: #f06874;
+}
