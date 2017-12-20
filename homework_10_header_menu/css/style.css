@@ -51,3 +51,34 @@ header{
 	background: #fff;
 	color: #f06874;
 }
+.main-nav > ul > li.sub > a{
+	padding-left: 30px;
+}
+.main-nav .sub-nav{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	display: none;
+	padding-top: 7px;
+	opacity: 0.9;
+	background: transparent;
+
+}
+.main-nav .sub-nav ul {
+	background: #fff;
+	padding: 8px 18px 0px;
+	position: relative;
+	box-shadow: 0px -5px 10px 0px rgba(223, 223, 223, 1), 0px 3px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.main-nav > ul > li:hover .sub-nav{
+	display: block;
+}
+.sub-nav .see-all{
+	border: none;
+	padding: 12px 0;
+}
+.sub-nav li{
+	margin: 0;
+	padding: 15px 0 21px;
+	border-bottom: 1px solid #cacaca;
+}
