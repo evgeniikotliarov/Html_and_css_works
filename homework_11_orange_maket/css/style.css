@@ -78,3 +78,46 @@ h6{
     width: 24.5%;
     bottom: 25px;
 }
+.box{
+    margin: 0 auto;
+    width: 80px;
+    padding: 58px 39px 97px 245px;
+}
+.box-1{
+    background: url(../img/item_1.png) 49% 60px no-repeat;
+}
+.box-2{
+    background: url(../img/item_2.png) 51% 60px no-repeat;
+}
+.box-3{
+    background: url(../img/item_3.png) 55% 60px no-repeat;
+}
+.box-4{
+    background: url(../img/item_4.png) 60% 60px no-repeat;
+}
+h4{
+    font-size: 22px;
+    display: block;
+    text-align: center;
+}
+p{
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    padding: 18px 34px 28px 34px;
+}
+.link-more{
+    /*margin: 0 auto;*/
+    background: #637f83;
+    width: 70px;
+    text-align: center;
+    padding: 7px 0 7px 0;
+    border-radius: 3px;
+    margin: 0 0 0 102px;
+}
+.link-more .btn{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
