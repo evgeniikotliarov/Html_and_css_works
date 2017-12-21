@@ -167,3 +167,14 @@ p{
 	font-weight: bold;
 	color: #fff;
 }
+footer{
+	background: #637f83;
+	padding-top: 40px;
+}
+span{
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	font-size: 13px;
+	padding-bottom: 40px;
+}
