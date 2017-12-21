@@ -53,3 +53,61 @@
         margin: -55px 0 0 -40px;
     }
 }
+@media screen and (min-width: 480px) and (max-width: 900px){
+    .item{
+        width: 99%;
+    }
+    .image-text{
+        position: absolute;
+        top: 150px;
+        left: 300px;
+    }
+    .box{
+        width: 99%;
+    }
+    .image-block img{
+        width: 60%;
+        margin-left: 170px;
+    }
+    .portfolio{
+        width: 60%;
+        position: absolute;
+        left: 170px;
+        top: 1450px;
+        vertical-align: bottom;
+    }
+    .block{
+        width: 100%;
+    }
+    .link-more {
+        margin: 0 auto;
+        background: #637f83;
+        width: 257px;
+        text-align: center;
+        padding: 7px 0 7px 0;
+        border-radius: 3px;
+        /*margin: 0px 1px 6px 305px;*/
+    }
+    .image-text > h2 > a{
+        float: left;
+        font-size: 19px;
+        font-weight: bold;
+        color: #fff;
+        letter-spacing: 2px;
+        text-align: center;
+        width: 300px;
+        height: 110px;
+        display: block;
+    }
+    .image-text h5{
+        float: left;
+        font-size: 10px;
+        display: block;
+        text-align: center;
+        width: 300px;
+        height: 10px;
+        color: #fff;
+        letter-spacing: 2px;
+        margin: -55px 0 0 -40px;
+    }
+}
