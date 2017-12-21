@@ -73,3 +73,8 @@ h6{
 	font-size: 21px;
 	padding-bottom: 40px;
 }
+.item{
+    display: inline-block;
+    width: 24.5%;
+    bottom: 25px;
+}
