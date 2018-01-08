@@ -100,4 +100,27 @@ header{
 .main-nav:hover ul{
 	display: block;
 }
-
+.text-block-1{
+	padding-bottom: 9px;
+}
+.text-block-1 h3.mobile-version{
+	display: block;
+	font-size: 38px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #153f60;
+	padding: 54px 10px 25px 27px;
+}
+.text-block-1 h3.web-version{
+	display: none;
+}
+.text-block-1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding: 0 10px 56px 27px;
+	color: #153f60;
+	line-height: 1.7;
+}
+.text-block-1 p:last-child {
+	display: none;
+}

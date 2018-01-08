@@ -61,4 +61,32 @@
     .main-nav li:last-child{
         margin-right: 0;
     }
+    .text-block-1{
+        float: left;
+        width:54%;
+        background: #ffffff;
+        padding-bottom: 92px;
+    }
+    .text-block-1 h3.mobile-version{
+        display: none;
+    }
+    .text-block-1 h3.web-version{
+        display: block;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #153f60;
+        font-size: 43px;
+        padding: 116px 0 10px 0;
+
+    }
+    .text-block-1 p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        padding: 5px 35px 23px 0;
+        color: #153f60;
+        line-height: 1.7;
+    }
+    .text-block-1 p:last-child {
+        display: block;
+    }
 }
