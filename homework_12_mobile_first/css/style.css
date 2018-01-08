@@ -124,3 +124,29 @@ header{
 .text-block-1 p:last-child {
 	display: none;
 }
+.text-block-2{
+	background: #1ac7c3;
+	width: 100%;
+}
+.text-block-2 h3.mobile-version{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 54px 10px 33px 33px;
+	line-height: 1.2;
+}
+.text-block-2 h3.web-version{
+	display: none;
+}
+.text-block-2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	font-style: italic;
+	color: #fff;
+	padding: 0 10px 50px 33px;
+	line-height: 1.7;
+}
+
