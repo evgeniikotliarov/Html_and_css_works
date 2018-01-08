@@ -89,4 +89,41 @@
     .text-block-1 p:last-child {
         display: block;
     }
+    .text-block-2{
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 43%;
+    }
+    .text-block-2 h3.mobile-version{
+        display: none;
+    }
+    .text-block-2 h3.web-version{
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 124px 0 33px 54px;
+        line-height: 1.2;
+    }
+    .text-block-2 p{
+        padding: 0 10px 95px 53px;
+    }
+    span.web-text{
+        margin: 0;
+        display: inline;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        font-style: italic;
+        color: #fff;
+        line-height: 1.7;
+    }
+    .center-text-content{
+        position: relative;
+        display: inline-block;
+        clear: both;
+    }
 }
