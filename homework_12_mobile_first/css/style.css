@@ -33,3 +33,70 @@ header{
 	text-decoration: none;
 	float: left;
 }
+.nav-btn{
+	width: 70px;
+	height: 70px;
+	background: #1ac7c3;
+	border:none;
+	position: relative;
+	float: right;
+}
+.nav-btn i{
+	position: absolute;
+	width: 18px;
+	height: 2px;
+	background: #fff;
+	top: 50%;
+	left: 50%;
+	margin: -1px 0 0 -9px;
+}
+.nav-btn i::before,
+.nav-btn i::after{
+	content: "";
+	width: 18px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+}
+.nav-btn i::before{
+	top:-6px;
+}
+.nav-btn i::after{
+	top: 6px;
+}
+.main-nav{
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+}
+.main-nav ul{
+	margin: 0;
+	position: absolute;
+	background: #1ac7c3;
+	right: 0;
+	top:70px;
+	list-style: none;
+	width: 70%;
+	padding: 5px 10px;
+	display: none;
+}
+.main-nav li{
+	margin:0;
+	padding: 0;
+}
+.main-nav a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	padding: 8px 4px;
+	font-size: 12px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+.main-nav li:last-child a{
+	border:none;
+}
+.main-nav:hover ul{
+	display: block;
+}
