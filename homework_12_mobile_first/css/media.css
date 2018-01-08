@@ -28,3 +28,37 @@
         margin-right: 0;
     }
 }
+@media screen and (min-width: 980px){
+    header{
+        background-image: url("../img/big-photo.jpg");
+        height: 543px;
+    }
+    .logo{
+        width: 98px;
+        height: 95px;
+        background-size: 32px;
+    }
+    .main-nav ul{
+        position: static;
+        background: transparent;
+        width: 100%;
+        padding: 31px 0 0 124px;
+        display: block;
+    }
+    .main-nav li{
+        display: inline-block;
+        margin-right:36px;
+    }
+    .main-nav a{
+        color: #f26c4f;
+        display: inline-block;
+        font-size: 14px;
+        border: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .main-nav li:last-child{
+        margin-right: 0;
+    }
+}
