@@ -149,4 +149,46 @@ header{
 	padding: 0 10px 50px 33px;
 	line-height: 1.7;
 }
+.text-block-3{
+	width: 100%;
+	padding-bottom: 35px;
+}
+.content{
+	width: 84%;
+	margin: auto;
+}
+.last-block{
+	background: #f26c4f;
+}
+.text-block-3 h3.mobile-version{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 35px 10px 28px 26px;
+	line-height: 1.2;
+}
+.text-block-3 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 10px 0 27px;
+	line-height: 1.7;
+}
+span.web-text{
+	display: none;
+}
+.text-block-3 a.btn-get{
+	display: block;
+	background: #fff;
+	color: #f26c4f;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 17px;
+	text-align: center;
+	padding: 14px 5px 16px 5px;
+	margin: 20px 0 15px 0;
+}
 
