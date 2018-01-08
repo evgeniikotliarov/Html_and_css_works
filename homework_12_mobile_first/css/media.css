@@ -126,4 +126,19 @@
         display: inline-block;
         clear: both;
     }
+    .text-block-3{
+        padding-bottom: 150px;
+    }
+    .text-block-3 h3.mobile-version{
+        padding: 95px 0 25px 0;
+    }
+    .text-block-3 p{
+        width: 51%;
+        padding-bottom: 17px;
+        padding-left: 0;
+    }
+    .text-block-3 .content{
+        width: 19%;
+        margin: 0;
+    }
 }
