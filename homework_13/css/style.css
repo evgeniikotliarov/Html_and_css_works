@@ -26,7 +26,7 @@ header{
 	position: relative;
 }
 .main-nav .logo{
-	padding: 26px 0px 18px;
+	padding: 26px 0 18px;
 }
 .main-nav ul{
 	position: absolute;
@@ -105,7 +105,7 @@ ul li a{
 	font-size: 20px;
 	color: black;
 	border-left: solid 2px black;
-	padding: 0px 0px 7px 10px;
+	padding: 0 0 7px 10px;
 }
 .box{
 	display: flex;
@@ -144,7 +144,7 @@ ul li a{
 	font-size: 18px;
 	letter-spacing: 2px;
 	font-weight: 600;
-	padding: 41px 0px 0px 5px;
+	padding: 41px 0 0 5px;
 	display: block;
 }
 .item a::after{
@@ -156,9 +156,12 @@ ul li a{
 	background-image: url(../img/sprite_airplane.png);
 	background-repeat: no-repeat;
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	right: 8px;
 }
 .item:hover a::after{
 	background-position: 0 -40px;
+}
+footer{
+	background: #ffcc01;
 }
