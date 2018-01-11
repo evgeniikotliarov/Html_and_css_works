@@ -43,4 +43,31 @@
     .nav-btn i::after{
         top: 6px;
     }
+    .main-nav {
+        position: relative;
+    }
+    .main-nav:hover ul{
+        z-index: 100;
+        display: block;
+        margin: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.7);
+        right: 0;
+        top:110px;
+        list-style: none;
+        width: 30%;
+        padding: 0px 20px;
+    }
+    .main-nav ul li{
+        display: block;
+    }
+    .main-nav ul li a{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .main-nav li:last-child a{
+        border:none;
+    }
+
 }
