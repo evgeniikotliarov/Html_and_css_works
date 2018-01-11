@@ -200,3 +200,19 @@ footer{
 .item-be::before{
 	background-position: 100% 19px;
 }
+.footer-text-block{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+p.footer-text{
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-weight: 400;
+	font-size: 26px;
+	padding: 20px 0 60px 0;
+	letter-spacing: 1px;
+}
