@@ -1,0 +1,46 @@
+@media screen and (max-width: 1280px) {
+    .main-nav ul{
+        display: none;
+    }
+    .text-block-on-image{
+        display: none;
+    }
+    .picture-block img{
+        width: 100%;
+    }
+    .nav-btn{
+        display: block;
+        width: 90px;
+        height: 90px;
+        background: rgba(0,0,0,0.7);
+        border:none;
+        position: relative;
+        float: right;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .nav-btn i{
+        position: absolute;
+        width: 18px;
+        height: 2px;
+        background: #fff;
+        top: 50%;
+        left: 50%;
+        margin: -1px 0 0 -9px;
+    }
+    .nav-btn i::before,
+    .nav-btn i::after{
+        content: "";
+        width: 18px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+    }
+    .nav-btn i::before{
+        top:-6px;
+    }
+    .nav-btn i::after{
+        top: 6px;
+    }
+}
