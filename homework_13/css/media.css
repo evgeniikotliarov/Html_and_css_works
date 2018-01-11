@@ -56,7 +56,7 @@
         top:110px;
         list-style: none;
         width: 30%;
-        padding: 0px 20px;
+        padding: 0 20px;
     }
     .main-nav ul li{
         display: block;
@@ -69,5 +69,37 @@
     .main-nav li:last-child a{
         border:none;
     }
-
+    .service-block h3{
+        width: 100%;
+        border-right: none;
+    }
+    .service-block p.service-text{
+        width: 100%;
+        border: none;
+    }
+    .box{
+        display: flex;
+        justify-content: space-around;
+        /*flex-wrap: wrap;*/
+    }
+    .item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .social-box{
+        width: 100%;
+        padding: 0 0 20px 45%;
+    }
+    .social-item{
+        display:block;
+        width: 100px;
+        height: 100px;
+        margin: 5px 0 10px 0;
+        background: #000;
+    }
+    p.footer-text{
+        font-weight: 400;
+        font-size: 15px;
+        padding-bottom: 0;
+    }
 }
