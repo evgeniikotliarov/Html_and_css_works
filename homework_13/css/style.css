@@ -75,3 +75,51 @@ ul li a{
 	color: #fff;
 	padding-top: 50px;
 }
+.main-block{
+	padding-bottom:60px;
+}
+.service-block{
+	padding:10px 10px 108px 10px;
+}
+.service-block h3{
+	display: inline-block;
+	width: 41%;
+	color: black;
+	font-weight: 700;
+	font-size: 46px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border-right: solid 2px #ffcc01;
+	padding-left: 143px;
+}
+.service-block span{
+	color: #ffcc01 ;
+	font-weight: 700;
+	font-size: 46px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.service-block p.service-text{
+	display: inline-block;
+	width: 490px;
+	font-size: 20px;
+	color: black;
+	border-left: solid 2px black;
+	padding: 0px 0px 7px 10px;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.item{
+	border: solid 7px #ebebeb;
+	width: 46%;
+	padding: 20px 30px 28px 28px;
+	margin: 0 33px 60px 0;
+	position: relative;
+}
+.item:hover{
+	background: #ffcc01;
+	border: solid 7px #ffcc01;
+}
