@@ -178,3 +178,11 @@ a{
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+.item-3 .social a:hover{
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}
+.item-4 .social a:hover{
+    border-radius: 70%;
+}
