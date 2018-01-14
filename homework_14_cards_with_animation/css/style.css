@@ -186,3 +186,29 @@ a{
 .item-4 .social a:hover{
     border-radius: 70%;
 }
+.item .hover-box{
+    opacity: .95;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    text-align: center;
+    background: #19b899;
+    transform: scale(0);
+
+}
+.item-1:hover .hover-box{
+    transition: 1s;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.item-2 .hover-box {
+    transition: all 1s cubic-bezier(0.41, 1.61, 1,-0.93);
+    transform: translateY(-100%);
+
+}
+.item-2:hover .hover-box{
+    transform: translateY(0);
+
+}
