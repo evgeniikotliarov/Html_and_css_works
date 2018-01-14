@@ -212,3 +212,18 @@ a{
     transform: translateY(0);
 
 }
+.item-3 .hover-box {
+    transition: all 0.5s cubic-bezier(0, 0.38, 1, 0.53);
+    transform: translateY(130%);
+}
+.item-3:hover .hover-box{
+    transform: translateX(0);
+}
+
+.item-4 .hover-box {
+    transform:translateX(100%) rotate(180deg);
+    transition: width 2s, height 2s, transform 2s;
+}
+.item-4:hover .hover-box {
+    transform:rotate(0deg);
+}
