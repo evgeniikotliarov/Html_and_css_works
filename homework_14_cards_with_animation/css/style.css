@@ -173,3 +173,8 @@ a{
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+.item-2 .social a:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
