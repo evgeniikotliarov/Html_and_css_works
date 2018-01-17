@@ -30,7 +30,7 @@ h1 {
 }
 .order-the-projects {
     position: absolute;
-    top: 59px;
+    top: 57px;
     right: 76px;
     border: 2px #fff solid;
     border-radius: 50px;
@@ -53,10 +53,10 @@ h1 {
     left: 398px;
 }
 .carousel-text {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: normal;
     color: #fff;
-    margin: 0;
+    margin: 1px;
     padding: 0;
     letter-spacing: 0;
 
