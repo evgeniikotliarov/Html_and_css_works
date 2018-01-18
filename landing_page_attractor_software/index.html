@@ -7,11 +7,10 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <!--<link rel="stylesheet" href="css/normalize.css">-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
     <div class="container-fluid">
         <div class="start-block">
             <img src="img/main_picture_with_galactic_layer.png" alt="#" width="100%">
@@ -78,12 +77,28 @@
 
         </div>
     </div>
-    <nav class="navbar navbar-full navbar-light bg-faded">
-        <a class="navbar-brand" href="#">Full width</a>
-        <a class="nav-item nav-link" href="#">Home</a>
-        <a class="nav-item nav-link" href="#">Portfolio</a>
-        <a class="nav-item nav-link" href="#">About us</a>
-    </nav>
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-light bg-faded">
+            <a class="navbar-brand" href="#"><img src="img/logotype.png" alt="#"></a>
+            <ul class="nav navbar-nav pull-xs-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+            </ul>
+            <div class="link-inline pull-xs-right">
+                <div class="btn-order-the-projects">
+                    <p class="order-text">order the projects</p>
+                </div>
+            </div>
+        </nav>
+    </div>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -73,9 +73,6 @@ h1 {
     padding: 0;
     letter-spacing: 0;
 }
-.carousel-text:before .fa-minus {
-    width: 10px;
-}
 .carousel-indicators {
     top: 260px;
     left:-150px;
@@ -116,7 +113,39 @@ h1 {
     border-radius: 2px;
     padding: 3px;
 }
-.navbar {
+nav{
     background: #c7c7c7;
 }
+.navbar{
+    padding: 0;
+}
+.navbar-nav {
+    display: inline-block;
+}
+.navbar-nav>li {
+    display: inline-block;
+    padding: 4px 10px;
 
+}
+.nav-link {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: grey;
+}
+.navbar-brand{
+    padding-left: 76px;
+}
+.link-inline {
+    padding-right: 76px;
+}
+.btn-order-the-projects {
+    border-radius: 50px;
+    background: green;
+    padding: 5px 10px;
+    text-align: center;
+}
