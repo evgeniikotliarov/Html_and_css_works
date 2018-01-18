@@ -124,7 +124,7 @@ nav{
 }
 .navbar-nav>li {
     display: inline-block;
-    padding: 4px 10px;
+    padding: 8px 10px;
 
 }
 .nav-link {
@@ -148,4 +148,39 @@ nav{
     background: green;
     padding: 5px 10px;
     text-align: center;
+}
+.container {
+    max-width: 1300px;
+}
+.map {
+    position: relative;
+}
+.map > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.text-box {
+    padding-top: 120px;
+}
+.card {
+    border: none;
+    background: transparent;
+}
+.card-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.col-sm-3 {
+    padding-top: 120px;
+    padding-left: 55px;
+}
+.card-title {
+    margin-bottom: 1rem;
+}
+.pull-left {
+    margin-right: 35px;
+}
+h2 {
+    font-weight: bold;
 }
