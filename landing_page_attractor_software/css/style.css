@@ -172,6 +172,7 @@ nav{
 }
 .card {
     border: none;
+    border-radius: 0;
     background: transparent;
 }
 .card-text {
@@ -195,15 +196,11 @@ nav{
 }
 h6 {
     font-weight: bold;
-
 }
 .fa-check{
     font-size: 12px;
     color: #00b300;
 }
-.technology {
-    /*background: #c0c0c0;*/
-}
-.block-services {
-    border: solid 1px black;
+.services {
+    background-color: #cacaca
 }
