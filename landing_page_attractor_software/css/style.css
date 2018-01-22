@@ -247,3 +247,15 @@ h6 {
     font-size: 50px;
     color: #000;
 }
+.portfolio-row {
+    margin: 0;
+}
+.col-6, .col {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+.card-img-top {
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
