@@ -204,7 +204,29 @@ h6 {
 .services {
     background-color: #cacaca
 }
-
+.block-services {
+    border: solid 1px orange;
+    padding-bottom: 10px;
+}
+.block-prices {
+    width: 100%;
+    border: solid 1px greenyellow;
+    background: url("../img/layer_2.png") 50% 0 no-repeat;
+}
 .prices {
-    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+}
+.prices-text-box {
+    width: 65%;
+    color: #fff;
+    padding-top: 5px;
+    border: solid 1px red;
+}
+.text-price {
+    color: #fff;
+}
+.text-small {
+    display: block;
 }
