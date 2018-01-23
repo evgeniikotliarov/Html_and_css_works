@@ -17,12 +17,10 @@ h1 {
 
 .start-block {
     position: relative;
-
 }
 .start-block img {
     width: 100%;
     height: auto;
-
 }
 .logo {
     position: absolute;
@@ -46,7 +44,7 @@ h1 {
     right: 76px;
     border: 2px #fff solid;
     border-radius: 50px;
-    background: green;
+    background: #53ae50;
     padding: 5px 10px;
     text-align: center;
 }
@@ -62,7 +60,7 @@ h1 {
 .block-carousel {
     width: 50%;
     min-height: 300px;
-    border: solid 2px white;
+    /*border: solid 2px white;*/
     position: absolute;
     top: 268px;
     left: 398px;
@@ -84,7 +82,7 @@ h3 {
     margin: 0;
 }
 .carousel-indicators .active {
-    background: green;
+    background: #53ae50;
     border: none;
     height: 14px;
     width: 14px;
@@ -117,7 +115,11 @@ h3 {
 
 }
 nav{
-    background: #c7c7c7;
+    background: rgb(249,249,249);
+    background: -moz-linear-gradient(top, rgba(249,249,249,1) 0%, rgba(243,243,243,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(249,249,249,1) 0%,rgba(243,243,243,1) 100%);
+    background: linear-gradient(to bottom, rgba(249,249,249,1) 0%,rgba(243,243,243,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f3f3f3',GradientType=0 );
 }
 .navbar{
     padding: 0;
@@ -148,7 +150,7 @@ nav{
 }
 .btn-order-the-projects {
     border-radius: 50px;
-    background: green;
+    background: #53ae50;
     padding: 5px 10px;
     text-align: center;
 }
@@ -156,7 +158,6 @@ nav{
     max-width: 1300px;
 }
 .block-box {
-    /*border: solid 1px black;*/
     padding-bottom: 130px;
 }
 .map {
@@ -202,7 +203,7 @@ h6 {
     color: #00b300;
 }
 .services {
-    background-color: #cacaca
+    background-color: #eeeeee
 }
 .block-services {
     padding: 0;
