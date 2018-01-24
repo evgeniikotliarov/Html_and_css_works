@@ -124,18 +124,13 @@ nav{
     padding: 0;
 }
 .navbar-nav {
-    display: inline-block;
-}
-.navbar-nav>li {
-    display: inline-block;
-    padding: 8px 10px;
-
+    padding-left: 90px;
 }
 .nav-link {
     font-size: 18px;
     text-decoration: underline;
+    padding: 22px 5px;
 }
-
 .navbar-light .navbar-nav .active>.nav-link{
     text-decoration: none;
     font-weight: bold;
@@ -144,13 +139,14 @@ nav{
 .navbar-brand{
     padding-left: 76px;
 }
-.link-inline {
-    padding-right: 76px;
+.box-navbar-order-link{
+    float: right;
+    padding-right: 100px;
 }
 .btn-order-the-projects {
     border-radius: 50px;
     background: #53ae50;
-    padding: 5px 10px;
+    padding: 4px 10px;
     text-align: center;
 }
 .container {
