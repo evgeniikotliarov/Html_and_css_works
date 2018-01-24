@@ -64,6 +64,9 @@ h1 {
     top: 268px;
     left: 398px;
 }
+h2 {
+    font-size: 48px;
+}
 h3 {
     color: #fff;
 }
@@ -151,7 +154,6 @@ nav{
 }
 .container {
     max-width: 1300px;
-    /*border: solid 1px yellow;*/
 }
 .block-box {
     padding-bottom: 130px;
@@ -206,6 +208,9 @@ nav{
     font-size: 18px;
     line-height: 1.5;
 }
+.card-title {
+    margin-bottom: 1rem;
+}
 .pull-left {
     margin-right: 35px;
 }
@@ -215,6 +220,7 @@ nav{
     padding-bottom: 35px;
 }
 h6 {
+    font-size: 26px;
     font-weight: bold;
 }
 .fa-check{
