@@ -192,7 +192,7 @@ nav{
 }
 .statistic-content {
     display: inline-block;
-    padding: 25px 10px 0 0;
+    padding: 30px 10px 0 20px;
     margin-left: -5px;
 }
 .card {
@@ -375,4 +375,20 @@ h6 {
 .companent-7 {
     width:105px;
     background-position: 0 -657px;
+}
+.companent-8 {
+    width:105px;
+    background-position: 0 0;
+}
+.companent-9 {
+    width:105px;
+    background-position: 0 -112px;
+}
+.companent-10 {
+    width:105px;
+    background-position: 0 -219px;
+}
+.companent-11 {
+    width:105px;
+    background-position: 0 -326px;
 }
