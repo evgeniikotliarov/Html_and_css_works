@@ -160,8 +160,8 @@ nav{
 }
 .map > img {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -20px;
+    right: -120px;
 }
 .text-box {
     padding-top: 120px;
