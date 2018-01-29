@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script src="js/navbarSticky.js"></script>
 </head>
 <body>
     <div class="container-fluid full">
@@ -61,7 +67,7 @@
     </div>
 
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+        <nav class="navbar navbar-expand-sm navbar-light bg-faded" data-toggle="sticky-onscroll">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -87,10 +93,9 @@
             </div>
         </nav>
     </div>
+
     <div class="box-for-map">
-        <div class="map">
-            <!--<img src="img/map.svg" alt="map" width="70%" height="auto">-->
-        </div>
+        <div class="map"></div>
     </div>
 
         <div class="container">
@@ -161,12 +166,12 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="card card-block">
-                            <img src="img/woman.png" alt="#" width="95%" height="auto" class="mt-4 pl-4">
+                            <img src="img/methodology-img.png" alt="#" width="97%" height="auto" class="mt-4 pl-4">
                         </div>
                     </div>
                     <div class="col-sm-6 pb-1">
                         <div class="card card-block">
-                            <img src="img/technologies.png" alt="#" width="95%" height="auto" class="mt-4 pt-2 pl-2" >
+                            <img src="img/standarts-img.png" alt="#" width="97%" height="auto" class="mt-4 pt-2 pl-2" >
                         </div>
                     </div>
                     <div class="col-sm-6">

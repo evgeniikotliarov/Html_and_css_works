@@ -118,6 +118,14 @@ nav{
     background: linear-gradient(to bottom, rgba(249,249,249,1) 0%,rgba(243,243,243,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f3f3f3',GradientType=0 );
 }
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
 .navbar{
     padding: 0;
     z-index: 10;
