@@ -238,7 +238,7 @@ h6 {
     background-color: #eeeeee
 }
 .block-services {
-    padding: 0;
+    padding: 0 50px 0 0;
     margin-bottom: 0;
 }
 .block-prices {
@@ -379,11 +379,11 @@ h6 {
 }
 .companent-6 {
     width:105px;
-    background-position: 0 -542px;
+    background-position: 0 -555px;
 }
 .companent-7 {
     width:105px;
-    background-position: 0 -657px;
+    background-position: 0 -665px;
 }
 .companent-8 {
     width:105px;
