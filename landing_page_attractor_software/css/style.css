@@ -154,20 +154,23 @@ nav{
 .block-box {
     padding-bottom: 130px;
 }
-.map {
+.box-for-map {
     position: relative;
 }
-.map > img {
+.map {
+    background: url(../img/map.svg) 111px -15px no-repeat;
+    background-size: cover;
+    width: 69%;
+    height: 574px;
     position: absolute;
-    top: -20px;
-    right: -120px;
-    z-index: 0;
+    top: 0;
+    right: 0;
 }
 .text-box {
     padding-top: 120px;
 }
 .statistic-box{
-    padding-top: 120px;
+    padding-top: 115px;
     padding-left: 45px;
     padding-bottom:5px;
 }
@@ -380,7 +383,7 @@ h6 {
 }
 .companent-9 {
     width:105px;
-    background-position: 0 -112px;
+    background-position: 0 -107px;
 }
 .companent-10 {
     width:105px;
