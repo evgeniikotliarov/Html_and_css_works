@@ -3,7 +3,7 @@
         top: 168px;
         left: 298px;
     }
-    h3 {
+    .carousel-header {
         font-size: 1.4em;
     }
     .carousel-text {
@@ -11,7 +11,6 @@
     }
     .carousel-indicators {
         top: 230px;
-        left:-120px;
     }
     .scroll {
         bottom: 25px;
@@ -27,7 +26,7 @@
         top: 118px;
         left: 248px;
     }
-    h3 {
+    .carousel-header {
         font-size: 1em;
     }
     .carousel-text {
@@ -35,7 +34,6 @@
     }
     .carousel-indicators {
         top: 160px;
-        left:-150px;
     }
 }
 
