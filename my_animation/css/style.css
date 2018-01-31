@@ -267,3 +267,27 @@
     -webkit-box-shadow: 0 0 10px rgba(141,134,35,.9);
     box-shadow: 0 0 10px rgba(141,134,35,.9);
 }
+.house-3{
+    width: 120px;
+    height: 350px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+    border-right: 7px solid #655e5f;
+    border-top: 3px solid #6b7366;
+    z-index: 1;
+}
+.center-h-3{
+    position: relative;
+    width: 90%;
+    height: 100%;
+
+}
+.small-window{
+    width: 40px;
+    height: 25px;
+    background: rgba(141,134,35,.7);
+    position: absolute;
+
+}
