@@ -190,3 +190,19 @@
     -webkit-box-shadow: 0 0 10px rgba(141,134,35,.9);
     box-shadow: 0 0 10px rgba(141,134,35,.9);
 }
+.house-2{
+    width: 200px;
+    height: 340px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 350px;
+    border-right: 12px solid #655e5f;
+    border-top: 5px solid #6b7366;
+    z-index: 100;
+}
+.center-h-2{
+    width: 90%;
+    height: 100%;
+    position: relative;
+}
