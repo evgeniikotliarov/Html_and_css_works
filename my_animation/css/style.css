@@ -36,3 +36,64 @@
 .star-18{top: 35px; left: 650px; -webkit-animation-duration: 0.5s; animation-duration: 2.7s;}
 .star-19{top: 17px; left: 490px; -webkit-animation-duration: 0.5s; animation-duration: .8s;}
 .star-20{top: 15px; left: 370px; -webkit-animation-duration: 0.5s; animation-duration: 1.9s;}
+
+.moon{
+    z-index: 1;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgba(142, 140, 140, 1);
+    -webkit-animation: blesk 10s linear infinite alternate;
+    animation: blesk 10s linear infinite alternate;
+}
+.cloud{
+    z-index: 500;
+    position: absolute;
+    top: 138px;
+    right: 116px;
+    width: 235px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(61, 61, 63, .99);
+    -webkit-animation: run_cloud 40s linear infinite alternate;
+    animation: run_cloud 40s linear infinite alternate;
+}
+.cloud-1{
+    position: absolute;
+    top: 42px;
+    right: 143px;
+    width: 135px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(61, 61, 63, .99);
+}
+.cloud-2{
+    position: absolute;
+    top: 28px;
+    right: -69px;
+    width: 155px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(61, 61, 63, .99);
+}
+.cloud-3{
+    position: absolute;
+    top: -25px;
+    right: -112px;
+    width: 205px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(61, 61, 63, .9);
+}
+.cloud-4{
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    width: 262px;
+    height: 66px;
+    border-radius: 50%;
+    background: rgba(61, 61, 63, .9);
+}
