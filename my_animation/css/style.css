@@ -1,0 +1,38 @@
+.town-block{
+    width: 550px;
+    height: 600px;
+    padding: 100px;
+    background: darkblue;
+    position: relative;
+    overflow: hidden;
+}
+.star{
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .8;
+    -webkit-animation: shine 2s linear infinite alternate;
+    animation: shine 2s linear infinite alternate;
+}
+.star-1{top: 50px; left: 200px; -webkit-animation-duration: .7s; animation-duration: .7s ;}
+.star-2{top: 50px; left: 250px; -webkit-animation-duration: 1s; animation-duration: 1s;   }
+.star-3{top: 70px; left: 300px; -webkit-animation-duration: 1.5s;animation-duration: 1.5s;}
+.star-4{top: 20px; left: 350px; -webkit-animation-duration: 1.2s; animation-duration: 1.2s;}
+.star-5{top: 40px; left: 50px; -webkit-animation-duration: 4s; animation-duration: 4s;}
+.star-6{top: 10px; left: 120px; -webkit-animation-duration: 2.5s; animation-duration: 2.5s;}
+.star-7{top: 25px; left: 190px; -webkit-animation-duration: 2s; animation-duration: 2s;}
+.star-8{top: 35px; left: 380px; -webkit-animation-duration: 0.5s; animation-duration: 0.5s;}
+.star-9{top: 50px; left: 200px; -webkit-animation-duration: .7s; animation-duration: 1.7s ;}
+.star-10{top: 65px; left: 450px; -webkit-animation-duration: 1s; animation-duration: 1.4s;   }
+.star-11{top: 170px; left: 500px; -webkit-animation-duration: 1.5s;animation-duration: 3.5s;}
+.star-12{top: 150px; left: 550px; -webkit-animation-duration: 1.2s; animation-duration: 2.2s;}
+.star-13{top: 140px; left: 380px; -webkit-animation-duration: 4s; animation-duration: 4s;}
+.star-14{top: 110px; left: 400px; -webkit-animation-duration: 2.5s; animation-duration: 4.5s;}
+.star-15{top: 250px; left: 430px; -webkit-animation-duration: 2s; animation-duration: 2.2s;}
+.star-16{top: 15px; left: 580px; -webkit-animation-duration: 0.5s; animation-duration: .5s;}
+.star-17{top: 10px; left: 420px; -webkit-animation-duration: 0.5s; animation-duration: 1.2s;}
+.star-18{top: 35px; left: 650px; -webkit-animation-duration: 0.5s; animation-duration: 2.7s;}
+.star-19{top: 17px; left: 490px; -webkit-animation-duration: 0.5s; animation-duration: .8s;}
+.star-20{top: 15px; left: 370px; -webkit-animation-duration: 0.5s; animation-duration: 1.9s;}
