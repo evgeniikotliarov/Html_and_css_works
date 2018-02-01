@@ -73,7 +73,7 @@ h1 {
     margin: 0;
 }
 .block-carousel {
-    width: 70%;
+    width: 45%;
     min-height: 400px;
     position: absolute;
     top: 268px;
@@ -94,12 +94,18 @@ h3 {
     color: #fff;
     margin: 1px;
     padding: 0;
+    font-size: 22px;
+    line-height: 30px;
     letter-spacing: 0;
 }
 .carousel-indicators {
-    top: 250px;
-    right: 85%;
+    float: left;
+    left: -10px;
+    width: 120px;
+    z-index: 15;
     margin: 0;
+    padding: 0;
+    text-align: left;
 }
 .carousel-indicators .active {
     background: #53ae50;
@@ -114,6 +120,10 @@ h3 {
     border-radius: 50%;
     border: 2px solid #fff;
     margin: 0 11px;
+}
+.carousel-indicators li:first-child{
+    margin-left: 0;
+    padding: 0;
 }
 .scroll {
     position: absolute;
@@ -272,6 +282,7 @@ h6 {
     font-size: 50px;
     color: #fff;
     padding-top: 70px;
+
 }
 .prices-text-box {
     width: 65%;
@@ -299,7 +310,7 @@ h6 {
     padding: 8px 17px;
 }
 .porfolio-block {
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 .portolio-title {
     font-weight: bold;
@@ -319,6 +330,7 @@ h6 {
     padding: 0;
 }
 .footer {
+    padding-top: 25px;
     padding-bottom: 100px;
 }
 .social:hover {
