@@ -351,7 +351,8 @@ h6 {
     padding: 0;
 }
 .my-custom-li {
-    padding-left: 1.3em;
+    margin: 0;
+    padding: 0 0 0 1.3em;
 }
 .my-custom-li:before {
     content: "\f00c";
@@ -362,6 +363,10 @@ h6 {
     margin-left: -2em;
     margin-right: 5px;
     width: 1em;
+}
+.technologies {
+    font-size: 16px;
+    line-height: 22px;
 }
 .circle-background {
     width: 104px;
@@ -404,11 +409,11 @@ h6 {
 }
 .companent-6 {
     width:105px;
-    background-position: 0 -545px;
+    background-position: 0 -550px;
 }
 .companent-7 {
     width:105px;
-    background-position: 0 -655px;
+    background-position: 5px -660px;
 }
 .companent-8 {
     width:105px;
