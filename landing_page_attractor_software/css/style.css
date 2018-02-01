@@ -189,8 +189,8 @@ nav{
     position: relative;
 }
 .map {
-    background: url(../img/map.svg) 111px -15px no-repeat;
-    background-size: cover;
+    background: url(../img/map.svg) 107px -17px no-repeat;
+    background-size: 100%;
     width: 69%;
     min-height: 710px;
     position: absolute;
@@ -226,17 +226,19 @@ nav{
 }
 .statistic-content {
     display: inline-block;
-    padding: 30px 10px 0 20px;
+    padding: 30px 10px 0 21px;
     margin-left: -5px;
+}
+.last-gradle {
+    padding: 30px 24px 0 8px;
 }
 .card {
     border: none;
     border-radius: 0;
     background: transparent;
 }
-.card-text {
-    /*font-size: 20px;*/
-    /*line-height: 1.5;*/
+p {
+    margin-bottom: 28px;
 }
 .card-title {
     margin-bottom: 1rem;
@@ -422,7 +424,7 @@ h6 {
 }
 .companent-10 {
     width:105px;
-    background-position: 0 -221px;
+    background-position: 6px -219px;
 }
 .companent-11 {
     width:105px;
