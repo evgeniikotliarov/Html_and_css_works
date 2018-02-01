@@ -101,11 +101,11 @@ h3 {
 .carousel-indicators {
     float: left;
     left: -10px;
+    top: 310px;
     width: 120px;
-    z-index: 15;
     margin: 0;
     padding: 0;
-    text-align: left;
+    cursor: pointer;
 }
 .carousel-indicators .active {
     background: #53ae50;
