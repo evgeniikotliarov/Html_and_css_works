@@ -345,3 +345,19 @@
     -webkit-box-shadow: 0 0 10px rgba(141,134,35,.8);
     box-shadow: 0 0 10px rgba(141,134,35,.8);
 }
+.house-4{
+    width: 250px;
+    height: 400px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 500px;
+    border-right: 10px solid #655e5f;
+    border-top: 4px solid #6b7366;
+    z-index: 1;
+}
+.center-h-4{
+    width: 90%;
+    height: 100%;
+    position: relative;
+}
