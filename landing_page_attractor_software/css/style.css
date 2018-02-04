@@ -452,7 +452,6 @@ h6 {
     display: block;
     width: 100%;
     margin: 0 auto;
-
 }
 .for-portfolio li{
     background: transparent;
@@ -462,5 +461,9 @@ h6 {
     border-radius: 50%;
     border: 2px solid black;
     margin: 0 11px;
-
+}
+.block-form {
+    width: 720px;
+    background-color: #fff;
+    margin: 0 auto;
 }
