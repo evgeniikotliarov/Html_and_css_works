@@ -106,7 +106,7 @@ h3 {
     width: 120px;
     margin: 0;
     padding: 0;
-    cursor: pointer;
+    clear: both;
 }
 .carousel-indicators .active {
     background: #53ae50;
@@ -121,6 +121,7 @@ h3 {
     border-radius: 50%;
     border: 2px solid #fff;
     margin: 0 11px;
+    cursor: pointer;
 }
 .carousel-indicators li:first-child{
     margin-left: 0;
@@ -444,4 +445,22 @@ h6 {
 .companent-11 {
     width:105px;
     background-position: 0 -330px;
+}
+.for-portfolio {
+    position: static;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.for-portfolio li{
+    background: transparent;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 11px;
+
 }

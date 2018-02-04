@@ -31,7 +31,7 @@
             </div>
 
             <div class="block-carousel">
-                <div id="carousel-example-generic" class="carousel slide carousel slide w-85 ml-auto mr-auto" data-ride="carousel">
+                <div id="carousel-example-generic" class="carousel slide w-85 ml-auto mr-auto" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -394,36 +394,62 @@
             <h1 class="portolio-title mt-4 pt-5 pb-4 mb-4">Portfolio</h1>
 
             <div class="portfolio-content">
-                <div class="row portfolio-row">
-                    <div class="col-6">
-                        <img class="card-img-top" src="img/tengry_pic.png" alt="Card image cap">
-                        <div class="card-block m-1 p-2 mt-3 pt-3">
-                            <h6 class="card-title">Tengry Bank</h6>
-                            <p class="card-text">This project was built as the foundation for the possibility of connecting
-                                several banking systems, as well as the place through which you can pay
-                                for a variety of services, ranging from someone use the municipal payments
-                                and ending Internet shops.</p>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="row portfolio-row">
+                                <div class="col-6">
+                                    <img class="card-img-top" src="img/tengry_pic.png" alt="First slide">
+                                    <div class="card-block m-1 p-2 mt-3 pt-3">
+                                        <h6 class="card-title">Tengry Bank</h6>
+                                        <p class="card-text">This project was built as the foundation for the possibility of connecting
+                                            several banking systems, as well as the place through which you can pay
+                                            for a variety of services, ranging from someone use the municipal payments
+                                            and ending Internet shops.</p>
+                                    </div>
+                                </div>
+                                <div class="col col-sm">
+                                    <img class="card-img-top" src="img/heartbeat_pic.png" alt="Card image cap">
+                                    <div class="card-block m-2 mt-3 pt-3 pr-4 pb-3 pl-2 ">
+                                        <h6 class="card-title">HeartBeat</h6>
+                                        <p class="card-text">Project realized for emotions visualization, based on the analysis of
+                                            text which we import to the software. There is a database of words with a coefficient
+                                            for each word. Coefficients are assigned by professional psychologists and
+                                            specialists.</p>
+                                    </div>
+                                </div>
+                                <div class="col col-sm">
+                                    <img class="card-img-top" src="img/wng_pic.png" alt="Card image cap">
+                                    <div class="card-block m-2 mt-3 pt-3 pr-5 pb-3 pl-2 ">
+                                        <h6 class="card-title">The World Nomad Games website</h6>
+                                        <p class="card-text">The main page consists of a menu bar, news block, information banner,
+                                            sports pictures, photo and video galleries, sponsors and partners blocks. During the WNG
+                                            II, there were available schedule and program of all events and medals rating.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col"><img src="img/heartbeat_pic.png" alt="Second slide"></div>
+                                <div class="col"><img src="img/tengry_pic.png" alt="Second slide"></div>
+                                <div class="col"><img src="img/wng_pic.png" alt="Second slide"></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col"><img src="img/wng_pic.png" alt="Third slide"></div>
+                                <div class="col"><img src="img/heartbeat_pic.png" alt="Third slide"></div>
+                                <div class="col"><img src="img/tengry_pic.png" alt="Third slide"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col col-sm">
-                        <img class="card-img-top" src="img/heartbeat_pic.png" alt="Card image cap">
-                        <div class="card-block m-2 mt-3 pt-3 pr-4 pb-3 pl-2 ">
-                            <h6 class="card-title">HeartBeat</h6>
-                            <p class="card-text">Project realized for emotions visualization, based on the analysis of
-                                text which we import to the software. There is a database of words with a coefficient
-                                for each word. Coefficients are assigned by professional psychologists and
-                                specialists.</p>
-                        </div>
-                    </div>
-                    <div class="col col-sm">
-                        <img class="card-img-top" src="img/wng_pic.png" alt="Card image cap">
-                        <div class="card-block m-2 mt-3 pt-3 pr-5 pb-3 pl-2 ">
-                            <h6 class="card-title">The World Nomad Games website</h6>
-                            <p class="card-text">The main page consists of a menu bar, news block, information banner,
-                                sports pictures, photo and video galleries, sponsors and partners blocks. During the WNG
-                                II, there were available schedule and program of all events and medals rating.</p>
-                        </div>
-                    </div>
+                    <ol class="carousel-indicators for-portfolio">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -445,6 +471,8 @@
             </div>
         </div>
     </footer>
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
