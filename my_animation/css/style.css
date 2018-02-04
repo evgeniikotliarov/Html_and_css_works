@@ -1,3 +1,5 @@
+
+
 .town-block{
     width: 550px;
     height: 600px;
@@ -6,37 +8,6 @@
     position: relative;
     overflow: hidden;
 }
-.star{
-    width: 2px;
-    height: 2px;
-    background: #fff;
-    border-radius: 50%;
-    position: absolute;
-    opacity: .8;
-    -webkit-animation: shine 2s linear infinite alternate;
-    animation: shine 2s linear infinite alternate;
-}
-.star-1{top: 50px; left: 200px; -webkit-animation-duration: .7s; animation-duration: .7s ;}
-.star-2{top: 50px; left: 250px; -webkit-animation-duration: 1s; animation-duration: 1s;   }
-.star-3{top: 70px; left: 300px; -webkit-animation-duration: 1.5s;animation-duration: 1.5s;}
-.star-4{top: 20px; left: 350px; -webkit-animation-duration: 1.2s; animation-duration: 1.2s;}
-.star-5{top: 40px; left: 50px; -webkit-animation-duration: 4s; animation-duration: 4s;}
-.star-6{top: 10px; left: 120px; -webkit-animation-duration: 2.5s; animation-duration: 2.5s;}
-.star-7{top: 25px; left: 190px; -webkit-animation-duration: 2s; animation-duration: 2s;}
-.star-8{top: 35px; left: 380px; -webkit-animation-duration: 0.5s; animation-duration: 0.5s;}
-.star-9{top: 50px; left: 200px; -webkit-animation-duration: .7s; animation-duration: 1.7s ;}
-.star-10{top: 65px; left: 450px; -webkit-animation-duration: 1s; animation-duration: 1.4s;   }
-.star-11{top: 170px; left: 500px; -webkit-animation-duration: 1.5s;animation-duration: 3.5s;}
-.star-12{top: 150px; left: 550px; -webkit-animation-duration: 1.2s; animation-duration: 2.2s;}
-.star-13{top: 140px; left: 380px; -webkit-animation-duration: 4s; animation-duration: 4s;}
-.star-14{top: 110px; left: 400px; -webkit-animation-duration: 2.5s; animation-duration: 4.5s;}
-.star-15{top: 250px; left: 430px; -webkit-animation-duration: 2s; animation-duration: 2.2s;}
-.star-16{top: 15px; left: 580px; -webkit-animation-duration: 0.5s; animation-duration: .5s;}
-.star-17{top: 10px; left: 420px; -webkit-animation-duration: 0.5s; animation-duration: 1.2s;}
-.star-18{top: 35px; left: 650px; -webkit-animation-duration: 0.5s; animation-duration: 2.7s;}
-.star-19{top: 17px; left: 490px; -webkit-animation-duration: 0.5s; animation-duration: .8s;}
-.star-20{top: 15px; left: 370px; -webkit-animation-duration: 0.5s; animation-duration: 1.9s;}
-
 .moon{
     z-index: 1;
     position: absolute;
@@ -90,13 +61,44 @@
 }
 .cloud-4{
     position: absolute;
-    top: 0;
+    top: 0px;
     right: -200px;
     width: 262px;
     height: 66px;
     border-radius: 50%;
     background: rgba(61, 61, 63, .9);
 }
+.star{
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .8;
+    -webkit-animation: shine 2s linear infinite alternate;
+    animation: shine 2s linear infinite alternate;
+}
+.star-1{top: 50px; left: 200px; -webkit-animation-duration: .7s; animation-duration: .7s ;}
+.star-2{top: 50px; left: 250px; -webkit-animation-duration: 1s; animation-duration: 1s;   }
+.star-3{top: 70px; left: 300px; -webkit-animation-duration: 1.5s;animation-duration: 1.5s;}
+.star-4{top: 20px; left: 350px; -webkit-animation-duration: 1.2s; animation-duration: 1.2s;}
+.star-5{top: 40px; left: 50px; -webkit-animation-duration: 4s; animation-duration: 4s;}
+.star-6{top: 10px; left: 120px; -webkit-animation-duration: 2.5s; animation-duration: 2.5s;}
+.star-7{top: 25px; left: 190px; -webkit-animation-duration: 2s; animation-duration: 2s;}
+.star-8{top: 35px; left: 380px; -webkit-animation-duration: 0.5s; animation-duration: 0.5s;}
+.star-9{top: 50px; left: 200px; -webkit-animation-duration: .7s; animation-duration: 1.7s ;}
+.star-10{top: 65px; left: 450px; -webkit-animation-duration: 1s; animation-duration: 1.4s;   }
+.star-11{top: 170px; left: 500px; -webkit-animation-duration: 1.5s;animation-duration: 3.5s;}
+.star-12{top: 150px; left: 550px; -webkit-animation-duration: 1.2s; animation-duration: 2.2s;}
+.star-13{top: 140px; left: 380px; -webkit-animation-duration: 4s; animation-duration: 4s;}
+.star-14{top: 110px; left: 400px; -webkit-animation-duration: 2.5s; animation-duration: 4.5s;}
+.star-15{top: 250px; left: 430px; -webkit-animation-duration: 2s; animation-duration: 2.2s;}
+.star-16{top: 15px; left: 580px; -webkit-animation-duration: 0.5s; animation-duration: .5s;}
+.star-17{top: 10px; left: 420px; -webkit-animation-duration: 0.5s; animation-duration: 1.2s;}
+.star-18{top: 35px; left: 650px; -webkit-animation-duration: 0.5s; animation-duration: 2.7s;}
+.star-19{top: 17px; left: 490px; -webkit-animation-duration: 0.5s; animation-duration: .8s;}
+.star-20{top: 15px; left: 370px; -webkit-animation-duration: 0.5s; animation-duration: 1.9s;}
+
 .house-1{
     width: 150px;
     height: 300px;
@@ -190,6 +192,7 @@
     -webkit-box-shadow: 0 0 10px rgba(141,134,35,.9);
     box-shadow: 0 0 10px rgba(141,134,35,.9);
 }
+
 .house-2{
     width: 200px;
     height: 340px;
@@ -282,12 +285,14 @@
     position: relative;
     width: 90%;
     height: 100%;
+
 }
 .small-window{
     width: 40px;
     height: 25px;
     background: rgba(141,134,35,.7);
     position: absolute;
+
 }
 .w1-h-3{
     top: 10px;
@@ -360,4 +365,26 @@
     width: 90%;
     height: 100%;
     position: relative;
+}
+.house-4-penthouse{
+    width: 200px;
+    height: 70px;
+    background: #000;
+    position: absolute;
+    bottom: 404px;
+    left: 41px;
+    border-right: 10px solid #655e5f;
+    border-top: 4px solid #6b7366;
+    z-index: 200;
+}
+.house-4-penthouse-2{
+    width: 100px;
+    height: 50px;
+    background: #000;
+    position: absolute;
+    bottom: 477px;
+    left: 90px;
+    border-right: 10px solid #655e5f;
+    border-top: 4px solid #6b7366;
+    z-index: 200;
 }
