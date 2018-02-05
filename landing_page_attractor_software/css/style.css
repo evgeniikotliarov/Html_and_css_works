@@ -21,9 +21,9 @@ body, html {
     position: absolute;
     bottom: -90px;
     right: -370px;
-    -webkit-animation:spin 560s linear infinite;
-    -moz-animation:spin 560s linear infinite;
-    animation:spin 560s linear infinite;
+    -webkit-animation:spin 760s linear infinite;
+    -moz-animation:spin 760s linear infinite;
+    animation:spin 760s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }

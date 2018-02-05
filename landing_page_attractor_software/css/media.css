@@ -12,7 +12,7 @@
         font-size: 1.4em;
     }
     .carousel-text {
-        font-size: 0.8em;
+        font-size: .8em;
     }
     .carousel-indicators {
         top: 180px;
@@ -35,7 +35,7 @@
         font-size: 1em;
     }
     .carousel-text {
-        font-size: 0.7em;
+        font-size: .7em;
     }
     .carousel-indicators {
         top: 160px;
@@ -49,8 +49,46 @@
 @media (max-width: 575.98px) {
 
 }
-@media (max-width: 479.98px) {
-
+@media (max-width: 494.98px) {
+    .galactic{
+        bottom: -90px;
+        right: -200px;
+    }
+    .logo {
+        left: 16px;
+    }
+    .midle-text-box {
+        top: 93px;
+        left: 62px;
+    }
+    .midle-text {
+        font-weight: 400;
+        font-size: .75em;
+    }
+    .order-the-projects {
+        right: 22px;
+    }
+    .block-carousel {
+        width: 91%;
+        top: 288px;
+        left: 16px;
+    }
+    .carousel-header {
+        font-size: 2.2em;
+    }
+    .carousel-text {
+        font-size: 1.1em;
+    }
+    .carousel-indicators {
+        top: 244px;
+    }
+    .scroll {
+        display: none;
+    }
+    .social-box {
+        position: absolute;
+        right: 40%;
+    }
 }
 
 
