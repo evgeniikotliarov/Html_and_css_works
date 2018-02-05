@@ -462,12 +462,9 @@ h6 {
     border: 2px solid black;
     margin: 0 11px;
 }
-.block-for-form {
-    /*margin: 0 auto;*/
-}
 .block-form {
     width: 700px;
-    background-color: #fff;
+    background-color: #f3f8fc;
     margin: 0 auto;
 }
 .form-group {
@@ -475,17 +472,17 @@ h6 {
 }
 input {
     border: transparent;
-    border-bottom: solid 2px blue;
+    border-bottom: solid 2px #0079c4;
     padding: 10px;
-    background-color: #eee;
+    background-color: #e4e8eb;
     font-size: 15px;
     width: 320px;
 }
 textarea {
     border: transparent;
-    border-bottom: solid 2px blue;
+    border-bottom: solid 2px #0079c4;
     padding: 10px;
-    background-color: #eee;
+    background-color: #e4e8eb;
     font-size: 15px;
     width: 100%;
     height: 90px;
@@ -519,16 +516,32 @@ label#label{
 }
 .triangle-close {
     margin: 0 auto;
+    position: relative;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0 0 50px 700px;
-    border-color: transparent transparent #fff transparent;
+    border-color: transparent transparent #f3f8fc transparent;
 }
 #form-img {
-    border: solid 1px #fff;
     margin-bottom: 37px;
 }
 #block-send {
     padding: 15px 0 38px 0;
+}
+.close-thik {
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    right: 18px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    top: 70px;
+}
+.close-thik:hover {
+    text-decoration: none;
+    color: #777;
+}
+.close-thik:after {
+    content: '✖';
 }
