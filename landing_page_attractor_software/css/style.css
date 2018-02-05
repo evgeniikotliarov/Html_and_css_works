@@ -471,22 +471,23 @@ h6 {
     margin: 0 auto;
 }
 .form-group {
-    margin-bottom: 0.6rem;
+    margin-bottom: .6rem;
 }
 input {
     border: transparent;
     border-bottom: solid 2px blue;
     padding: 10px;
     background-color: #eee;
-    font-size: 16px;
+    font-size: 15px;
     width: 320px;
 }
 textarea {
+    border: transparent;
     border-bottom: solid 2px blue;
     padding: 10px;
     background-color: #eee;
-    font-size: 16px;
-    width: 640px;
+    font-size: 15px;
+    width: 100%;
     height: 90px;
     vertical-align: top;
 }
@@ -501,4 +502,33 @@ textarea {
     font-weight: bold;
     color: #fff;
     padding: 11px 55px;
+    border: none;
+}
+input#input{
+    display: none;
+}
+label#label{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+    cursor: pointer;
+}
+#paperclip-icon {
+    color: #00b300;
+    padding: 8px;
+}
+.triangle-close {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 700px;
+    border-color: transparent transparent #fff transparent;
+}
+#form-img {
+    border: solid 1px #fff;
+    margin-bottom: 37px;
+}
+#block-send {
+    padding: 15px 0 38px 0;
 }
