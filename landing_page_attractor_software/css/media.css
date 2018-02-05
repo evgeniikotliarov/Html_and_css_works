@@ -1,9 +1,12 @@
 @media (max-width: 1280px) {
     .galactic-box{
-        min-width: 1280px;
+        max-width: 1280px;
     }
 }
 @media (max-width: 1199.98px) {
+    .galactic-box{
+        max-width: 100%;
+    }
     .logo {
         left: 16px;
     }
@@ -39,6 +42,9 @@
 }
 
 @media (max-width: 991.98px) {
+    .galactic-box{
+        max-width: 100%;
+    }
     .scroll {
         display: none;
     }
@@ -53,21 +59,18 @@
     .carousel-text {
         font-size: 1.1em;
     }
-    .carousel-indicators {
-        top: 264px;
-    }
     .social-box {
         right: 40%;
     }
 }
 
 @media (max-width: 767.98px) {
+    .galactic-box{
+        max-width: 767.98px;
+    }
     .block-carousel {
         width: 75%;
         left: 148px;
-    }
-    .carousel-indicators {
-        top: 264px;
     }
 }
 
