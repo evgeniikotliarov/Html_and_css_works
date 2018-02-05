@@ -446,6 +446,10 @@ h6 {
     width:105px;
     background-position: 0 -330px;
 }
+.companent-12 {
+    width:105px;
+    background-position: 6px 0;
+}
 .for-portfolio {
     position: static;
     text-align: center;
@@ -524,7 +528,8 @@ label#label{
     border-color: transparent transparent #f3f8fc transparent;
 }
 #form-img {
-    margin-bottom: 37px;
+    margin-top:17px;
+    margin-bottom: 20px;
 }
 #block-send {
     padding: 15px 0 38px 0;
@@ -533,10 +538,10 @@ label#label{
     color: black;
     font-size: 22px;
     position: absolute;
-    right: 18px;
+    right: 17px;
     text-decoration: none;
     text-shadow: 0 1px 0 #fff;
-    top: 70px;
+    top: 64px;
 }
 .close-thik:hover {
     text-decoration: none;
