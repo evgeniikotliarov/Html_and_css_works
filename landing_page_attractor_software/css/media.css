@@ -4,18 +4,33 @@
     }
 }
 @media (max-width: 1199.98px) {
+    .logo {
+        left: 16px;
+    }
+    .midle-text-box {
+        top: 93px;
+        left: 62px;
+    }
+    .midle-text {
+        font-weight: 400;
+        font-size: .75em;
+    }
+    .order-the-projects {
+        right: 22px;
+    }
     .block-carousel {
+        width: 45%;
         top: 168px;
         left: 298px;
     }
     .carousel-header {
-        font-size: 1.4em;
+        font-size: 2.2em;
     }
     .carousel-text {
-        font-size: .8em;
+        font-size: 1.1em;
     }
     .carousel-indicators {
-        top: 180px;
+        top: 264px;
     }
     .scroll {
         bottom: 25px;
@@ -28,28 +43,47 @@
         display: none;
     }
     .block-carousel {
-        top: 118px;
-        left: 248px;
+        width: 50%;
+        top: 168px;
+        left: 198px;
     }
     .carousel-header {
-        font-size: 1em;
+        font-size: 2.2em;
     }
     .carousel-text {
-        font-size: .7em;
+        font-size: 1.1em;
     }
     .carousel-indicators {
-        top: 160px;
+        top: 264px;
+    }
+    .social-box {
+        right: 40%;
     }
 }
 
 @media (max-width: 767.98px) {
-
+    .block-carousel {
+        width: 75%;
+        left: 148px;
+    }
+    .carousel-indicators {
+        top: 264px;
+    }
 }
 
 @media (max-width: 575.98px) {
-
+    .block-carousel {
+        width: 85%;
+        left: 98px;
+    }
+    .carousel-indicators {
+        top: 264px;
+    }
 }
 @media (max-width: 494.98px) {
+    .galactic-box{
+        max-width: 495px;
+    }
     .galactic{
         bottom: -90px;
         right: -200px;
@@ -85,9 +119,11 @@
     .scroll {
         display: none;
     }
-    .social-box {
-        position: absolute;
-        right: 40%;
+    .navbar-toggler {
+        /*float: right;*/
+    }
+    .navbar-brand {
+        /*float: left;*/
     }
 }
 
