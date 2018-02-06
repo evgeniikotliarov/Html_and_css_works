@@ -2,29 +2,67 @@
     .galactic-box{
         max-width: 1280px;
     }
+    .galactic{
+        right: -35rem;
+    }
 }
 @media (max-width: 1199.98px) {
     .galactic-box{
         max-width: 100%;
     }
-    .logo {
-        left: 16px;
-    }
-    .midle-text-box {
-        top: 93px;
-        left: 62px;
-    }
-    .midle-text {
-        font-weight: 400;
-        font-size: .75em;
+    .galactic{
+        right: -40rem;
     }
     .order-the-projects {
         right: 22px;
     }
     .block-carousel {
-        width: 45%;
-        top: 168px;
+        width: 55%;
+    }
+    .scroll {
+        bottom: 25px;
         left: 298px;
+    }
+    .box-navbar-order-link {
+        padding-right: 22px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .galactic{
+        right: -45rem;
+    }
+    .logo {
+        left: 30px;
+    }
+    .midle-text-box {
+        position: absolute;
+        top: 70px;
+        left: 238px;
+    }
+    .block-carousel {
+        width: 75%;
+        left:148px;
+    }
+    .scroll {
+        display: none;
+    }
+    .navbar-brand{
+        padding-left: 30px;
+    }
+    .navbar-nav {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .galactic{
+        right: -50rem;
+    }
+    .block-carousel {
+        width: 75%;
+        top: 288px;
+        left: 30px;
     }
     .carousel-header {
         font-size: 2.2em;
@@ -35,42 +73,8 @@
     .carousel-indicators {
         top: 264px;
     }
-    .scroll {
-        bottom: 25px;
-        left: 298px;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .galactic-box{
-        max-width: 100%;
-    }
-    .scroll {
+    .box-navbar-order-link {
         display: none;
-    }
-    .block-carousel {
-        width: 50%;
-        top: 168px;
-        left: 198px;
-    }
-    .carousel-header {
-        font-size: 2.2em;
-    }
-    .carousel-text {
-        font-size: 1.1em;
-    }
-    .social-box {
-        right: 40%;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .galactic-box{
-        max-width: 767.98px;
-    }
-    .block-carousel {
-        width: 75%;
-        left: 148px;
     }
 }
 
@@ -91,30 +95,21 @@
         bottom: -90px;
         right: -200px;
     }
-    .logo {
-        left: 16px;
-    }
-    .midle-text-box {
-        top: 93px;
-        left: 62px;
-    }
-    .midle-text {
-        font-weight: 400;
-        font-size: .75em;
-    }
+
     .order-the-projects {
-        right: 22px;
+        display: none;
+    }
+    .social-box {
+        right: 16px;
+    }
+    .order-the-projects-with-list {
+        bottom:61px;
+        left: 30px;
     }
     .block-carousel {
         width: 91%;
         top: 288px;
-        left: 16px;
-    }
-    .carousel-header {
-        font-size: 2.2em;
-    }
-    .carousel-text {
-        font-size: 1.1em;
+        left: 30px;
     }
     .carousel-indicators {
         top: 244px;

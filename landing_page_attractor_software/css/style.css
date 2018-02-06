@@ -20,7 +20,7 @@ body, html {
 .galactic{
     position: absolute;
     bottom: -90px;
-    right: -370px;
+    right: -27rem;
     -webkit-animation:spin 760s linear infinite;
     -moz-animation:spin 760s linear infinite;
     animation:spin 760s linear infinite;
@@ -46,7 +46,7 @@ h1 {
 }
 .midle-text-box {
     position: absolute;
-    top: 65px;
+    top: 70px;
     left: 398px;
 }
 .midle-text {
@@ -72,6 +72,17 @@ h1 {
     font-weight: bold;
     padding: 4px 5px;
     margin: 0;
+}
+.order-the-projects-with-list {
+    display: none;
+    position: absolute;
+    bottom:61px;
+    left: 76px;
+    border: 2px #fff solid;
+    border-radius: 50px;
+    background: #53ae50;
+    padding: 3px 10px;
+    text-align: center;
 }
 .block-carousel {
     width: 45%;
@@ -100,7 +111,7 @@ h3 {
     letter-spacing: 0;
 }
 .carousel-indicators {
-    float: left;
+    position: relative;
     left: -10px;
     top: 310px;
     width: 120px;
@@ -134,8 +145,8 @@ h3 {
 }
 .social-box {
     position: absolute;
-    bottom: 37px;
-    right: 70px;
+    bottom: 61px;
+    right: 76px;
 }
 .items {
     display: inline-block;
