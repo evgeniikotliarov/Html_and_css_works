@@ -626,6 +626,15 @@ label#label{
 .close-thik:after {
     content: '✖';
 }
+a[ id= "portfolio" ]:target {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+a[ id= "about" ]:target {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
 @keyframes MoveUpDown {
     15% {
         -webkit-transform: translateY(9px);
