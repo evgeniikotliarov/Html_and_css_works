@@ -78,6 +78,9 @@
         display: block;
         left: 30px;
     }
+    .btn-order-the-projects-with-list {
+        display: block;
+    }
     .box-navbar-order-link {
         display: none;
     }

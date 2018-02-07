@@ -148,6 +148,9 @@ h3 {
     bottom: 47px;
     left: 398px;
 }
+.item-1 .social a:hover {
+
+}
 .social-box {
     position: absolute;
     bottom: 61px;
@@ -210,6 +213,13 @@ nav{
     background: #53ae50;
     padding: 4px 10px;
     text-align: center;
+}
+.btn-order-the-projects-with-list {
+    display: none;
+    background: #53ae50;
+    border-radius: 50%;
+    border: solid 2px #fff;
+    padding: 7px 10px;
 }
 .block-text-box {
     padding-bottom: 130px;
