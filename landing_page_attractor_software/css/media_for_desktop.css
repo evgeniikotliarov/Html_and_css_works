@@ -1,0 +1,57 @@
+@media (max-width: 1280px) {
+    .galactic-box{
+        min-width: 1280px;
+    }
+}
+@media (max-width: 1199.98px) {
+    .block-carousel {
+        top: 168px;
+        left: 298px;
+    }
+    .carousel-header {
+        font-size: 1.4em;
+    }
+    .carousel-text {
+        font-size: 0.8em;
+    }
+    .carousel-indicators {
+        top: 180px;
+    }
+    .scroll {
+        bottom: 25px;
+        left: 298px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .scroll {
+        display: none;
+    }
+    .block-carousel {
+        top: 118px;
+        left: 248px;
+    }
+    .carousel-header {
+        font-size: 1em;
+    }
+    .carousel-text {
+        font-size: 0.7em;
+    }
+    .carousel-indicators {
+        top: 160px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 575.98px) {
+
+}
+@media (max-width: 479.98px) {
+
+}
+
+
+
