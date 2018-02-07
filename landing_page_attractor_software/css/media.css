@@ -54,6 +54,10 @@
     .galactic{
         right: -50rem;
     }
+    .midle-text-box {
+        top: 111px;
+        left: 30px;
+    }
     .block-carousel {
         width: 75%;
         top: 288px;
@@ -89,10 +93,6 @@
 @media (max-width: 575.98px) {
     .carousel-indicators {
         top: 264px;
-    }
-    .midle-text-box {
-        top: 111px;
-        left: 30px;
     }
 }
 @media (max-width: 479.98px) {

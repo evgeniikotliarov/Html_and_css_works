@@ -17,7 +17,6 @@ body, html {
     min-width: 480px;
     height: 100%;
     overflow: hidden;
-    border: solid 1px red;
 }
 .galactic{
     position: absolute;
@@ -164,6 +163,16 @@ h3 {
     color: white;
     font-size: 16px;
 }
+.fa-facebook-square {
+    color: white;
+    font-size: 22px;
+}
+.fa-linkedin {
+    font-size: 22px;
+}
+.fa-instagram {
+    font-size: 22px;
+}
 .container {
     /*margin: 0 auto;*/
     max-width: 1280px;
@@ -184,10 +193,42 @@ nav{
     width: 100%;
 }
 .navbar{
-    border: solid 1px blueviolet;
     padding: 0;
     z-index: 10;
+}
 
+.fa-list-ul {
+    font-size: 26px;
+    color: black;
+}
+.fa-close{
+    font-size: 26px;
+    color: black;
+    padding: 0 3px;
+}
+
+[aria-expanded="false"] .menu__icon--open {
+    display: block;
+}
+
+[aria-expanded="false"] .menu__icon--close {
+    display: none;
+}
+
+[aria-expanded="true"] .menu__icon--open {
+    display: none;
+}
+
+[aria-expanded="true"] .menu__icon--close {
+    display: block;
+}
+
+.navbar-nav .nav-link {
+    padding: 20px 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
 }
 .nav-link {
     font-size: 18px;
@@ -208,7 +249,7 @@ nav{
 }
 .box-navbar-order-link{
     float: right;
-    padding-right: 100px;
+    padding-right: 76px;
 }
 .btn-order-the-projects {
     border-radius: 50px;
