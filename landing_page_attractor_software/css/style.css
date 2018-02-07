@@ -184,11 +184,10 @@ nav{
     width: 100%;
 }
 .navbar{
+    border: solid 1px blueviolet;
     padding: 0;
     z-index: 10;
-}
-.navbar-nav {
-    padding-left: 100px;
+
 }
 .nav-link {
     font-size: 18px;
@@ -202,6 +201,10 @@ nav{
 }
 .navbar-brand{
     padding-left: 76px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
 }
 .box-navbar-order-link{
     float: right;

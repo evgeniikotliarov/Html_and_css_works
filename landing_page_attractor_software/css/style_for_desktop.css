@@ -145,6 +145,16 @@ h3 {
     color: white;
     font-size: 16px;
 }
+.fa-facebook-square {
+    color: white;
+    font-size: 22px;
+}
+.fa-linkedin {
+    font-size: 22px;
+}
+.fa-instagram {
+    font-size: 22px;
+}
 .my-container {
     margin: 0 auto;
     width: 1280px;
@@ -185,7 +195,7 @@ nav{
 }
 .box-navbar-order-link{
     float: right;
-    padding-right: 100px;
+    padding-right: 76px;
 }
 .btn-order-the-projects {
     border-radius: 50px;
