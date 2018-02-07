@@ -144,11 +144,11 @@ h3 {
 }
 .scroll {
     position: absolute;
-    bottom: 47px;
+    bottom: 67px;
     left: 398px;
 }
-.item-1 .social a:hover {
-
+.scroll {
+    animation: MoveUpDown 2s linear infinite;
 }
 .social-box {
     position: absolute;
@@ -162,6 +162,10 @@ h3 {
 .fa{
     color: white;
     font-size: 16px;
+}
+.fa-arrow-circle-o-down {
+    font-size: 30px;
+    color: #eeeeee;
 }
 .fa-facebook-square {
     color: white;
@@ -621,4 +625,30 @@ label#label{
 }
 .close-thik:after {
     content: '✖';
+}
+@keyframes MoveUpDown {
+    15% {
+        -webkit-transform: translateY(9px);
+        transform: translateY(9px);
+    }
+    30% {
+        -webkit-transform: translateY(-9px);
+        transform: translateY(-9px);
+    }
+    40% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+    50% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    65% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
 }
