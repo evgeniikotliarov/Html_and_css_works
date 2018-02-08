@@ -350,7 +350,6 @@ h6 {
     font-size: 50px;
     color: #fff;
     padding-top: 70px;
-
 }
 .prices-text-box {
     width: 65%;
@@ -362,6 +361,9 @@ h6 {
 }
 .text-small {
     display: block;
+}
+.card-block {
+
 }
 .block-with-link-form {
     padding-top: 15px;

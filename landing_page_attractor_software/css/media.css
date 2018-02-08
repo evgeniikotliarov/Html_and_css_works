@@ -155,6 +155,10 @@
     .last-gradle {
         padding-left: 22px;
     }
+    .card-group .card {
+        -ms-flex: 1 0 0;
+        flex: 1 0 35%;
+    }
 }
 @media only screen and (max-height:668px)  {
     .block-carousel {
