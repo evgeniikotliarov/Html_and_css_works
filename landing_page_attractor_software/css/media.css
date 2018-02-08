@@ -3,7 +3,8 @@
         max-width: 1280px;
     }
     .galactic{
-        right: -35rem;
+        bottom: -13rem;
+        right: -20rem;
     }
 }
 @media only screen and (max-width: 1199.98px) and (min-height: 600px) {
@@ -11,7 +12,8 @@
         max-width: 100%;
     }
     .galactic{
-        right: -40rem;
+        bottom: -7rem;
+        right: -30rem;
     }
     .order-the-projects {
         right: 22px;
@@ -26,7 +28,8 @@
 /*1100 640  @media only screen and (max-height: 600px)  480*/
 @media only screen and (max-width: 991.98px) and (min-height: 700px) {
     .galactic{
-        right: -45rem;
+        bottom: -2rem;
+        right: -35rem;
     }
     .logo {
         left: 30px;
@@ -52,7 +55,8 @@
 
 @media (max-width: 767.98px) {
     .galactic{
-        right: -50rem;
+        bottom: 0;
+        right: -40rem;
     }
     .midle-text-box {
         top: 111px;
