@@ -20,7 +20,7 @@ body, html {
 }
 .galactic{
     position: absolute;
-    bottom: -5rem;
+    bottom: -12rem;
     right: -27rem;
     -webkit-animation:spin 760s linear infinite;
     -moz-animation:spin 760s linear infinite;
@@ -140,15 +140,15 @@ h3 {
 }
 .scroll {
     position: absolute;
-    bottom: 67px;
-    left: 398px;
+    bottom: 15px;
+    left: 402px;
 }
 .scroll {
     animation: MoveUpDown 2s linear infinite;
 }
 .social-box {
     position: absolute;
-    bottom: 61px;
+    bottom: 11px;
     right: 76px;
 }
 .items {

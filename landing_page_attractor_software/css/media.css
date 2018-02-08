@@ -11,7 +11,7 @@
         max-width: 100%;
     }
     .galactic{
-        bottom: -7rem;
+        bottom: -15rem;
         right: -30rem;
     }
     .order-the-projects {
@@ -36,7 +36,7 @@
 /*1100 640  @media only screen and (max-height: 600px)  480*/
 @media only screen and (max-width: 991.98px) and (min-height: 700px) {
     .galactic{
-        bottom: -2rem;
+        bottom: -20rem;
         right: -35rem;
     }
     .logo {
@@ -63,7 +63,6 @@
 
 @media (max-width: 767.98px) {
     .galactic{
-        bottom: 0;
         right: -45rem;
     }
     .midle-text-box {
@@ -103,6 +102,9 @@
 }
 
 @media (max-width: 595.98px) {
+    .galactic{
+        right: -45rem;
+    }
     .carousel-indicators {
         top: 264px;
     }
