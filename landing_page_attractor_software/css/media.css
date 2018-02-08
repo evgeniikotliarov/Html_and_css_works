@@ -3,8 +3,7 @@
         max-width: 1280px;
     }
     .galactic{
-        bottom: -13rem;
-        right: -20rem;
+        right: -28rem;
     }
 }
 @media only screen and (max-width: 1199.98px) and (min-height: 600px) {
@@ -23,6 +22,15 @@
     }
     .box-navbar-order-link {
         padding-right: 22px;
+    }
+    .grade {
+        padding-bottom: 10px;
+    }
+    .grade-2 {
+        padding-left: 0;
+    }
+    .grade-3 {
+        padding-left: 0;
     }
 }
 /*1100 640  @media only screen and (max-height: 600px)  480*/
@@ -56,7 +64,7 @@
 @media (max-width: 767.98px) {
     .galactic{
         bottom: 0;
-        right: -40rem;
+        right: -45rem;
     }
     .midle-text-box {
         top: 111px;
@@ -94,7 +102,7 @@
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 595.98px) {
     .carousel-indicators {
         top: 264px;
     }
