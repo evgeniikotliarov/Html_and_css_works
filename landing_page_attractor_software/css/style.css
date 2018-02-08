@@ -23,8 +23,8 @@ body, html {
 }
 .galactic{
     position: absolute;
-    top: -36rem;
-    right: -27rem;
+    top: -34rem;
+    right: -34rem;
     -webkit-animation:spin 760s linear infinite;
     -moz-animation:spin 760s linear infinite;
     animation:spin 760s linear infinite;
@@ -85,7 +85,7 @@ h1 {
     text-align: center;
 }
 .block-carousel {
-    width: 45%;
+    width: 50%;
     min-height: 400px;
     position: absolute;
     top: 268px;

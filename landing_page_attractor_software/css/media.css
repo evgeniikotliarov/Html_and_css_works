@@ -8,8 +8,8 @@
     .galactic{
         width: 1400px;
         height: auto;
-        top: -32rem;
-        right: -23rem;
+        top: -30rem;
+        right: -32rem;
     }
     .logo {
         left: 30px;
@@ -27,7 +27,7 @@
         font-size: 1.3em;
     }
     .carousel-indicators {
-        top: 244px;
+        top: 284px;
     }
     .order-the-projects {
         right: 22px;
@@ -52,21 +52,35 @@
         padding-left: 0;
     }
 }
+@media only screen and (max-width: 1117.98px){
+    .grade {
+        width: 50%;
+    }
+}
 /*1100 640  @media only screen and (max-height: 600px)  480*/
 @media only screen and (max-width: 991.98px){
     .galactic{
-        /*right: -35rem;*/
+        width: 1200px;
+        height: auto;
+        top: -26rem;
+        right: -27rem;
     }
     .midle-text-box {
         top: 70px;
         left: 238px;
     }
     .block-carousel {
-        width: 75%;
-        left:148px;
+        width: 70%;
+        left: 238px;
     }
-    .scroll {
-        left: 148px;
+    .carousel-header {
+        font-size: 2.3em;
+    }
+    .carousel-text {
+        font-size: 1.1em;
+    }
+    .carousel-indicators {
+        top: 244px;
     }
     .navbar-brand{
         padding-left: 30px;
@@ -75,28 +89,45 @@
         padding-left: 0;
     }
 }
+@media only screen and (max-width: 930.98px) {
+    .galactic {
+        width: 1175px;
+    }
+}
+@media only screen and (max-width: 881.98px) {
+    .galactic {
+        width: 1150px;
+    }
+    .block-carousel {
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 810.98px) {
+    .galactic {
+        width: 1125px;
+    }
+}
 
 @media only screen and (max-width: 767.98px){
     .galactic{
-        /*right: -45rem;*/
+        width: 1100px;
     }
     .midle-text-box {
         top: 111px;
         left: 30px;
     }
     .block-carousel {
-        width: 75%;
         top: 288px;
         left: 30px;
     }
     .carousel-header {
-        font-size: 2.2em;
+        font-size: 2.1em;
     }
     .carousel-text {
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .carousel-indicators {
-        top: 264px;
+        top: 284px;
     }
     .scroll {
         display: none;
@@ -114,20 +145,49 @@
     .box-navbar-order-link {
         display: none;
     }
+    .grade {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .companent-10 {
+        background-position: 0 -219px;
+    }
+    .last-gradle {
+        padding-left: 22px;
+    }
 }
-
+@media only screen and (max-height:668px)  {
+    .block-carousel {
+        top: 188px;
+    }
+}
+@media only screen and (max-width: 700.98px) {
+    .galactic {
+        width: 1075px;
+    }
+}
+@media only screen and (max-width: 640.98px) {
+    .galactic {
+        width: 1050px;
+    }
+}
 @media only screen and (max-width: 595.98px){
     .galactic{
-        /*right: -45rem;*/
+        width: 1025px;
     }
     .carousel-indicators {
-        top: 264px;
+        top: 244px;
+    }
+}
+@media only screen and (max-width: 541.98px) {
+    .galactic {
+        width: 1000px;
     }
 }
 @media only screen and (max-width: 479.98px){
-    .galactic{
-        /*right: -50rem;*/
-    }
+    /*.galactic{*/
+        /*!*right: -50rem;*!*/
+    /*}*/
     .order-the-projects {
         display: none;
     }
@@ -137,7 +197,6 @@
     .block-carousel {
         width: 91%;
         top: 288px;
-        left: 30px;
     }
     .carousel-indicators {
         top: 244px;
@@ -150,7 +209,7 @@
         margin: 0 auto;
     }
 }
-@media only screen and (max-width: 400.98px){
+@media only screen and (max-width: 420.98px){
     .order-the-projects {
         display: none;
     }
@@ -164,7 +223,6 @@
     .block-carousel {
         width: 91%;
         top: 188px;
-        left: 30px;
     }
     .carousel-indicators {
         top: 344px;
