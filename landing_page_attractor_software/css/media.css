@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 1280px) {
     .galactic-box{
         max-width: 1280px;
@@ -189,6 +190,9 @@
 @media only screen and (max-width: 541.98px) {
     .galactic {
         width: 1000px;
+    }
+    .carousel-indicators {
+        top: 314px;
     }
 }
 @media only screen and (max-width: 479.98px){
