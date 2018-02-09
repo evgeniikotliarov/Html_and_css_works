@@ -159,6 +159,9 @@
     .statistic-box {
         padding-left: 25%;
     }
+    .card-group {
+        flex-flow: column;
+    }
     .card-group .card {
         -ms-flex: 1 0 0;
         flex: 1 0 35%;
@@ -185,6 +188,9 @@
     }
     .carousel-indicators {
         top: 244px;
+    }
+    .card-group {
+        flex-flow: column;
     }
 }
 @media only screen and (max-width: 541.98px) {
