@@ -96,3 +96,39 @@ hr{
 .card-title span{
 	text-transform: lowercase;
 }
+.ghost{
+	color: transparent;
+}
+.card-text{
+	color: #4b3f55;
+	font-size: 12px;
+	padding: 20px 0;
+}
+a:hover{
+	text-decoration: none;
+}
+.card img{
+	margin: 0 auto;
+}
+.social{
+	width: 100%;
+}
+.fa{
+	color: #fff;
+	font-size: 20px;
+}
+.facebook{
+	background: #3b5998;
+}
+.google{
+	background: #d14333;
+}
+.dribble{
+	background: #ea4c88;
+}
+.twitter{
+	background: #00aced;
+}
+.you-tube{
+	background: #c70c0c;
+}
