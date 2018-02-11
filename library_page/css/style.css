@@ -1,0 +1,33 @@
+.body{
+	font-family: "Istok", sans-serif;
+	color: #4b3f55;
+}
+.bg-violet{
+	background: #775BA3;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	border-color: #f8e1b4;
+}
+.navbar-brand{
+	margin-right: 5rem;
+}
+.user-link,
+.user-link:hover{
+	color: #fff;
+}
+.navbar-light .navbar-toggler{
+	border-color: #fff;
+	outline: none;
+}
+.navbar-icon{
+	color: #fff;
+	line-height: 1.2;
+}
