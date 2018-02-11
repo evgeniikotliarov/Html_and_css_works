@@ -132,3 +132,14 @@ a:hover{
 .you-tube{
 	background: #c70c0c;
 }
+.footer-text{
+	color: #fff;
+}
+.footer-link{
+	color: #fff;
+}
+footer{
+	background: #54865d;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.45) inset, 0 1px 3px 0 rgba(0, 0, 0, 0.1) inset;
+}
