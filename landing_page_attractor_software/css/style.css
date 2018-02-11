@@ -319,10 +319,6 @@ p {
 .pull-left {
     margin-right: 35px;
 }
-.standardts-and-technology-block {
-    border: solid 1px red;
-
-}
 .standarts {
     font-weight: bold;
     letter-spacing: 1px;
@@ -331,6 +327,12 @@ p {
 h6 {
     font-size: 26px;
     font-weight: bold;
+}
+.enginering-standarts {
+    display: none;
+}
+.methodology {
+    display: none;
 }
 .fa-check{
     font-size: 12px;
