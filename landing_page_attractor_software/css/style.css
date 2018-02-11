@@ -296,20 +296,14 @@ nav{
 }
 .grade {
     position: relative;
-}
-.grade-2{
-    padding-left: 25px;
-}
-.grade-3{
-    padding-left: 15px;
+    overflow: hidden;
+    width: 24%;
+    padding-bottom: 30px;
 }
 .statistic-content {
     display: inline-block;
     padding: 30px 10px 0 21px;
     margin-left: -5px;
-}
-.last-gradle {
-    padding: 30px 24px 0 8px;
 }
 .card {
     border: none;
@@ -324,6 +318,10 @@ p {
 }
 .pull-left {
     margin-right: 35px;
+}
+.standardts-and-technology-block {
+    border: solid 1px red;
+
 }
 .standarts {
     font-weight: bold;
@@ -362,6 +360,23 @@ h6 {
 }
 .text-small {
     display: block;
+}
+.companents{
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.companent{
+    position: relative;
+    overflow: hidden;
+    width: 24%;
+    padding-bottom: 30px;
 }
 .card-block {
 

@@ -18,7 +18,12 @@
     <script src="js/navbarSticky.js"></script>
     <script src="js/carouselExample.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113811640-1"></script>
-
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-113811640-1');
+    </script>
 </head>
 <body>
 
@@ -31,7 +36,7 @@
                 <img src="img/logotype.png" alt="#" width="200" height="auto">
             </div>
             <div class="midle-text-box">
-                <p class="midle-text">A high quality software development</p>
+                <p class="midle-text">A high quality software developers</p>
             </div>
 
             <div class="block-carousel">
@@ -96,7 +101,7 @@
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item" id="navigation">
-                        <a class="nav-link" href="#about">Prices</a>
+                        <a class="nav-link" href="#about">About us</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
@@ -137,14 +142,14 @@
                         <div class="grade grade-2">
                             <div class="mx-auto img-wrap companent-9 pull-left"></div>
                             <div class="statistic-content">
-                                <h2 class="card-title pl-2 m-0"><b>26</b></h2>
+                                <h2 class="card-title pl-0 m-0"><b>26</b></h2>
                                 <p class="card-text">team members</p>
                             </div>
                         </div>
                         <div class="grade grade-3">
                             <div class="mx-auto img-wrap companent-10 pull-left"></div>
                             <div class="statistic-content">
-                                <h2 class="card-title pl-1 m-0"><b>143</b></h2>
+                                <h2 class="card-title pl-0 m-0"><b>143</b></h2>
                                 <p class="card-text">years of experiens</p>
                             </div>
                         </div>
@@ -161,7 +166,7 @@
 
             <div class="standardts-and-technology-block">
                 <h2 class="standarts">Standarts and Technology</h2>
-                <div class="row">
+                <div class="row row-1">
                     <div class="col-sm-6 mb-4 pb-3">
                         <div class="card card-block">
                             <h6 class="card-title pb-2">Software Development Methodology</h6>
@@ -185,6 +190,8 @@
                             <img src="img/methodology-img.png" alt="#" width="95%" height="auto" class="mt-4 pt-2 pl-4">
                         </div>
                     </div>
+                </div>
+                <div class="row row-2">
                     <div class="col-sm-6 pb-0">
                         <div class="card card-block">
                             <img src="img/standarts-img.png" alt="#" width="95%" height="auto" class="mt-4 pt-2 pl-2" >
@@ -219,36 +226,6 @@
         </div>
 
         <div class="container">
-            <!--<div class="container-fluid">-->
-                <!--<div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="2000">-->
-                    <!--<div class="carousel-inner row w-100 mx-auto" role="listbox">-->
-                        <!--<div class="carousel-item col-md-2 active">-->
-                            <!--<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400/000/fff?text=1" alt="slide 1">-->
-                        <!--</div>-->
-                        <!--<div class="carousel-item col-md-2">-->
-                            <!--<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=2" alt="slide 2">-->
-                        <!--</div>-->
-                        <!--<div class="carousel-item col-md-2">-->
-                            <!--<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=3" alt="slide 3">-->
-                        <!--</div>-->
-                        <!--<div class="carousel-item col-md-2">-->
-                            <!--<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=4" alt="slide 4">-->
-                        <!--</div>-->
-                        <!--<div class="carousel-item col-md-2">-->
-                            <!--<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=5" alt="slide 5">-->
-                        <!--</div>-->
-                        <!---->
-                    <!--</div>-->
-                    <!--<a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">-->
-                        <!--<i class="fa fa-chevron-left fa-lg text-muted"></i>-->
-                        <!--<span class="sr-only">Previous</span>-->
-                    <!--</a>-->
-                    <!--<a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">-->
-                        <!--<i class="fa fa-chevron-right fa-lg text-muted"></i>-->
-                        <!--<span class="sr-only">Next</span>-->
-                    <!--</a>-->
-                <!--</div>-->
-            <!--</div>-->
             <div class="technology pb-4 mb-5" >
                 <div class="col">
                     <div class="card-group pt-2 mb-1 pb-1">
@@ -272,11 +249,9 @@
                                 <ul class="my-custom-ul">
                                     <li class="card-text my-custom-li technologies"><b>Django</b></li>
                                     <li class="card-text my-custom-li technologies"><b>ReactJS</b></li>
-                                    <li class="card-text my-custom-li technologies"><b>Android</b></li>
                                     <li class="card-text my-custom-li technologies"><b>Laravel</b></li>
                                     <li class="card-text my-custom-li technologies">Ruby on Rails</li>
                                     <li class="card-text my-custom-li technologies">Angular</li>
-                                    <li class="card-text my-custom-li technologies">iOS</li>
                                     <li class="card-text my-custom-li technologies">ASP.NET MVC</li>
                                     <li class="card-text my-custom-li technologies">Entity Framework</li>
                                     <li class="card-text my-custom-li technologies">Maven</li>
@@ -389,8 +364,8 @@
                 </div>
 
                 <div class="card-deck-wrapper mb-3 pb-4">
-                    <div class="card-group text-center ">
-                        <div class="card">
+                    <div class="text-center companents">
+                        <div class="companent">
                             <p class="card-text text-center text-price mb-3 pb-1"><b>Hourly Rate</b></p>
                             <div class="card-block">
                                 <div class="circle-background col mb-3">
@@ -399,7 +374,7 @@
                                 <p class="card-text text-price">20-40 $/h</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="companent">
                             <p class="card-text text-center text-price mb-3 pb-1"><b>Mounthly Rate</b></p>
                             <div class="card-block">
                                 <div class="circle-background col element-1 mx-auto mb-3">
@@ -408,7 +383,7 @@
                                 <p class="card-text text-price">1500-3000 $/mo</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="companent">
                             <p class="card-text text-center text-price mb-3 pb-1"><b>Team Rent</b></p>
                             <div class="card-block">
                                 <div class="circle-background col element-2 mx-auto mb-3">
@@ -419,7 +394,7 @@
                                     a project manager</small></p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="companent">
                             <p class="card-text text-center text-price mb-3 pb-1"><b>Fixed Price Project</b></p>
                             <div class="card-block">
                                 <div class="circle-background col mx-auto mb-3">
@@ -442,7 +417,7 @@
             <h1 class="portolio-title mt-4 pt-5 pb-4 mb-4">Portfolio</h1>
 
             <div class="portfolio-content">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide">
 
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
@@ -450,15 +425,15 @@
                                 <div class="col-6">
                                     <img class="card-img-top" src="img/heartbeat_big.png" alt="First slide">
                                     <div class="card-block m-1 p-2 mt-3 pt-3">
-                                        <h6 class="card-title">HertBeat</h6>
+                                        <h6 class="card-title">HeartBeat</h6>
                                         <p class="card-text">Project realized for emotions visualization, based on the analysis of text which
                                             we import to the software.</p>
                                     </div>
                                 </div>
-                                <div class="col col-sm">
+                                <div class="col col-md">
                                     <img class="card-img-top" src="img/central_asia.png" alt="First slide">
                                     <div class="card-block m-2 mt-3 pt-3 pr-4 pb-3 pl-2 ">
-                                        <h6 class="card-title">Baker Tilly Central Asia</h6>
+                                        <h6 class="card-title">CA Advisor Support App</h6>
                                         <p class="card-text pb-0 mb-0">Advisor support application for Android and iOS has a convenient and straightforward
                                             interface which allows users to use the following instruments with ease:</p>
                                         <ul class="my-custom-ul">
@@ -469,7 +444,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col col-sm">
+                                <div class="col col-md">
                                     <img class="card-img-top" src="img/wng_pic_2.png" alt="First slide">
                                     <div class="card-block m-2 mt-3 pt-3 pr-5 pb-3 pl-2 ">
                                         <h6 class="card-title">The World Nomad Games website</h6>
@@ -510,7 +485,7 @@
                                     </div>
                                 </div>
                                 <div class="col col-sm">
-                                    <img class="card-img-top" src="img/wng_pic_2.png" alt="Second slide">
+                                    <img class="card-img-top" src="img/stom.png" alt="Second slide">
                                     <div class="card-block m-2 mt-3 pt-3 pr-5 pb-3 pl-2 ">
                                         <h6 class="card-title">Stom.Kg</h6>
                                         <p class="card-text pb-2">CRM-system, which helps dentists work with their patients.The application was
@@ -541,7 +516,7 @@
                                 <div class="col col-sm">
                                     <img class="card-img-top" src="img/uniform.png" alt="Third slide">
                                     <div class="card-block m-2 mt-3 pt-3 pr-5 pb-3 pl-2 ">
-                                        <h6 class="card-title">uniForm</h6>
+                                        <h6 class="card-title">UniForm</h6>
                                         <p class="card-text">System for the Canadian Government which helps for data collection, reporting tool and
                                             visualization of them. This instrument will assist the government in capturing valid, reliable, complete,
                                             and timely data related to the performance of their social investments.</p>
@@ -577,7 +552,6 @@
             </div>
         </div>
     </footer>
-
 
 
 

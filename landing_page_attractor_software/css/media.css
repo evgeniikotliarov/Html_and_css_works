@@ -3,6 +3,9 @@
     .galactic-box{
         max-width: 1280px;
     }
+    .statistic-content {
+        padding: 30px 5px 0 10px;
+    }
 }
 
 @media only screen and (max-width: 1199.98px), screen and (max-height:590px) {
@@ -43,19 +46,21 @@
     .box-navbar-order-link {
         padding-right: 22px;
     }
-    .grade {
-        padding-bottom: 10px;
+    .map {
+        background: url(../img/map.svg) 90px -15px no-repeat;
+        width: 80%;
     }
-    .grade-2 {
-        padding-left: 0;
+    .statistic-box {
+        padding-left: 10%;
     }
-    .grade-3 {
-        padding-left: 0;
-    }
-}
-@media only screen and (max-width: 1117.98px){
     .grade {
         width: 50%;
+    }
+}
+@media only screen and (max-width: 1150.98px){
+    .map {
+        background: url(../img/map.svg) 60px -12px no-repeat;
+        width: 85%;
     }
 }
 /*1100 640  @media only screen and (max-height: 600px)  480*/
@@ -89,23 +94,74 @@
     .navbar-nav {
         padding-left: 0;
     }
+    .map {
+        background: url(../img/map.svg) 50px -10px no-repeat;
+        width: 80%;
+    }
+    .row-1 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .row-2 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .col-sm-6 {
+        -ms-flex: 0 0 55%;
+        flex: 0 0 55%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
 @media only screen and (max-width: 930.98px) {
     .galactic {
         width: 1175px;
+    }
+    .map {
+        background: url(../img/map.svg) 40px -10px no-repeat;
+        width: 85%;
+    }
+    .col-sm-6 {
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        /*max-width: 65%;*/
     }
 }
 @media only screen and (max-width: 881.98px) {
     .galactic {
         width: 1150px;
     }
+    .map {
+        background: url(../img/map.svg) 30px -10px no-repeat;
+        width: 90%;
+    }
     .block-carousel {
         width: 65%;
+    }
+    .col-sm-6 {
+        -ms-flex: 0 0 65%;
+        flex: 0 0 65%;
     }
 }
 @media only screen and (max-width: 810.98px) {
     .galactic {
         width: 1125px;
+    }
+    .map {
+        background: url(../img/map.svg) 20px -10px no-repeat;
+        width: 95%;
+    }
+    .col-sm-6 {
+        -ms-flex: 0 0 70%;
+        flex: 0 0 70%;
     }
 }
 
@@ -148,16 +204,50 @@
     }
     .grade {
         margin: 0 auto;
+        width: 35%;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .map {
+        background: url(../img/map.svg) 0 0 no-repeat;
         width: 100%;
     }
-    .companent-10 {
-        background-position: 0 -219px;
+    .statistic-content {
+        margin: 0 auto;
+        padding: 10px 10px 0 0;
     }
-    .last-gradle {
-        padding-left: 22px;
+    .statistic-content h2{
+        text-align: center;
+    }
+    .statistic-content p{
+        text-align: center;
+    }
+    .companent-8 {
+         width: 167px;
+         background-position: 20px 0;
+    }
+    .grade-1 .statistic-content {
+        padding-left: 20px;
+    }
+    .companent-9 {
+        width: 167px;
+        background-position: 8px -111px;
+    }
+    .companent-10 {
+        width: 150px;
+        background-position: 25px -219px;
+    }
+    .companent-11 {
+        background-position: 23px -330px;
+    }
+    .last-gradle h2 {
+        padding-top: 10px;
     }
     .statistic-box {
-        padding-left: 25%;
+        padding-top: 50px;
+        padding-left: 5px;
+        padding-bottom: 5px;
     }
     .card-group {
         flex-flow: column;
@@ -166,20 +256,46 @@
         -ms-flex: 1 0 0;
         flex: 1 0 35%;
     }
+    .prices-text-box {
+        width: 100%;
+    }
+    .companent {
+        width: 48%;
+        padding-bottom: 30px;
+    }
+    .text-small {
+        margin: 0 auto;
+        width: 230px;
+    }
+    .col-sm-6 {
+        max-width: 80%;
+    }
 }
 @media only screen and (max-height:668px)  {
     .block-carousel {
         top: 188px;
+    }
+    .col-sm-6 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
     }
 }
 @media only screen and (max-width: 700.98px) {
     .galactic {
         width: 1075px;
     }
+    .col-sm-6 {
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+    }
 }
 @media only screen and (max-width: 640.98px) {
     .galactic {
         width: 1050px;
+    }
+    .col-sm-6 {
+        -ms-flex: 0 0 90%;
+        flex: 0 0 90%;;
     }
 }
 @media only screen and (max-width: 595.98px){
@@ -189,8 +305,13 @@
     .carousel-indicators {
         top: 244px;
     }
-    .card-group {
-        flex-flow: column;
+    .card-group .card {
+        -ms-flex: 1 0 0;
+        flex: 1 0 24%;
+    }
+    .col-sm-6 {
+        -ms-flex: 0 0 95%;
+        flex: 0 0 95%;
     }
 }
 @media only screen and (max-width: 541.98px) {
@@ -200,11 +321,19 @@
     .carousel-indicators {
         top: 314px;
     }
+    .col-sm-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
 }
-@media only screen and (max-width: 479.98px){
-    /*.galactic{*/
-        /*!*right: -50rem;*!*/
-    /*}*/
+@media only screen and (max-width: 495.98px){
+    body, html {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-size: 2rem;
+    }
     .order-the-projects {
         display: none;
     }
@@ -218,15 +347,30 @@
     .carousel-indicators {
         top: 244px;
     }
-    .scroll {
-        display: none;
-    }
     .text-box {
-        width: 15rem;
+        width: 25rem;
         margin: 0 auto;
     }
-    .statistic-box {
-        padding-left: 22%;
+    .statistic-box{
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .group-prices {
+        flex-flow: row wrap;
+    }
+    .card-deck-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .card-group .card {
+        -ms-flex: 1 0 0;
+        flex: 1 0 24%;
     }
 }
 @media only screen and (max-width: 420.98px){
@@ -247,16 +391,11 @@
     .carousel-indicators {
         top: 344px;
     }
-    .scroll {
-        display: none;
-    }
     .text-box {
         width: 15rem;
         margin: 0 auto;
     }
-    .statistic-box {
-        padding-left: 15%;
-    }
+
 }
 
 
