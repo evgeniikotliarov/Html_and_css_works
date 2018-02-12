@@ -6,6 +6,18 @@
     .statistic-content {
         padding: 30px 5px 0 10px;
     }
+    .block-form {
+        width: 57vw;
+    }
+    .triangle-close {
+        border-width: 0 0 50px 57vw;
+    }
+    input {
+        width: 37vw;
+    }
+    textarea {
+        width: 52vw;
+    }
 }
 
 @media only screen and (max-width: 1199.98px), screen and (max-height:590px) {
@@ -16,7 +28,7 @@
         right: -32rem;
     }
     .logo {
-        left: 30px;
+        left: 22px;
     }
     .navbar-brand{
         padding-left: 30px;
@@ -35,6 +47,9 @@
     }
     .order-the-projects {
         right: 22px;
+    }
+    .navbar-order-the-projects {
+        margin-right: 22px;
     }
     .block-carousel {
         width: 55%;
@@ -129,6 +144,18 @@
         padding-bottom: 10px;
         margin-left: -24%;
     }
+    .block-form {
+        width: 52vw;
+    }
+    .triangle-close {
+        border-width: 0 0 50px 52vw;
+    }
+    input {
+        width: 32vw;
+    }
+    textarea {
+        width: 47vw;
+    }
 }
 @media only screen and (max-width: 930.98px) {
     .galactic {
@@ -174,6 +201,13 @@
     .col-sm-6 .card-block img {
         width: 130%;
         margin-left: -20%;
+    }
+    .navbar-brand{
+        float: left;
+        padding-left: 22px;
+    }
+    #color-logotype{
+        display: none;
     }
 }
 
@@ -304,8 +338,21 @@
         max-width: 100%;
         margin: 0 auto;
     }
-
+    .block-form {
+        width: 77vw;
+        padding-left: 1rem!important;
+    }
+    .triangle-close {
+        border-width: 0 0 50px 77vw;
+    }
+    input {
+        width: 57vw;
+    }
+    textarea {
+        width: 72vw;
+    }
 }
+
 @media only screen and (max-height:668px)  {
     .block-carousel {
         top: 188px;
@@ -413,6 +460,20 @@
     .card-title {
         font-size: 1.5rem;
     }
+    .block-form {
+        width: 77vw;
+    }
+    .triangle-close {
+        border-width: 0 0 50px 77vw;
+    }
+    input {
+        padding-left: 5px;
+        width: 57vw;
+    }
+    textarea {
+        width: 72vw;
+    }
+
 }
 @media only screen and (max-width: 420.98px){
     .order-the-projects {
@@ -436,9 +497,4 @@
         width: 15rem;
         margin: 0 auto;
     }
-
 }
-
-
-
-

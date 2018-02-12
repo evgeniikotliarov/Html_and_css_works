@@ -56,14 +56,28 @@ h1 {
     font-weight: bold;
 }
 .order-the-projects {
+    font-family: 'PT Sans', sans-serif;
     position: absolute;
     top: 60px;
     right: 76px;
     border: 2px #fff solid;
+    box-shadow: none;
     border-radius: 50px;
     background: #53ae50;
-    padding: 3px 10px;
+    padding: 10px;
     text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+button:focus {
+    outline: none;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
 }
 .order-text {
     text-transform: uppercase;
@@ -74,6 +88,7 @@ h1 {
     margin: 0;
 }
 .order-the-projects-with-list {
+    font-family: 'PT Sans', sans-serif;
     display: none;
     position: absolute;
     bottom:11px;
@@ -81,8 +96,13 @@ h1 {
     border: 2px #fff solid;
     border-radius: 50px;
     background: #53ae50;
-    padding: 3px 10px;
+    padding: 8px 16px;
     text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
 }
 .block-carousel {
     width: 50%;
@@ -242,16 +262,19 @@ nav{
     color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
 }
-.box-navbar-order-link{
-    float: right;
-    padding-right: 76px;
-}
-.btn-order-the-projects {
+.navbar-order-the-projects {
+    font-family: 'PT Sans', sans-serif;
     border-radius: 50px;
     border: 2px solid #fff;
-    background: #53ae50;
-    padding: 4px 10px;
     text-align: center;
+    background: #53ae50;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 76px;
 }
 .btn-order-the-projects-with-list {
     display: none;
@@ -552,10 +575,20 @@ h6 {
     border: 2px solid black;
     margin: 0 11px;
 }
+
 .block-form {
-    width: 700px;
+    width: 40vw;
     background-color: #f3f8fc;
     margin: 0 auto;
+}
+.triangle-close {
+    margin: 0 auto;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 40vw;
+    border-color: transparent transparent #f3f8fc transparent;
 }
 .form-group {
     margin-bottom: .6rem;
@@ -566,7 +599,7 @@ input {
     padding: 10px;
     background-color: #e4e8eb;
     font-size: 15px;
-    width: 320px;
+    width: 20vw;
 }
 textarea {
     border: transparent;
@@ -574,8 +607,8 @@ textarea {
     padding: 10px;
     background-color: #e4e8eb;
     font-size: 15px;
-    width: 100%;
-    height: 90px;
+    width: 35vw;
+    height: 10vh;
     vertical-align: top;
 }
 
@@ -585,9 +618,17 @@ textarea {
 :focus:-ms-input-placeholder      {color: transparent}
 
 .btn-send {
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    text-align: center;
+    background: #53ae50;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
     padding: 11px 55px;
     border: none;
 }
@@ -604,15 +645,7 @@ label#label{
     color: #00b300;
     padding: 8px;
 }
-.triangle-close {
-    margin: 0 auto;
-    position: relative;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 50px 700px;
-    border-color: transparent transparent #f3f8fc transparent;
-}
+
 #form-img {
     margin-top:17px;
     margin-bottom: 20px;

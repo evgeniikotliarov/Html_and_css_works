@@ -67,27 +67,66 @@
                 </div>
 
             </div>
-            <div class="order-the-projects">
-                <p class="order-text">order the project</p>
-            </div>
-            <div class="order-the-projects-with-list">
-                <p class="order-text"><i class="fa fa-file-text p-1 "></i>order the project</p>
-            </div>
+            <button type="button" class="btn order-the-projects" data-toggle="modal" data-target="#exampleModal">order the project</button>
+            <button type="button" class="btn order-the-projects-with-list" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-file-text p-1"></i>order the project</button>
+
             <div class="social-box">
                 <div class="items"><a href="https://www.facebook.com/ITAttractor/" class="facebook text-center"><i class="fa fa-facebook-square social" aria-hidden="true"></i></a></div>
                 <div class="items"><a href="https://www.linkedin.com/company/attractor-software-llc/" class="google text-center"><i class="fa fa-linkedin social" aria-hidden="true"></i></a></div>
                 <div class="items"><a href="http://instagram.com/attractorsoftware" class="instagram text-center"><i class="fa fa-instagram social" aria-hidden="true"></i></a></div>
             </div>
+        </div>
 
+        <div class="container">
+            <div class="pt-5 modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="triangle-close pt-5">
+                        <div class="dialog">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="close-thik" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="block-form">
+                        <div class="d-flex align-items-left flex-column justify-content-center">
+                            <div id="form-img" class="mx-auto img-wrap companent-12"></div>
+                            <h6 class="card-title text-center">Order the project</h6>
+                            <p class="card-text text-center">What the next? You will send us an application and we will call you.</p>
+                            <div class="info-form pt-3">
+                                <form action="#" class="justify-content ml-4 mr-4">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Name">
+                                    </div>
+                                    <div class="form-group pb-1">
+                                        <input type="email" placeholder="Contact phone or e-mail">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea type="text" placeholder="Something about your project"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="file" id="input">
+                                        <label for="input" id="label"><i id="paperclip-icon" class="fa fa-paperclip" aria-hidden="true"></i>Add file</label>
+                                    </div>
+                                    <div id="block-send" class="text-center">
+                                        <button type="submit" class="btn-send" data-dismiss="modal">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+
+
+
 
     <div class="container-fluid">
         <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-start" data-toggle="sticky-onscroll">
             <a href="#" class="navbar-brand d-flex mr-auto"><img src="img/color_logo.png" alt="Logo"></a>
-            <div class="btn-order-the-projects-with-list">
-                <a class="navbar-brand p-0 m-0" href="#"><i class="fa fa-file-text p-1 "></i></a>
-            </div>
+            <button type="button" class="btn-order-the-projects-with-list" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-file-text p-1"></i></button>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3" aria-expanded="false">
                 <span><i class="fa fa-bars menu__icon menu__icon--open" aria-hidden="true"></i></span>
                 <span><i class="fa fa-close menu__icon menu__icon--close" aria-hidden="true"></i></span>
@@ -105,11 +144,7 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                    <div class="box-navbar-order-link">
-                        <div class="btn-order-the-projects">
-                            <a class="navbar-brand p-0 m-0" href="#"><p class="order-text">order the project</p></a>
-                        </div>
-                    </div>
+                    <button type="button" class="btn navbar-order-the-projects" data-toggle="modal" data-target="#exampleModal">order the project</button>
                 </ul>
             </div>
         </nav>
@@ -554,8 +589,6 @@
             </div>
         </div>
     </footer>
-
-
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
