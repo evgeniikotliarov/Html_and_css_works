@@ -1,0 +1,101 @@
+@media screen and (max-width: 700px) {
+
+    .block-links{
+        display: none;
+    }
+    .nav:hover .block-links{
+    z-index: 500;
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,0.9);
+    right: 0;
+    top:50px;
+    width: 30%;
+    padding: 0 20px;
+}
+    .nav-item__navigation{
+    display: block;
+    padding: 20px 0;
+}
+    .nav-link{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .before_header{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .after-tv-block{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-btn{
+        display: block;
+        width: 50px;
+        height: 50px;
+        background: rgba(0,0,0,0.7);
+        border: none;
+        position: absolute;
+        right: 0;
+        padding: 0;
+        top: 0;
+    }
+    .nav-btn i{
+        position: absolute;
+        width: 18px;
+        height: 2px;
+        background: #fff;
+        top: 50%;
+        left: 50%;
+        margin: -1px 0 0 -9px;
+    }
+    .nav-btn i::before,
+    .nav-btn i::after{
+        content: "";
+        width: 18px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+    }
+    .nav-btn i::before{
+        top:-6px;
+    }
+    .nav-btn i::after{
+        top: 6px;
+    }
+    .content__col{
+        width:100%;
+    }
+    .read-more{
+        margin: 0 auto;
+    }
+    .footer-header-text{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer-card{
+        width: 100%;
+        display: block;
+    }
+    .footer-card-right{
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    .social{
+        clear: both;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    .content__container{
+        display: block;
+    }
+}
