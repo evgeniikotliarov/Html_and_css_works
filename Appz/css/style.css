@@ -32,22 +32,19 @@ body {
     -webkit-text-size-adjust: none;
 }
 .container {
-    border: solid 1px red;
     width: 1550px;
     margin: 0 auto;
 }
 .content {
     width: 1080px;
     margin: 0 auto;
-    border: solid 1px green;
 }
 .first-screen {
     width: 100%;
-    border: solid 1px purple;
     background: url(../images/background_town.png) 0 0 no-repeat;
     background-size: cover;
 }
-.box{
+.box {
     display: flex;
     flex-direction: row;
     padding-top: 50px;
@@ -57,7 +54,7 @@ body {
     width: 49%;
     position: relative;
 }
-.phone-display{
+.phone-display {
     position: absolute;
     top: 67px;
     right: 115px;
@@ -77,6 +74,16 @@ body {
     color: white;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
+}
+.btn-download:hover {
+    background: #f4799e;
+    padding: 20px 50px;
+    color: #ffd;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.03);
 }
 .appz-text {
     font-size: 26px;
@@ -85,4 +92,32 @@ body {
 }
 .pd-down {
     padding: 0 0 40px 80px;
+}
+.second-screen {
+    border: solid 1px red;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px green;
+}
+.item {
+    width: 24%;
+    padding: 20px;
+    border: solid 1px purple;
+    margin: 0 auto;
+}
+.head-text {
+    font-size: 18px;
+    display: block;
+    border-bottom: solid 2px #f4429e;
+    padding-bottom: 10px;
+}
+.head-text span{
+    font-weight: bold;
+}
+.item-text {
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
