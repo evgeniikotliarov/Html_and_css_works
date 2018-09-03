@@ -96,7 +96,7 @@ body {
 .second-screen {
     border: solid 1px red;
     position: absolute;
-    bottom: 250px;
+    bottom: 225px;
     left: 0;
     right: 0;
 }
@@ -111,6 +111,14 @@ body {
     border: solid 1px purple;
     margin: 0 auto;
     background: #fff;
+}
+.item:hover{
+    width: 24%;
+    padding: 20px;
+    border: solid 1px purple;
+    margin: 0 auto;
+    background: #fff;
+    transform: scale(1.03);
 }
 .head-text {
     font-size: 18px;
