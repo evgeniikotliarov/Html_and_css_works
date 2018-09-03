@@ -95,6 +95,10 @@ body {
 }
 .second-screen {
     border: solid 1px red;
+    position: absolute;
+    bottom: 250px;
+    left: 0;
+    right: 0;
 }
 .items {
     display: flex;
@@ -106,6 +110,7 @@ body {
     padding: 20px;
     border: solid 1px purple;
     margin: 0 auto;
+    background: #fff;
 }
 .head-text {
     font-size: 18px;
