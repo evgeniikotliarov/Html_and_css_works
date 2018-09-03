@@ -31,3 +31,25 @@ body {
     min-width: 320px;
     -webkit-text-size-adjust: none;
 }
+.container {
+    border: solid 1px red;
+    width: 1550px;
+    margin: 0 auto;
+}
+.content {
+    width: 1280px;
+    margin: 0 auto;
+    border: solid 1px green;
+}
+.first-screen {
+    display: flex;
+    width: 100%;
+    border: solid 1px purple;
+}
+.hand {
+    width: 49%;
+}
+.appz {
+    width: 49%;
+    background-color: #f26c4f;
+}
