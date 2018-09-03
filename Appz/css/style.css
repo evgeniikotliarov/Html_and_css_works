@@ -37,19 +37,52 @@ body {
     margin: 0 auto;
 }
 .content {
-    width: 1280px;
+    width: 1080px;
     margin: 0 auto;
     border: solid 1px green;
 }
 .first-screen {
-    display: flex;
     width: 100%;
     border: solid 1px purple;
+    background: url(../images/background_town.png) 0 0 no-repeat;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
 }
 .hand {
+    padding-left: 50px;
     width: 49%;
+    position: relative;
+}
+.phone-display{
+    position: absolute;
+    top: 67px;
+    right: 115px;
 }
 .appz {
+    padding-top: 75px;
+    padding-left: 33px;
     width: 49%;
-    background-color: #f26c4f;
+}
+.logo {
+    padding-top: 20px;
+}
+.btn-download {
+    background: #f4429e;
+    padding: 20px 50px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.appz-text {
+    font-size: 26px;
+    color: white;
+    width: 95%;
+}
+.pd-down {
+    padding: 0 0 40px 80px;
 }
