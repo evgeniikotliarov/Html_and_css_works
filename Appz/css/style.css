@@ -168,3 +168,16 @@ body {
 .text-info .main-text span {
     font-weight: bold;
 }
+footer {
+    padding-bottom: 20px;
+}
+footer .content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text p{
+    font-size: 20px;
+}
+.footer-text span {
+    color: #f4429e;
+}
