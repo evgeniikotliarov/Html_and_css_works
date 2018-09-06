@@ -95,9 +95,26 @@ button {
     padding: 10px;
 }
 .fresh-screen {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 .fresh-box {
     border-left: solid 5px #45f442;
     padding-left: 20px;
+}
+.fresh-box h3 {
+    padding: 0;
+}
+.fresh-text {
+    font-size: 16px;
+    letter-spacing: normal;
+}
+.item-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid 1px blue;
+}
+.item {
+    border: solid 1px red;
+    width: 30%;
 }
