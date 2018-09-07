@@ -143,3 +143,31 @@ button {
     font-size: 20px;
     padding: 0 0 0 15px;
 }
+.after-fresh-box {
+    background-color: #c9c9c9;
+    margin-bottom: 150px;
+}
+.quotes {
+    display: inline-block;
+}
+.my-quotes {
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #45f442;
+    border-radius: 50%;
+}
+h4 {
+    display: inline-block;
+    font-size: 25px;
+    padding: 43px 10px;
+    width: 83%;
+    text-align: center;
+}
+.fa-quote-left {
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.fa-quote-right {
+    margin-left: 10px;
+}
