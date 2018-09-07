@@ -9,7 +9,6 @@ body{
 }
 .container {
     width: 980px;
-
     margin: 0 auto;
 }
 header {
@@ -63,7 +62,7 @@ h3 {
     font-size: 40px;
     padding-bottom: 18px;
 }
-.block-with-form p b {
+.bold-content-text {
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
@@ -111,10 +110,36 @@ button {
 .item-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    border: solid 1px blue;
+    justify-content: space-between;
+    padding-top: 55px;
 }
 .item {
-    border: solid 1px red;
-    width: 30%;
+    width: 31%;
+}
+.item img {
+    width: 100%;
+    border-radius: 5px;
+    border: solid 4px #eff2f7;
+}
+.after-image {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0 50px 10px;
+}
+.fa-chevron-circle-right {
+    font-size: 35px;
+    color: #45f442;
+    padding-right: 10px;
+}
+.button-center {
+    text-align: center;
+    padding-bottom: 150px;
+}
+.btn-center {
+    padding: 12px 15px 12px 15px;
+}
+.fa-angle-right {
+    font-size: 20px;
+    padding: 0 0 0 15px;
 }
