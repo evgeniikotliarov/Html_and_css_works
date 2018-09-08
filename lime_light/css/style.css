@@ -244,10 +244,13 @@ h6 {
 #pb {
     padding-bottom: 18px; !important;
 }
-.content-box {
-    width: 90%;
-    color: #ffffff;
+.text-box {
+    padding-left: 25px;
 }
-.content-box .small-text {
-    padding-bottom: 10px;
+.fa-twitter {
+    float: left;
+}
+.content-box {
+    width: 80%;
+    color: #ffffff;
 }
