@@ -158,6 +158,7 @@ button {
     border-radius: 50%;
 }
 h4 {
+    font-family:  "PT Sans";
     display: inline-block;
     font-size: 25px;
     padding: 43px 10px;
@@ -172,5 +173,44 @@ h4 {
     margin-left: 10px;
 }
 .news-screen {
-    padding-top: 150px;
+    padding-top: 70px;
+}
+.for-image {
+    display: inline-block;
+    padding-right: 10px;
+    width: 28%;
+}
+.for-content {
+    vertical-align: top;
+    width: 70%;
+    display: inline-block;
+}
+h5 {
+    font-size: 27px;
+}
+.small-text {
+    font-size: 14px;
+    opacity: .5;
+    padding: 5px 0 35px 0;
+}
+.fa-circle {
+    vertical-align: middle;
+    font-size: 5px;
+    color: #45f442;
+    padding: 0 10px;
+}
+.for-content .fresh-text .fa-chevron-right {
+    color: #000000;
+    background-color: transparent;
+    border: solid 2px #000;
+    border-radius: 50%;
+    padding: 2px 5px;
+    margin-right: 10px;
+}
+.for-content .fresh-text {
+    padding-bottom: 20px;
+}
+.for-content .fresh-text a{
+    text-decoration: none;
+    color: #000;
 }
