@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    font-family: 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     font-size: 18px;
@@ -37,6 +37,28 @@ body {
     padding: 20px;
     min-width: 300px;
     max-width: 1320px;
+}
+.container-fluid {
+    padding: 20px;
+}
+.h1 {}
+.h2 {}
+.h3 {}
+.h4 {}
+.h5 {}
+
+.btn {
+    color: #fff;
+    display: inline-block;
+    border: solid 2px #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: bold;
+    background: #53ae50;
+    padding: 0 18px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 600px) {}
