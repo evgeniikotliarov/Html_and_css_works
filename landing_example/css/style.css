@@ -38,9 +38,7 @@ body {
     min-width: 300px;
     max-width: 1320px;
 }
-.container-fluid {
-    padding: 20px;
-}
+
 .h1 {}
 .h2 {}
 .h3 {}
@@ -96,7 +94,34 @@ body {
     font-size: 20px;
     line-height: 1.5;
 }
+.first-screen__contacts {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.social-buttons a {
+    display: inline-block;
+    color: #c9c9c9;
+    font-size: 18px;
+    margin: 20px 0 20px 20px;
+    opacity: .9;
+    transition: all .3s;
+}
+.social-buttons a:hover {
+    opacity: 1;
+    transform: scale(1.3);
+}
+.sticky-header {
+    display: none;
+}
 
+
+@media screen and (min-width: 300px) {}
 @media screen and (min-width: 600px) {}
 @media screen and (min-width: 900px) {}
 @media screen and (min-width: 1200px) {}
