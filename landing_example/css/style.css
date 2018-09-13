@@ -60,6 +60,42 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
+.first-screen {
+    background: #0d1d2a url("../uploads/open_space_2.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+}
+.first-screen .description {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.first-screen__header {
+    padding: 10px 0;
+}
+.first-screen__header .btn-primary {
+    display: none;
+}
+.first-screen__contacts {}
+.main-screen__slider {
+    margin: 60px 0 80px;
+}
+.presentation {
+    margin: 0;
+}
+.presentation__slide {
+    margin-bottom: 60px;
+}
+.presentation__title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.presentation__text {
+    font-size: 20px;
+    line-height: 1.5;
+}
 
 @media screen and (min-width: 600px) {}
 @media screen and (min-width: 900px) {}
