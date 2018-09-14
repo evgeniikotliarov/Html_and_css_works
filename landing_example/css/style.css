@@ -66,7 +66,17 @@ body {
     background: #0d1d2a url("../uploads/open_space_2.jpg") center center no-repeat;
     background-size: cover;
     color: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
     padding: 50px 20px;
+}
+.first-screen__galaxy {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    animation: spin 100s linear infinite;
+    z-index:-1;
 }
 .first-screen .description {
     font-size: 20px;
@@ -155,6 +165,10 @@ body {
 }
 .sticky-header {
     display: none;
+}
+@keyframes spin {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
 }
 /*First screen media*/
 @media screen and (min-width: 900px) {
