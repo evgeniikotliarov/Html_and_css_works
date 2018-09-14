@@ -297,4 +297,34 @@ body {
     display: none;
 }
 
+@media screen and (min-width: 900px) {
+    .sticky-header .btn-round {
+        display: none;
+    }
+    .sticky-header .btn-attach {
+        display: inline-block;
+    }
+    .sticky-header .menu {
+        position: static;
+        margin-right: auto;
+    }
+    .sticky-header .menu a {
+        display: inline-block;
+        padding: 0 10px;
+        text-decoration: underline;
+        border-bottom: none;
+    }
+    .sticky-header .menu a:hover,
+    .sticky-header .menu a:active {
+        background: transparent;
+        text-decoration: none;
+        color: #91a3b4;
+    }
+    .sticky-header .menu-toggle {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 300px) {}
 @media screen and (min-width: 1200px) {}
