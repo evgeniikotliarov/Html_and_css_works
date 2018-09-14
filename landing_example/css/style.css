@@ -171,9 +171,18 @@ body {
     to {transform: rotate(360deg)}
 }
 /*First screen media*/
+@media screen and (min-width: 600px) {
+    .first-screen__galaxy {
+        left: 10%;
+    }
+}
 @media screen and (min-width: 900px) {
     .first-screen {
         padding: 50px 70px;
+    }
+    .first-screen__galaxy {
+        left: auto;
+        right: -30%;
     }
     .main-screen__slider {
         margin-left: 250px;
