@@ -58,6 +58,10 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
+.btn svg {
+    font-size: 18px;
+    margin-right: 5px;
+}
 .first-screen {
     background: #0d1d2a url("../uploads/open_space_2.jpg") center center no-repeat;
     background-size: cover;
@@ -71,17 +75,23 @@ body {
 }
 .first-screen__header {
     padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.first-screen__header .btn-primary {
+.first-screen__header .logo {
+    min-width: 250px;
+    display: inline-block;
+}
+.first-screen__header .btn {
     display: none;
 }
-.first-screen__contacts {}
 .main-screen__slider {
-    margin: 60px 0 80px;
+    margin: 60px 0 80px 0;
 }
 .presentation {
     margin: 0;
-    /*border: solid 2px red;*/
+    max-width: 600px;
 }
 .presentation__slide {
     margin-bottom: 60px;
@@ -146,7 +156,25 @@ body {
 .sticky-header {
     display: none;
 }
-
+/*First screen media*/
+@media screen and (min-width: 900px) {
+    .first-screen {
+        padding: 50px 70px;
+    }
+    .main-screen__slider {
+        margin-left: 250px;
+    }
+    .first-screen__header .btn {
+        display: block;
+        margin-left: auto;
+    }
+    .first-screen__contacts .btn {
+        display: none;
+    }
+    .first-screen__contacts .social-buttons {
+        margin-left: auto;
+    }
+}
 
 @media screen and (min-width: 300px) {}
 @media screen and (min-width: 600px) {}
