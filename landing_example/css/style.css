@@ -75,7 +75,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 50px;
-    animation: spin 100s linear infinite;
+    animation: spin 200s linear infinite;
     z-index:-1;
 }
 .first-screen .description {
@@ -198,6 +198,26 @@ body {
         margin-left: auto;
     }
 }
+@media screen and (min-width: 900px) and (orientation: landscape){
+    .first-screen {
+        min-height: 100vh;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .main-screen__slider {
+        margin-bottom: 100px;
+    }
+    .first-screen__contacts {
+        position: absolute;
+        width: 100%;
+        box-sizing: border-box;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        padding-right: 70px;
+    }
+}
+
 
 @media screen and (min-width: 300px) {}
 @media screen and (min-width: 600px) {}
