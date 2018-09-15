@@ -297,6 +297,10 @@ body {
 .sticky-header .btn-attach {
     display: none;
 }
+/* Brief company description  */
+.company-brief {
+    background: url(../images/map.svg) center top/100% auto no-repeat ;
+}
 
 @media screen and (min-width: 900px) {
     .sticky-header .logo {
