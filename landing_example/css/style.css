@@ -358,7 +358,23 @@ body {
         display: none;
     }
 }
-
-
-@media screen and (min-width: 300px) {}
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    .company-brief {
+        background-position: right top;
+        background-size: 55% auto;
+    }
+    .company-summary {
+        padding-top: 120px;
+        padding-bottom: 100px;
+        max-width: 550px;
+        text-align: left;
+    }
+    .company-statistics__item {
+        display: flex;
+        text-align: left;
+        align-items: flex-end;
+    }
+    .company-statistics__image {
+        margin-right: 20px;
+    }
+}
