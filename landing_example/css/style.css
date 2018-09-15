@@ -301,6 +301,32 @@ body {
 .company-brief {
     background: url(../images/map.svg) center top/100% auto no-repeat ;
 }
+.company-summary {
+    padding-top: 25%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.company-summary p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+.company-statistics {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.company-statistics__item {
+    min-width: 150px;
+    margin-bottom: 33px;
+}
+.company-statistics__number {
+    font-weight: bold;
+    margin: 11px 0 3px;
+    font-size: 21px;
+}
+.company-statistics__text {}
+
 
 @media screen and (min-width: 900px) {
     .sticky-header .logo {
