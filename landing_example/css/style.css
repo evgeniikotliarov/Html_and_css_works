@@ -147,13 +147,15 @@ ul.list li:before {
     font-size: 20px;
     line-height: 1.5;
 }
-.dots {
+.dots,
+.dots-dark{
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.dots li {
+.dots li,
+.dots-dark li{
     color: transparent;
     margin-right: 20px;
     font-size: 0;
@@ -165,12 +167,18 @@ ul.list li:before {
     background: transparent;
     transition: all .3s;
 }
-.dots .slick-active {
+.dots-dark li {
+    border-color: #000;
+}
+
+.dots .slick-active,
+.dots-dark .slick-active {
     border-color: #53ae50;
     background: #53ae50;
     transform: scale(1.4);
 }
-.dots button {
+.dots button,
+.dots-dark button {
     display: none;
 }
 .first-screen__contacts {
