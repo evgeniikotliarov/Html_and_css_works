@@ -474,6 +474,19 @@ ul.list li:before {
 .icon-gift {
     background-image: url(../images/icon-outline-gift.svg);
 }
+.btn-outline {
+    display: inline;
+    padding: 10px 17px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 25px;
+}
+@media screen and (min-width: 900px) {
+    .price-block {
+        flex-basis: 25%;
+    }
 
 @media screen and (min-width: 900px) {
     .sticky-header .logo {
