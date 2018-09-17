@@ -387,7 +387,30 @@ ul.list li:before {
     font-weight: bold;
     margin-bottom: 0;
 }
-
+.services {
+    text-align: center;
+}
+.services_wrap {
+    margin: 0 -40px;
+}
+.services_block {
+    text-align: center;
+    padding: 40px;
+}
+.services_block:nth-child(2n+1) {
+    background: #eee;
+}
+.services_block_title {
+    margin: 20px 0;
+}
+@media screen and (min-width: 600px) {
+    .services_wrap {
+        display: flex;
+    }
+    .services_block {
+        flex-basis: 33.3%;
+    }
+}
 
 @media screen and (min-width: 900px) {
     .sticky-header .logo {

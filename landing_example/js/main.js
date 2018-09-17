@@ -14,7 +14,7 @@ $(document).ready(function(){
     dots: true,
     dotsClass: 'dots-dark',
     mobileFirst: true,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll:1
   });
   // mobile menu
