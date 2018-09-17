@@ -14,8 +14,32 @@ $(document).ready(function(){
     dots: true,
     dotsClass: 'dots-dark',
     mobileFirst: true,
-    slidesToShow: 3,
-    slidesToScroll:1
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          dots: false
+        }
+      }
+    ]
   });
   // mobile menu
   // make sure mobile menu is hidden on first appearance on mobile screens
