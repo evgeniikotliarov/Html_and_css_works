@@ -398,6 +398,7 @@ ul.list li:before {
 }
 .services {
     text-align: center;
+    margin-bottom: 60px;
 }
 .services_title {
     margin-bottom: 32px;
@@ -415,8 +416,6 @@ ul.list li:before {
 .services_block_title {
     margin: 15px 0;
 }
-
-
 @media screen and (min-width: 600px) {
     .services_wrap {
         display: flex;
@@ -425,6 +424,57 @@ ul.list li:before {
         flex-basis: 33.3%;
     }
 }
+.prices {
+    background: #14202b;
+    color: #fff;
+    padding: 30px 0 5px;
+}
+.prices_title {
+    margin-bottom: 25px;
+}
+.prices .description {
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.prices-wrap {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 31px;
+    padding-bottom: 33px;
+}
+.price-block {
+    flex-basis: 50%;
+    padding: 20px;
+    max-width: 300px;
+    min-width: 200px;
+    margin-bottom: 14px;
+}
+.price-title {
+    font-weight: bold;
+}
+.price-icon {
+    background: rgba(3, 17, 29, 0.3) no-repeat center center;
+    max-width: 100px;
+    min-width: 100px;
+    height: 100px;
+    margin: 26px auto 13px;
+    border-radius: 50%;
+}
+.icon-employee {
+    background-image: url(../images/icon-outline-employee.svg);
+}
+.icon-mail {
+    background-image: url(../images/icon-outline-deadline.svg);
+}
+.icon-team {
+    background-image: url(../images/icon-outline-team.svg);
+}
+.icon-gift {
+    background-image: url(../images/icon-outline-gift.svg);
+}
+
 @media screen and (min-width: 900px) {
     .sticky-header .logo {
         width: 250px;
