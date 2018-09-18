@@ -486,11 +486,15 @@ ul.list li:before {
 .portfolio {
     padding: 50px 0;
 }
-.portfolio-slider {}
+.portfolio-slider {
+    margin: 0 -20px 30px;
+}
 .portfolio_title {
     margin-bottom: 30px;
 }
-.portfolio .dots-dark {}
+.portfolio .dots-dark {
+    justify-content: center;
+}
 .portfolio-project {
     padding-bottom: 40px;
 }
