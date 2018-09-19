@@ -29,9 +29,14 @@ body {
     font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
     min-width: 320px;
     -webkit-text-size-adjust: none;
+}
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
 }
 
 .container {
@@ -59,7 +64,7 @@ body {
 
 .h4 {
     font-weight: bold;
-    font-size: 16px
+    font-size: 18px
 }
 
 .h5 {
@@ -266,7 +271,7 @@ ul.list li:before {
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
     .first-screen {
         padding: 50px 70px;
     }
@@ -292,9 +297,12 @@ ul.list li:before {
     .first-screen__contacts .social-buttons {
         margin-left: auto;
     }
+    .sticky-header .btn {
+        margin-right: 40px;
+    }
 }
 
-@media screen and (min-width: 900px) and (orientation: landscape) {
+@media screen and (min-width: 1000px) and (orientation: landscape) {
     .first-screen {
         min-height: 100vh;
         box-sizing: border-box;
@@ -489,7 +497,6 @@ ul.list li:before {
 }
 
 .technology-block .list li {
-    font-weight: bold;
     margin-bottom: 0;
 }
 
