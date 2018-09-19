@@ -49,6 +49,7 @@ $(document).ready(function () {
     autoplay: false,
     arrows: false,
     dots: true,
+    variableWidth: true,
     slidesToShow: 4,
     slidesToScroll: 2,
     dotsClass: 'dots-dark',
@@ -56,13 +57,15 @@ $(document).ready(function () {
       {
         breakpoint: 900,
         settings: {
-          slidesToShow: 3
+          slidesToShow: 3,
+          slidesToScroll: 2
         }
       },
       {
         breakpoint: 700,
         settings:  {
-          slidesToShow: 2
+          slidesToShow: 2,
+          slidesToScroll: 1
         }
       },
 

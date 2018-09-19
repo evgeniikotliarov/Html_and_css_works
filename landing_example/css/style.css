@@ -497,6 +497,7 @@ ul.list li:before {
 }
 .portfolio-project {
     padding-bottom: 40px;
+    width: 50vw;
 }
 .portfolio-project img {
     display: block;
@@ -504,8 +505,25 @@ ul.list li:before {
     height: auto;
     margin-bottom: 20px;
 }
-.portfolio-project_title {}
-.portfolio-project_text {}
+.portfolio-project_title {
+    padding: 0 20px;
+}
+.portfolio-project_text {
+    padding: 0 20px
+}
+@media screen and (min-width: 600px) {
+    .portfolio-project {
+        width: 50vw;
+    }
+}
+@media screen and (min-width: 900px) {
+    .portfolio-project {
+        width: 25vw;
+    }
+    .portfolio-project-large {
+        width: 50vw;
+    }
+}
 
 @media screen and (min-width: 900px) {
     .price-block {
