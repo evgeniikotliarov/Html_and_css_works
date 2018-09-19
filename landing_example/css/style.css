@@ -763,12 +763,13 @@ ul.list li:before {
 }
 .footer-content {
     display: flex;
+    flex-wrap: wrap;
     line-height: 30px;
     align-items: flex-start;
     justify-content: space-between;
 }
 .footer-social {
-    margin-left: auto;
+    margin-right: auto;
 }
 .footer-copyright {
     color: #91a3b4;
