@@ -500,7 +500,7 @@ ul.list li:before {
 }
 .portfolio-project img {
     display: block;
-    width: 350px;
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
