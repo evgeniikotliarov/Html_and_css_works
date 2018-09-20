@@ -83,7 +83,7 @@ $(document).ready(function () {
   var myLanding = {
     mobileMenu: $('.menu'),
     toggleButton: $('.menu-toggle'),
-    mobileMenuBreakpoint: 900
+    mobileMenuBreakpoint: 1000
   };
   myLanding.hideMenu = function (e) {
     myLanding.mobileMenu.hide();
@@ -115,4 +115,11 @@ $(document).ready(function () {
   $(window).resize(function (e) {
     myLanding.toggleMenuOnWindowResize();
   });
+  $(document).click(function (e) {
+    var targetIsMenuOrButton = $(e.target).closest('.menu').length || !$(e.target).closest('.menu-toggle').length;
+    if (targetIsMenuOrButton){
+      myLanding.hideMenu();
+      myLanding.toggleButton.removeClass('open');
+    }
+  })
 });
