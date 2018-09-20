@@ -451,6 +451,40 @@ ul.list li:before {
 .company-statistics__text {
 }
 
+@media screen and (min-width: 600px) {
+    .company-statistics__item {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .company-brief {
+        background-position: right top;
+        background-size: 55% auto;
+    }
+
+    .company-summary {
+        padding-top: 120px;
+        padding-bottom: 100px;
+        max-width: 550px;
+        text-align: left;
+    }
+
+    .company-statistics {
+        flex-wrap: nowrap;
+    }
+
+    .company-statistics__item {
+        display: flex;
+        text-align: left;
+        align-items: flex-end;
+    }
+
+    .company-statistics__image {
+        margin-right: 20px;
+    }
+}
+
 .company-standards {
 }
 
@@ -724,30 +758,6 @@ ul.list li:before {
 
     .sticky-header .menu-toggle {
         display: none;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .company-brief {
-        background-position: right top;
-        background-size: 55% auto;
-    }
-
-    .company-summary {
-        padding-top: 120px;
-        padding-bottom: 100px;
-        max-width: 550px;
-        text-align: left;
-    }
-
-    .company-statistics__item {
-        display: flex;
-        text-align: left;
-        align-items: flex-end;
-    }
-
-    .company-statistics__image {
-        margin-right: 20px;
     }
 }
 
