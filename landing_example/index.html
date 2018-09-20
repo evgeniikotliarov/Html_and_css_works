@@ -27,7 +27,7 @@
             <img src="images/grav-logo.png" alt="Grav logo" width="190" height="auto">
         </a>
         <h5 class="description">Text here</h5>
-        <button class="btn">link on page</button>
+        <button class="btn" data-toggle="modal">link on page</button>
     </header>
     <div class="main-screen__slider">
         <div class="presentation">
@@ -52,7 +52,7 @@
         </div>
     </div>
     <div class="first-screen__contacts">
-        <a href="#" class="btn btn-attach">
+        <a href="#" class="btn btn-attach" data-toggle="modal">
             <i class="fas fa-file-alt"></i>
             <span class="btn-text">Button text here</span>
         </a>
@@ -73,10 +73,10 @@
             <a href="#portfolio">Portfolio</a>
             <a href="#prices">Prices</a>
         </nav>
-        <a href="#" class="btn btn-attach">
+        <a href="#" class="btn btn-attach" data-toggle="modal">
             text for button
         </a>
-        <a href="#" class="btn btn-round">
+        <a href="#" class="btn btn-round" data-toggle="modal">
             <i class="fa fa-file-alt"></i>
         </a>
         <button class="menu-toggle">
@@ -291,7 +291,7 @@
                     <p>Lorem ipsum dolor sit.</p>
                 </div>
             </div>
-            <p>Lorem <a href="#" class="btn-outline">ipsum dolor </a>sit amet, consectetur.</p>
+            <p>Lorem <a href="#" class="btn-outline" data-toggle="modal">ipsum dolor </a>sit amet, consectetur.</p>
         </div>
     </div>
     <div id="portfolio" class="container">
@@ -414,6 +414,13 @@
         </div>
     </div>
 </footer>
+<div class="modal">
+    <div class="modal-overlay" data-toggle="modal">
+        <div class="modal-content" data-toggle="modal">
+
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

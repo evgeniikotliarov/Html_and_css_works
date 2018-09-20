@@ -125,7 +125,7 @@ $(document).ready(function () {
 
   myLanding.stickyHeader = $('.sticky-header');
 
-  myLanding.toggleStickyMenu = function (e) {
+  myLanding.toggleStickyMenu = function () {
     var isScrollEnough = window.pageYOffset > (window.outerHeight - 10);
     if (isScrollEnough) {
       myLanding.stickyHeader.hide().addClass('sticked').show();
@@ -133,7 +133,7 @@ $(document).ready(function () {
       myLanding.stickyHeader.removeClass('sticked');
     }
   };
-  $(window).scroll(function (e) {
+  $(window).scroll(function () {
     myLanding.toggleStickyMenu()
   });
   myLanding.toggleStickyMenu()

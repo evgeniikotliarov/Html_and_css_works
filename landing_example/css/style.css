@@ -848,3 +848,25 @@ ul.list li:before {
 .footer-social .linkedin {
     color: #0077B5
 }
+
+.is-modal-open {
+    overflow-y: hidden;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url("../images/map.svg") center center no-repeat;
+    background-size: cover;
+    z-index: 10001;
+    overflow-y: scroll;
+}
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*background: transparent;*/
+}
