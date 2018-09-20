@@ -35,7 +35,7 @@ $(document).ready(function () {
       },
       {
         breakpoint: 900,
-        settings:  {
+        settings: {
           slidesToShow: 5,
           slidesToScroll: 1,
           dots: false
@@ -63,7 +63,7 @@ $(document).ready(function () {
       },
       {
         breakpoint: 700,
-        settings:  {
+        settings: {
           slidesToShow: 2,
           slidesToScroll: 1
         }
@@ -71,7 +71,7 @@ $(document).ready(function () {
 
       {
         breakpoint: 450,
-        settings:  {
+        settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
@@ -117,9 +117,25 @@ $(document).ready(function () {
   });
   $(document).click(function (e) {
     var targetIsMenuOrButton = $(e.target).closest('.menu').length || !$(e.target).closest('.menu-toggle').length;
-    if (targetIsMenuOrButton){
+    if (targetIsMenuOrButton && window.outerWidth < myLanding.mobileMenuBreakpoint) {
       myLanding.hideMenu();
       myLanding.toggleButton.removeClass('open');
     }
-  })
+  });
+
+  myLanding.stickyHeader = $('.sticky-header');
+
+  myLanding.toggleStickyMenu = function (e) {
+    var isScrollEnough = window.pageYOffset > (window.outerHeight - 10);
+    if (isScrollEnough) {
+      myLanding.stickyHeader.hide().addClass('sticked').show();
+    } else {
+      myLanding.stickyHeader.removeClass('sticked');
+    }
+  };
+  $(window).scroll(function (e) {
+    myLanding.toggleStickyMenu()
+  });
+  myLanding.toggleStickyMenu()
 });
+

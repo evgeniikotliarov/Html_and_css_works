@@ -33,6 +33,7 @@ body {
     min-width: 320px;
     -webkit-text-size-adjust: none;
 }
+
 @media screen and (min-width: 600px) {
     body {
         font-size: 18px;
@@ -297,6 +298,7 @@ ul.list li:before {
     .first-screen__contacts .social-buttons {
         margin-left: auto;
     }
+
     .sticky-header .btn {
         margin-right: 40px;
     }
@@ -332,13 +334,26 @@ ul.list li:before {
     }
 }
 
+.sticky-header-wrap {
+    position: relative;
+    min-height: 50px;
+}
+
 .sticky-header {
     background: #efefef;
     padding: 7px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.sticky-header.sticked {
+    position: fixed;
+    z-index: 1000;
 }
 
 .sticky-header .logo {
@@ -536,6 +551,7 @@ ul.list li:before {
         font-size: 50px;
         line-height: 1;
     }
+
     .company-statistics__text {
         font-size: 18px;
     }
@@ -784,19 +800,23 @@ ul.list li:before {
     border-top: solid 2px #ccc;
     padding: 20px 0;
 }
+
 .footer-contacts a {
     display: inline-block;
     margin-right: 30px;
     color: inherit;
 }
+
 .footer-contacts svg {
     color: #53ae50;
     margin-right: 8px;
 }
+
 .footer-contacts .phone {
     font-weight: bold;
     text-decoration: none;
 }
+
 .footer-content {
     display: flex;
     flex-wrap: wrap;
@@ -804,15 +824,27 @@ ul.list li:before {
     align-items: flex-start;
     justify-content: space-between;
 }
+
 .footer-social {
     margin-right: auto;
 }
+
 .footer-copyright {
     color: #91a3b4;
 }
+
 .footer-social a {
     margin-top: 0;
 }
-.footer-social .fb {color: #4267B2}
-.footer-social .insta {color: #E54557}
-.footer-social .linkedin { color: #0077B5 }
+
+.footer-social .fb {
+    color: #4267B2
+}
+
+.footer-social .insta {
+    color: #E54557
+}
+
+.footer-social .linkedin {
+    color: #0077B5
+}
