@@ -78,7 +78,7 @@ ul.list {
 
 ul.list li {
     position: relative;
-    padding-left: 25px;
+    padding-left: 20px;
     line-height: 1.6;
     margin-bottom: 10px;
 }
@@ -86,7 +86,7 @@ ul.list li {
 ul.list li:before {
     position: absolute;
     content: "";
-    background: url("../images/icon-tick.svg") center center/13px 10px no-repeat;
+    background: url("../images/icon-tick.svg") center center/11px 10px no-repeat;
     width: 16px;
     height: 10px;
     top: 7px;
@@ -414,6 +414,44 @@ ul.list li:before {
     display: none;
 }
 
+@media screen and (min-width: 900px) {
+    .sticky-header .logo {
+        width: 250px;
+    }
+
+    .sticky-header .btn-round {
+        display: none;
+    }
+
+    .sticky-header .btn-attach {
+        display: inline-block;
+    }
+
+    .sticky-header .menu {
+        position: static;
+        margin-right: auto;
+        margin-top: -4px;
+    }
+
+    .sticky-header .menu a {
+        display: inline-block;
+        padding: 0 10px;
+        text-decoration: underline;
+        border-bottom: none;
+    }
+
+    .sticky-header .menu a:hover,
+    .sticky-header .menu a:active {
+        background: transparent;
+        text-decoration: none;
+        color: #91a3b4;
+    }
+
+    .sticky-header .menu-toggle {
+        display: none;
+    }
+}
+
 /* Brief company description  */
 .company-brief {
     background: url(../images/map.svg) center top/100% auto no-repeat;
@@ -452,6 +490,11 @@ ul.list li:before {
 }
 
 @media screen and (min-width: 600px) {
+    .company-summary {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
     .company-statistics__item {
         flex-basis: 50%;
     }
@@ -460,14 +503,16 @@ ul.list li:before {
 @media screen and (min-width: 900px) {
     .company-brief {
         background-position: right top;
-        background-size: 55% auto;
+        background-size: 70% auto;
     }
 
     .company-summary {
         padding-top: 120px;
         padding-bottom: 100px;
-        max-width: 550px;
+        max-width: 500px;
         text-align: left;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .company-statistics {
@@ -478,10 +523,21 @@ ul.list li:before {
         display: flex;
         text-align: left;
         align-items: flex-end;
+        flex-basis: 25%;
+        box-sizing: border-box;
+        margin-left: 50px;
     }
 
     .company-statistics__image {
         margin-right: 20px;
+    }
+
+    .company-statistics__number {
+        font-size: 50px;
+        line-height: 1;
+    }
+    .company-statistics__text {
+        font-size: 18px;
     }
 }
 
@@ -721,43 +777,6 @@ ul.list li:before {
 @media screen and (min-width: 900px) {
     .price-block {
         flex-basis: 25%;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    .sticky-header .logo {
-        width: 250px;
-    }
-
-    .sticky-header .btn-round {
-        display: none;
-    }
-
-    .sticky-header .btn-attach {
-        display: inline-block;
-    }
-
-    .sticky-header .menu {
-        position: static;
-        margin-right: auto;
-    }
-
-    .sticky-header .menu a {
-        display: inline-block;
-        padding: 0 10px;
-        text-decoration: underline;
-        border-bottom: none;
-    }
-
-    .sticky-header .menu a:hover,
-    .sticky-header .menu a:active {
-        background: transparent;
-        text-decoration: none;
-        color: #91a3b4;
-    }
-
-    .sticky-header .menu-toggle {
-        display: none;
     }
 }
 
