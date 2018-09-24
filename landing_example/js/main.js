@@ -136,6 +136,17 @@ $(document).ready(function () {
   $(window).scroll(function () {
     myLanding.toggleStickyMenu()
   });
-  myLanding.toggleStickyMenu()
+  myLanding.toggleStickyMenu();
+
+  // Modal
+  myLanding.orderModal = $('.modal');
+  myLanding.modalToggle = $('[data-toggle="modal"]');
+  myLanding.modalToggle.click(function (e) {
+    e.preventDefault();
+    // if(myLanding.orderModal.is(':visible')){
+      myLanding.orderModal.fadeToggle();
+      $('body').toggleClass('is-modal-open');
+    // }
+  })
 });
 

@@ -859,7 +859,7 @@ ul.list li:before {
     bottom: 0;
     right: 0;
     left: 0;
-    background: url("../images/map.svg") center center no-repeat;
+    background: url("../uploads/open_space_2.jpg") center center no-repeat;
     background-size: cover;
     z-index: 10001;
     overflow-y: scroll;
@@ -868,5 +868,29 @@ ul.list li:before {
     width: 100%;
     height: 100%;
     position: absolute;
-    /*background: transparent;*/
+    background: transparent;
 }
+.modal-content {
+    max-width: 500px;
+    width: 100%;
+    min-width: 300px;
+    max-height: calc(100vh - 60px);
+    padding: 20px 30px;
+    background: #fff;
+    margin: 50px auto;
+    position: relative;
+}
+.modal-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    z-index: -1;
+    transform: skewY(-4deg);
+    transform-origin: left bottom;
+}
+
