@@ -87,6 +87,18 @@ ul.list li::before {
     padding: 0 18px;
     text-transform: uppercase;
     text-decoration: none;
+    transition: color .3s, transform .2s
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: #53ae50;
+}
+.btn-bordered:hover {
+    border-color: #53ae50;
+}
+.btn-primary:active {
+    outline: none;
+    transform: translateY(2px);
 }
 .btn svg {
     font-size: 18px;
