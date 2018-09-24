@@ -124,19 +124,33 @@ $(document).ready(function () {
   });
 
   myLanding.stickyHeader = $('.sticky-header');
+  myLanding.minHeightOnScroll = window.outerHeight - 10;
 
   myLanding.toggleStickyMenu = function () {
-    var isScrollEnough = window.pageYOffset > (window.outerHeight - 10);
+    var isScrollEnough = window.pageYOffset > myLanding.minHeightOnScroll;
     if (isScrollEnough) {
       myLanding.stickyHeader.hide().addClass('sticked').show();
     } else {
       myLanding.stickyHeader.removeClass('sticked');
     }
   };
+
+  myLanding.didScroll = false;
+  myLanding.toggleStickyHeader = function () {
+    myLanding.didScroll = true;
+    myLanding.toggleStickyMenu();
+  };
+
   $(window).scroll(function () {
     myLanding.toggleStickyMenu()
   });
-  myLanding.toggleStickyMenu();
+
+  // debounce scroll event
+  setInterval(function () {
+    if (myLanding.didScroll) {
+      myLanding.didScroll = true;
+    }
+  }, 100);
 
   // Modal
   myLanding.orderModal = $('.modal');
