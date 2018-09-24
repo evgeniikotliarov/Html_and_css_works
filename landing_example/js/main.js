@@ -143,10 +143,8 @@ $(document).ready(function () {
   myLanding.modalToggle = $('[data-toggle="modal"]');
   myLanding.modalToggle.click(function (e) {
     e.preventDefault();
-    // if(myLanding.orderModal.is(':visible')){
-      myLanding.orderModal.fadeToggle();
-      $('body').toggleClass('is-modal-open');
-    // }
+    myLanding.orderModal.fadeToggle();
+    $('body').toggleClass('is-modal-open');
   })
 });
 
