@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     font-family: 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     /*min-width: 320px;*/
     min-width: 480px;
 }
@@ -652,7 +652,7 @@ ul.list li::before {
     }
 }
 .prices {
-    background: #14202b;
+    background: #14202b url("../images/prices-bg.png") -300px 90% no-repeat;
     background-size: cover;
     color: #fff;
     padding: 30px 0 50px;
