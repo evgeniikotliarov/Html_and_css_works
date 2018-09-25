@@ -904,8 +904,17 @@ ul.list li::before {
     font-family: inherit;
     resize: none;
 }
+.input:active,
+.input:focus {
+    border-color: #53ae50;
+    outline: none;
+}
 input.input {
     max-width: 320px;
+}
+.input-file {
+    cursor: pointer;
+    padding-left: 10px;
 }
 .input-file input[type="file"] {
     display: none;
