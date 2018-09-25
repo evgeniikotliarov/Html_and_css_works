@@ -127,8 +127,8 @@ ul.list li::before {
 }
 .first-screen-galaxy {
     position: absolute;
-    top: -200px;
-    left: 0;
+    top: -700px;
+    left: -200px;
     -webkit-transform-origin: center center;
     transform-origin: center center;
     -webkit-animation: spin 760s linear infinite;
@@ -169,6 +169,7 @@ ul.list li::before {
     margin-bottom: 60px;
 }
 .presentation__title {
+    max-width: 370px;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -263,6 +264,9 @@ ul.list li::before {
 @media screen and (min-width: 600px) {
     .first-screen-galaxy {
         left: -50%;
+    }
+    .presentation__title {
+        max-width: 100%;
     }
 }
 @media screen and (min-width: 1000px) {
