@@ -444,16 +444,16 @@
                 <img src="images/monitor.svg" alt="#" width="120" height="auto">
                 <h2>Lorem ipsum dolor sit.</h2>
             </div>
-            <form class="modal-form">
-                <input type="text" class="input" placeholder="Name">
-                <input type="text" class="input" placeholder="Enter your contacts">
-                <textarea class="input" cols="30" rows="5" placeholder="Big text here"></textarea>
+            <form class="modal-form" id="request_project">
+                <input type="text" class="input" placeholder="Name" id="name">
+                <input type="text" class="input" placeholder="Enter your contacts" id="phone_or_email">
+                <textarea class="input" cols="30" rows="5" placeholder="Big text here" id="about_project"></textarea>
                 <label class="input-file">
-                    <span class="input-file-text">
+                    <span class="input-file_text">
                         <i class="fas fa-paperclip"></i>
                         <span>Add file</span>
                     </span>
-                    <input type="file">
+                    <input type="file" id="file_input">
                 </label>
                 <button class="btn btn-primary btn-bordered" type="submit">send</button>
             </form>
