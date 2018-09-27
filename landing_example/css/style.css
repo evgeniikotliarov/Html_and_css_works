@@ -685,7 +685,6 @@ ul.list li::before {
     padding-bottom: 33px;
 }
 .price-block {
-    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     padding: 20px;
     -webkit-box-sizing: border-box;
@@ -698,9 +697,7 @@ ul.list li::before {
     font-weight: bold;
 }
 .price-icon {
-    background-color: rgba(3, 17, 29, 0.3);
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: rgba(3, 17, 29, 0.3) no-repeat center center;
     max-width: 100px;
     min-width: 100px;
     height: 100px;
@@ -732,17 +729,19 @@ ul.list li::before {
     background-color: transparent;
 
 }
-@media screen and (min-width: 600px){}
 @media screen and (min-width: 900px){
     .price-block {
-        -ms-flex-preferred-size: 25%;
         flex-basis: 25%;
     }
     .prices .desktop-visible {
         display: inline;
     }
 }
-
+@media screen and (min-width: 1500px) {
+    .price {
+        background: #14202b url("../images/prices-bg.png") 300px 90% no-repeat;
+    }
+}
 .portfolio {
     padding: 50px 0;
 }
