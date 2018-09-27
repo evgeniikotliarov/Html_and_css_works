@@ -118,8 +118,10 @@ $(document).ready(function(){
   });
 
   $(document).click(function(e) {
+    // console.log("Closes modal");
+
     var targetIsMenuOrButton = $(e.target).closest('.menu').length || !$(e.target).closest('.menu-toggle').length;
-    if(targetIsMenuOrButton && window.outerWidth < myLanding.mobileMenuBreakpoint) {
+    if(targetIsMenuOrButton && window.innerWidth < myLanding.mobileMenuBreakpoint) {
       myLanding.hideMenu();
       myLanding.toggleButton.removeClass('open');
     }
