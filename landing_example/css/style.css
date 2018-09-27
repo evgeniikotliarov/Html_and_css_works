@@ -860,12 +860,16 @@ ul.list li::before {
     width: 100%;
     min-width: 300px;
     max-height: calc(100vh - 60px);
-    padding: 20px 30px;
-    background: #fff;
+    padding: 0 10px;
     margin: 50px auto;
     position: relative;
 }
-.modal-content::before {
+.modal-inner {
+    background: #fff;
+    padding: 20px 30px;
+    position: relative;
+}
+.modal-inner::before {
     display: block;
     content: "";
     position: absolute;
@@ -878,7 +882,7 @@ ul.list li::before {
     z-index: -1;
     box-shadow: 0 20px 100px rgba(0, 0, 0, 1);
 }
-.modal-content::after {
+.modal-inner::after {
     content: "";
     position: absolute;
     top: 0;

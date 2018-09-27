@@ -17,7 +17,9 @@
     <title>Landing</title>
 </head>
 <body>
-<div class="preloader" id="preloader"><div class="loader"></div></div>
+<div class="preloader" id="preloader">
+    <div class="loader"></div>
+</div>
 <div class="first-screen">
     <div class="first-screen__galaxy">
         <img src="uploads/galaxy-xl-min.png" alt="galaxy" width="1537" height="1600">
@@ -311,7 +313,9 @@
                     <p>Lorem ipsum dolor sit.</p>
                 </div>
             </div>
-            <p class="call-to-action"><span class="desktop-visible">Text</span><a href="#" class="btn btn-outline"  data-toggle="modal">Lorem ipsum dolor.</a>consectetur adipisicing elit. Aliquam debitis error</p>
+            <p class="call-to-action"><span class="desktop-visible">Text</span><a href="#" class="btn btn-outline"
+                                                                                  data-toggle="modal">Lorem ipsum
+                dolor.</a>consectetur adipisicing elit. Aliquam debitis error</p>
         </div>
     </div>
     <div id="portfolio" class="container">
@@ -437,27 +441,30 @@
 <div class="modal">
     <div class="modal-overlay" data-toggle="modal">
         <div class="modal-content" data-toggle="modal">
+            <div class="modal-inner">
             <span class="modal-close" data-toggle="modal">
                 <i class="fas fa-times"></i>
             </span>
-            <div class="modal-title">
-                <img src="images/monitor.svg" alt="#" width="120" height="auto">
-                <h2>Lorem ipsum dolor sit.</h2>
-            </div>
-            <form class="modal-form" id="request_project">
-                <input type="text" class="input" placeholder="Name" id="name">
-                <input type="text" class="input" placeholder="Enter your contacts" id="phone_or_email">
-                <textarea class="input" cols="30" rows="5" placeholder="Big text here" id="about_project"></textarea>
-                <label class="input-file">
+                <div class="modal-title">
+                    <img src="images/monitor.svg" alt="#" width="120" height="auto">
+                    <h2>Lorem ipsum dolor sit.</h2>
+                </div>
+                <form class="modal-form" id="request_project">
+                    <input type="text" class="input" placeholder="Name" id="name">
+                    <input type="text" class="input" placeholder="Enter your contacts" id="phone_or_email">
+                    <textarea class="input" cols="30" rows="5" placeholder="Big text here"
+                              id="about_project"></textarea>
+                    <label class="input-file">
                     <span class="input-file_text">
                         <i class="fas fa-paperclip"></i>
                         <span>Add file</span>
                         <span id="file-name"></span>
                     </span>
-                    <input type="file" id="file_input">
-                </label>
-                <button class="btn btn-primary btn-bordered" type="submit">send</button>
-            </form>
+                        <input type="file" id="file_input">
+                    </label>
+                    <button class="btn btn-primary btn-bordered" type="submit">send</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
