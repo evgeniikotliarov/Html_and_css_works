@@ -1,4 +1,13 @@
 $(document).ready(function(){
+  document.body.onload = function () {
+    setTimeout(function () {
+      var preloader = document.getElementById('preloader');
+      if(!preloader.classList.contains('done')) {
+        preloader.classList.add('done')
+      }
+    },1000)
+  };
+
   // Main screen slider
   $('.presentation').slick({
     autoplay: true,
@@ -75,10 +84,6 @@ $(document).ready(function(){
     ]
   });
 
-// $(window).on('orientationchange', function() {
-//   $('.js-slider').slick('resize');
-// });
-
   // mobile menu
   // make sure mobile menu is hidden on first appearance on mobile screens
   var myLanding = {
@@ -118,8 +123,6 @@ $(document).ready(function(){
   });
 
   $(document).click(function(e) {
-    // console.log("Closes modal");
-
     var targetIsMenuOrButton = $(e.target).closest('.menu').length || !$(e.target).closest('.menu-toggle').length;
     if(targetIsMenuOrButton && window.innerWidth < myLanding.mobileMenuBreakpoint) {
       myLanding.hideMenu();
