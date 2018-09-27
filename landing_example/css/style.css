@@ -14,9 +14,7 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
 }
@@ -88,7 +86,7 @@ ul.list li::before {
     padding: 0 18px;
     text-transform: uppercase;
     text-decoration: none;
-    transition: color .3s, transform .2s
+    transition: color .3s, transform .2s, -webkit-transform .2s;
 }
 .btn-primary:hover {
     background-color: #fff;
@@ -984,7 +982,7 @@ input.input {
     width: 50px;
     height: 50px;
     border: 5px solid #fff;
-    border-top-color: blueviolet;
+    border-top-color: #53ae50;
     border-radius: 50%;
     position: absolute;
     top: 50%;
