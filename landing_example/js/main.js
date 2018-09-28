@@ -159,6 +159,11 @@ $(document).ready(function(){
   myLanding.showFormSuccess = function () {
     $('.modal-title h2').html("Thank you!");
     $('#request_project').hide();
+    setTimeout(function(e){
+      $('.modal-title h2').html("Оrder one more project");
+      document.getElementById("request_project").reset();
+      $('#request_project').fadeIn(300);
+    }, 3000);
   };
   myLanding.showFormError = function () {
     $('.modal-title h2').html("Something went wrong!");
