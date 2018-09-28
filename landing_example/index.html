@@ -17,10 +17,10 @@
   document.body.onload = function () {
     setTimeout(function () {
       var preloader = document.getElementById('preloader');
-      if(!preloader.classList.contains('done')) {
+      if (!preloader.classList.contains('done')) {
         preloader.classList.add('done')
       }
-    },1000)
+    }, 1000)
   };
 </script>
 <div class="preloader" id="preloader">
@@ -319,9 +319,11 @@
                     <p>Lorem ipsum dolor sit.</p>
                 </div>
             </div>
-            <p class="call-to-action"><span class="desktop-visible">Text</span><a href="#" class="btn btn-outline"
-                                                                                  data-toggle="modal">Lorem ipsum
-                dolor.</a>consectetur adipisicing elit. Aliquam debitis error</p>
+            <div class="call-to-action">
+                <span class="desktop-visible">Please</span>
+            <div><a href="#" class="btn btn-outline" data-toggle="modal">Fill the form</a></div>
+            <div>consectetur adipisicing elit. Aliquam debitis error</div>
+            </div>
         </div>
     </div>
     <div id="portfolio" class="container">
