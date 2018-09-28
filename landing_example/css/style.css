@@ -979,16 +979,16 @@ input.input {
     transition: all .2s;
 }
 .loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #fff;
+    border-top-color: #53ae50;
+    border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 96px;
-    height: 96px;
-    background: url(../images/icon-galaxy.svg) center center no-repeat;
-    margin: -48px 0 0 -48px;
-    transform-origin: center center;
-    -webkit-animation: spin 10s linear infinite;
-    animation: spin 7s linear infinite;
+    margin: -25px 0 0 -25px;
+    animation: spin 1s linear infinite;
 }
 .preloader.done {
     opacity: 0;
