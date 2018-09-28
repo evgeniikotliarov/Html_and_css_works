@@ -165,6 +165,7 @@ ul.list li::before {
 }
 .presentation__slide {
     margin-bottom: 60px;
+    outline: none;
 }
 .presentation__title {
     max-width: 370px;
@@ -556,6 +557,9 @@ ul.list li::before {
 .company-standards .list {
     margin-bottom: 40px;
 }
+.technology-block {
+    outline: none;
+}
 .technology-block .dots,
 .technology-slider .dots-dark {
     -webkit-box-pack: center;
@@ -759,6 +763,7 @@ ul.list li::before {
 }
 .portfolio-project {
     padding-bottom: 40px;
+    outline: none;
 }
 .portfolio-project img {
     display: block;
