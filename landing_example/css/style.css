@@ -116,23 +116,12 @@ ul.list li::before {
     margin-left: 3px;
 }
 .first-screen {
-    background: #0d1d2a url(../uploads/open_space_2.jpg) center center no-repeat;
+    background: #0d1d2a url("../uploads/open_space_2.jpg") center center no-repeat;
     background-size: cover;
     color: #fff;
-    position: relative;
     z-index: 1;
     overflow: hidden;
     padding: 50px 20px;
-}
-.first-screen-galaxy {
-    position: absolute;
-    top: -700px;
-    left: -200px;
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-animation: spin 760s linear infinite;
-    animation: spin 760s linear infinite;
-    z-index: -1;
 }
 .first-screen .description {
     font-size: 20px;
