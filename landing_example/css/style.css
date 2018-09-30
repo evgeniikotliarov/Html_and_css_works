@@ -1006,3 +1006,23 @@ input.input {
     opacity: 0;
     visibility: hidden;
 }
+.about_us_header{
+    background: #0d1d2a url("../images/top-bg.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    height: 300px;
+    /*overflow: hidden;*/
+}
+.about_us_header .container {
+    position: relative;
+}
+.about_us_header h3 {
+    margin-top: 112px;
+    font-weight: bold;
+    font-size: 49px;
+    position: relative;
+    color: #000;
+    z-index: 999;
+}
