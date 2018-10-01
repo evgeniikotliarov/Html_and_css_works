@@ -1026,3 +1026,9 @@ input.input {
     color: #000;
     z-index: 999;
 }
+.photo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
