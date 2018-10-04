@@ -1085,4 +1085,35 @@ input.input {
 .clear {
     clear: both;
 }
-
+.grey_block {
+    background-color: #eee;
+    margin-top: 31px;
+    padding-top: 71px;
+}
+.grey_block h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 56px;
+}
+.team-member {
+    outline: none;
+}
+.team-member img {
+    width: 210px;
+    height: 280px;
+}
+.team-member span {
+    width: 50px;
+    font-weight: bold;
+    display: block;
+}
+.member {
+    margin-top: 24px;
+    margin-left: 19px;
+    line-height: 24px;
+    width: 182px;
+}
+.member span {
+    line-height: 25px;
+    margin-bottom: 4px;
+}
