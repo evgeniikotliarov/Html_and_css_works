@@ -1082,3 +1082,7 @@ input.input {
 .school p {
     margin-bottom: 36px;
 }
+.clear {
+    clear: both;
+}
+
