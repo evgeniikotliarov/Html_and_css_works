@@ -2,6 +2,65 @@ $(document).ready(function () {
   var pathname = window.location.pathname;
   $('.menu > a[href="' + pathname + '"]').addClass('active');
 
+  $('.team-members-slider').slick({
+    autoplay: false,
+    arrows: false,
+    dots: true,
+    slidesToShow: 6,
+    slidesToScroll: 2,
+    dotsClass: 'dots-dark',
+    responsive: [
+      {
+        breakpoint: 1700,
+        settings: {
+          slidesToShow: 6
+        }
+      },
+      {
+        breakpoint: 1380,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 1050,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 730,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 560,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 460,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 370,
+        settings: {
+          slidesToShow: 2
+        }
+      }
+    ]
+  });
+
   var myLanding = {
     mobileMenu: $('.menu'),
     toggleButton: $('.menu-toggle'),
