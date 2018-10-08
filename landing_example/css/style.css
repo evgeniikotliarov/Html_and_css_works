@@ -976,6 +976,25 @@ input.input {
     color: #000;
     z-index: 999;
 }
+.planet {
+    position: absolute;
+    top: -154px;
+    left: 258px;
+}
+.rocket {
+    position: absolute;
+    right: 446px;
+    top: 138px;
+    color: #fff;
+}
+.rocket-content {
+    position: absolute;
+    float: left;
+}
+#rocket {
+    float: left;
+    margin-top: 7px;
+}
 .photo img{
     display: block;
     margin-left: auto;
