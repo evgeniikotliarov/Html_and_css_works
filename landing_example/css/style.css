@@ -975,6 +975,7 @@ input.input {
     position: relative;
     color: #000;
     z-index: 999;
+    color: #fff;
 }
 .planet {
     position: absolute;
@@ -994,6 +995,18 @@ input.input {
 #rocket {
     float: left;
     margin-top: 7px;
+}
+.number {
+    margin-left: 143px;
+    width: 185px;
+}
+.number h1 {
+    font-size: 47px;
+    font-weight: bold;
+    margin-bottom: -6px;
+}
+.number p {
+    line-height: 25px;
 }
 .photo img{
     display: block;
