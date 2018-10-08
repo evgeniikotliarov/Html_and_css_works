@@ -89,6 +89,12 @@ ul.list li::before {
     text-decoration: none;
     transition: color .3s, transform .2s, -webkit-transform .2s;
 }
+.btn-default {
+    background: #fff;
+    border-color: #2f8dbe;
+    color: #000;
+    padding: 0 20px;
+}
 .btn-primary:hover {
     background-color: #fff;
     color: #53ae50;
@@ -1095,6 +1101,15 @@ input.input {
     font-size: 50px;
     margin-bottom: 56px;
 }
+.self-praise {
+    font-size: 22px;
+    max-width: 553px;
+    text-align: center;
+    margin: auto;
+}
+.self-praise img {
+    margin: auto auto 15px;
+}
 .team-members-slider .dots-dark {
     justify-content: center;
     margin-top: 33px;
@@ -1144,6 +1159,9 @@ input.input {
 .flex-fact img {
     display: block;
     margin: auto auto 37px;
+}
+.flex-fact span {
+    font-style: italic;
 }
 /*.work_with_us_bg {*/
     /*background: url(../images/work_with_us_bg.png) center center no-repeat;*/
