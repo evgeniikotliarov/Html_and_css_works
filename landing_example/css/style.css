@@ -1095,7 +1095,16 @@ input.input {
     font-size: 50px;
     margin-bottom: 56px;
 }
+.team-members-slider .dots-dark {
+    justify-content: center;
+    margin-top: 33px;
+}
+.team-members-slider-wrapper {
+    max-height: 483px;
+    overflow: hidden;
+}
 .team-member {
+    display: inline-block;
     outline: none;
 }
 .team-member img {
@@ -1112,8 +1121,31 @@ input.input {
     margin-left: 19px;
     line-height: 24px;
     width: 182px;
+    margin-right: 0;
 }
 .member span {
     line-height: 25px;
     margin-bottom: 4px;
 }
+.flex-facts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 205px;
+}
+.flex-fact {
+    display: inline;
+    flex-basis: 326px;
+    float: left;
+    margin-top: 34px;
+    line-height: 26px;
+}
+.flex-fact img {
+    display: block;
+    margin: auto auto 37px;
+}
+/*.work_with_us_bg {*/
+    /*background: url(../images/work_with_us_bg.png) center center no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
