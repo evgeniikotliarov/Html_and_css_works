@@ -60,33 +60,35 @@ $(document).ready(function () {
       }
     ]
   });
+
   $(window).resize(function () {
     setTimeout(function () {
       $('.team-member').css('visibility', 'visible');
-    }, 100)
+    }, 100);
   });
+
   var teamMemberSlideWidth = $('.team-member.slick-slide').get(0).style.width;
-  var sliderOffSet;
+  var sliderOffset;
   var photoWidth = 210;
   var styleSheet;
 
-  createStyleSheetOnPage = function () {
-    styleSheet = document.createElement('style');
-    styleSheet.innerHTML = ".slick-track {margin-left: auto}";
+  createStylesheetOnPage = function () {
+    styleSheet = document.createElement('style')
+    styleSheet.innerHTML = ".slick-track {margin-left: auto; }";
     document.body.appendChild(styleSheet);
   }();
 
   if ($(window).width() >= 800) {
-    sliderOffSet = parseInt(teamMemberSlideWidth) - photoWidth + 53;
-  } else if ($(window).width() >= 560) {
+    sliderOffset = parseInt(teamMemberSlideWidth) - photoWidth + 53;
+  } else if ($(window).width() > 560) {
     photoWidth = 150;
-    sliderOffSet = parseInt(teamMemberSlideWidth) - photoWidth + 24;
+    sliderOffset = parseInt(teamMemberSlideWidth) - photoWidth + 24;
   } else {
     photoWidth = 150;
-    sliderOffSet = (parseInt(teamMemberSlideWidth) - photoWidth) / 2;
+    sliderOffset = (parseInt(teamMemberSlideWidth) - photoWidth) / 2;
   }
 
-  styleSheet.innerHTML = ".slick-track {margin-left: "+ sliderOffSet + "px; }";
+  styleSheet.innerHTML = ".slick-track {margin-left: " + sliderOffset + "px; }";
 
   if ($(window).width() < 500) {
     var photoWidth = 150;
@@ -95,13 +97,13 @@ $(document).ready(function () {
       var slidesCount = 12;
       var slidePageNumber = (nextSlide / (slidesCount / 6)).toFixed(0);
       if (slidePageNumber >= 1) {
-        standardOffSet = (slick.slideWidth) * 2 * slidePageNumber;
-        styleSheet.innerHTML = ".slick-track {margin-left: " + sliderOffSet + "px; }";
+        standardOffset = (slick.slideWidth) * 2 * slidePageNumber;
+        styleSheet.innerHTML = ".slick-track {margin-left: " + sliderOffset + "px; }";
       } else {
-        sliderOffSet = (parseInt(teamMemberSlideWidth - photoWidth) / 2);
-        styleSheet.innerHTML = ".slick-track {margin-left: " + sliderOffSet + "px; }";
+        sliderOffset = (parseInt(teamMemberSlideWidth) - photoWidth) / 2;
+        styleSheet.innerHTML = ".slick-track {margin-left: " + sliderOffset + "px; }";
       }
-    })
+    });
   }
 
   var myLanding = {
