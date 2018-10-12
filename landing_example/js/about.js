@@ -86,6 +86,24 @@ $(document).ready(function () {
     sliderOffSet = (parseInt(teamMemberSlideWidth) - photoWidth) / 2;
   }
 
+  styleSheet.innerHTML = ".slick-track {margin-left: "+ sliderOffSet + "px; }";
+
+  if ($(window).width() < 500) {
+    var photoWidth = 150;
+
+    $('.team-members-slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+      var slidesCount = 12;
+      var slidePageNumber = (nextSlide / (slidesCount / 6)).toFixed(0);
+      if (slidePageNumber >= 1) {
+        standardOffSet = (slick.slideWidth) * 2 * slidePageNumber;
+        styleSheet.innerHTML = ".slick-track {margin-left: " + sliderOffSet + "px; }";
+      } else {
+        sliderOffSet = (parseInt(teamMemberSlideWidth - photoWidth) / 2);
+        styleSheet.innerHTML = ".slick-track {margin-left: " + sliderOffSet + "px; }";
+      }
+    })
+  }
+
   var myLanding = {
     mobileMenu: $('.menu'),
     toggleButton: $('.menu-toggle'),
