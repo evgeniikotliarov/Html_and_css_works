@@ -60,6 +60,31 @@ $(document).ready(function () {
       }
     ]
   });
+  $(window).resize(function () {
+    setTimeout(function () {
+      $('.team-member').css('visibility', 'visible');
+    }, 100)
+  });
+  var teamMemberSlideWidth = $('.team-member.slick-slide').get(0).style.width;
+  var sliderOffSet;
+  var photoWidth = 210;
+  var styleSheet;
+
+  createStyleSheetOnPage = function () {
+    styleSheet = document.createElement('style');
+    styleSheet.innerHTML = ".slick-track {margin-left: auto}";
+    document.body.appendChild(styleSheet);
+  }();
+
+  if ($(window).width() >= 800) {
+    sliderOffSet = parseInt(teamMemberSlideWidth) - photoWidth + 53;
+  } else if ($(window).width() >= 560) {
+    photoWidth = 150;
+    sliderOffSet = parseInt(teamMemberSlideWidth) - photoWidth + 24;
+  } else {
+    photoWidth = 150;
+    sliderOffSet = (parseInt(teamMemberSlideWidth) - photoWidth) / 2;
+  }
 
   var myLanding = {
     mobileMenu: $('.menu'),

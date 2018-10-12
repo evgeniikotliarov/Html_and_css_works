@@ -1338,4 +1338,23 @@ input.input {
         transform: none
     }
 }
-
+.copiedFadeIn {
+    -webkit-animation: copiedFadeIn;
+    animation: copiedFadeIn 1s;
+}
+@-webkit-keyframes copiedFadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes copiedFadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
