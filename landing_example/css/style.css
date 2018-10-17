@@ -557,20 +557,27 @@ ul.list li::before {
     font-weight: bold;
 }
 @media screen and (min-width: 600px) {
+    .apprenticeship-block-image-wrap,
     .company-standards_image-wrap {
         max-width: 500px;
         margin-right: auto;
         margin-left: auto;
     }
+    .apprenticeship-block-image-wrap {
+        max-width: 541px;
+    }
 }
 @media screen and (min-width: 900px) {
+    .apprenticeship-block,
     .company-standards_block {
         display: flex;
         justify-content: space-between;
     }
+    .apprenticeship-block.reverse,
     .company-standards_block.reverse {
         flex-direction: row-reverse;
     }
+    .apprenticeship-block-image-wrap,
     .company-standards_image-wrap {
         margin-right: 50px;
         margin-left: 50px;
@@ -582,7 +589,6 @@ ul.list li::before {
         margin-top: 24px;
     }
 }
-
 .services {
     text-align: center;
     margin-bottom: 60px;
@@ -1172,6 +1178,34 @@ input.input {
 .work_with_us h3 {
     margin-top: 26px;
     margin-bottom: 28px;
+}
+.apprenticeship {
+    padding-top: 53px;
+    margin-bottom: 6px;
+}
+.apprenticeship a {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.apprenticeship-block {
+    margin-bottom: 75px;
+}
+.apprenticeship-block-image-wrap {
+    margin: 8px -20px 20px;
+    text-align: center;
+}
+.company-standards_image-wrap {
+    margin: 0 -20px 20px;
+    text-align: center;
+}
+.apprenticeship-block_image,
+.company-standards_image {
+    display: inline-block;
+    width: 100%;
+}
+.apprenticeship p {
+    line-height: 1.45;
+    max-width: 700px;
 }
 .copiedBounceInDown {
     -webkit-animation: copiedBounceInDown 1s;
