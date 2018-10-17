@@ -176,5 +176,23 @@ $(document).ready(function () {
     myLanding.orderModal.fadeToggle();
     $('body').toggleClass('is-modal-open');
   });
+  //file upload
+  myLanding.showFormSuccess = function () {
+    $('.modal-title h2').html("Thank you!<br/> We'll contact you soon!");
+    $('#request_project').hide();
+    setTimeout(function (e) {
+      $('.modal-title h2').html("You want more?");
+      document.getElementById("request_project").reset();
+      $('#request_project').fadeIn(300);
+    }, 3000);
+  };
+  myLanding.showFormError = function () {
+    $('.modal-title h2').html("Something went wrong, please try again");
+    $('#file-name').html("");
+
+  };
+  $('#file_input').on('change', function (e) {
+    $('#file-name').html(this.files[0].name);
+  });
 });
 

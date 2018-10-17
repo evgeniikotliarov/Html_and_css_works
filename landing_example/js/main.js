@@ -161,7 +161,7 @@ $(document).ready(function(){
     $('.modal-title h2').html("Thank you!");
     $('#request_project').hide();
     setTimeout(function(e){
-      $('.modal-title h2').html("Оrder one more project");
+      $('.modal-title h2').html("You want more?");
       document.getElementById("request_project").reset();
       $('#request_project').fadeIn(300);
     }, 3000);
