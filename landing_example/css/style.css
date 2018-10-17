@@ -1154,10 +1154,25 @@ input.input {
 .flex-fact span {
     font-style: italic;
 }
-/*.work_with_us_bg {*/
-    /*background: url(../images/work_with_us_bg.png) center center no-repeat;*/
-    /*background-size: cover;*/
-/*}*/
+.work_with_us_bg {
+    background: url(../images/work_with_us_bg.png) center center no-repeat;
+    background-size: cover;
+}
+.work_with_us {
+    text-align: center;
+    max-width: 976px;
+    margin: auto;
+    line-height: 25px;
+    padding-bottom: 55px;
+}
+.work_with_us a {
+    margin-top: 36px;
+    margin-bottom: 2px;
+}
+.work_with_us h3 {
+    margin-top: 26px;
+    margin-bottom: 28px;
+}
 .copiedBounceInDown {
     -webkit-animation: copiedBounceInDown 1s;
     animation: copiedBounceInDown 1s;
