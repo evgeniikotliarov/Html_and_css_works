@@ -1407,3 +1407,15 @@ input.input {
         opacity: 1
     }
 }
+.copiedFadeIn2 {
+    -webkit-animation-name: copiedFadeIn;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+
+    animation-name: copiedFadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
