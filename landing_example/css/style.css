@@ -1448,4 +1448,14 @@ input.input {
     font-weight: bold;
     font-size: 14px;
 }
+.filter-block .unchecked {
+    background: url("../images/filter-unchecked.png") 2px 1px no-repeat;
+
+    color: #91a3b4;
+}
+.filter {
+    float: left;
+    margin-right: 4px;
+    height: 50px;
+}
 
