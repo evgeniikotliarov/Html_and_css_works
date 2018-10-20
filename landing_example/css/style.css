@@ -1418,4 +1418,34 @@ input.input {
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
 }
+.page_title {
+    font-weight: bold;
+    font-size: 51px;
+}
+.portfolio_header {
+    padding-top: 80px;
+    padding-bottom: 46px;
+    border-bottom: 2px solid #eee;
+}
+.filter-block {
+    text-transform: uppercase;
+    padding-top: 18px;
+    font-size: 14px;
+    margin-bottom: 37px;
+}
+.filter-block ul {
+    list-style: none;
+}
+.filter-block ul li {
+    float: left;
+    margin-left: 19px;
+    padding-left: 22px;
+    height: 24px;
+    cursor: pointer;
+}
+.filter-block .checked {
+    background: url("../images/filter-checked.png") 2px 1px no-repeat;
+    font-weight: bold;
+    font-size: 14px;
+}
 
