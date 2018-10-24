@@ -1458,4 +1458,16 @@ input.input {
     margin-right: 4px;
     height: 50px;
 }
+.projects-wrapper {
+    position: relative;
+}
+.reviews-block {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    background-color: #14202b;
+    padding-top: 3px;
+    margin-bottom: 61px;
+}
+
 
