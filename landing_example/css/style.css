@@ -1469,5 +1469,51 @@ input.input {
     padding-top: 3px;
     margin-bottom: 61px;
 }
-
+.review {
+    padding: 30px 0 30px 5px;
+    color: white;
+    max-width: 846px;
+}
+.reviewer {
+    display: inline-block;
+    padding-bottom: 17px;
+}
+.reviewer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 22px;
+}
+.reviewer-info {
+    float: left;
+    padding-top: 20px;
+}
+.reviewer .name {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 4px;
+    display: block;
+    color: #ffffff;
+}
+.reviewer .company {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 723px;
+}
+.review p {
+    line-height: 1.7;
+    margin-bottom: 53px;
+}
+.reviews-slider .dots-dark li {
+    border-color: #fff;
+}
+.reviews-slider .dots-dark .slick-active {
+    border-color: #53ae50;
+}
+.footer.portfolio {
+    margin-top: 20px;
+}
 
