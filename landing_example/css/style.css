@@ -1458,16 +1458,87 @@ input.input {
     margin-right: 4px;
     height: 50px;
 }
+.regular-block > img {
+    width: 100%;
+}
+.project-title {
+    font-weight: bold;
+    color: #2f8bde;
+    font-size: 26px;
+    margin-bottom: 13px;
+    display: block;
+}
+.project-description {
+    padding-left: 19px;
+    padding-top: 20px;
+    padding-right: 11px;
+}
+.project-description p {
+    line-height: 1.45;
+    margin-bottom: 24px;
+    padding-bottom: 50px;
+}
+.regular-block .project-link {
+    margin-bottom: 55px;
+}
+.project-link {
+    color: black;
+    border: 2px solid #2f8bde;
+    display: block;
+    width: 150px;
+    height: 44px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 11px;
+    margin-bottom: 33px;
+}
 .projects-wrapper {
     position: relative;
 }
 .reviews-block {
-    position: absolute;
     top: 600px;
     width: 100%;
+    position: absolute;
     background-color: #14202b;
     padding-top: 3px;
     margin-bottom: 61px;
+}
+.projects {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: 5px;
+}
+.regular-block {
+    flex-basis: 25%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+@media screen and (max-width: 1024px) {
+
+    .regular-block {
+        flex-basis: 33%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .regular-block {
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .regular-block {
+        flex-basis: 100%;
+    }
 }
 .review {
     padding: 30px 0 30px 5px;
@@ -1513,35 +1584,8 @@ input.input {
 .reviews-slider .dots-dark .slick-active {
     border-color: #53ae50;
 }
-.projects {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap;
-    margin-left: -5px;
-    margin-right: 5px;
-}
-.regular-block {
-    flex-basis: 25%;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-@media screen and (max-width: 1024px) {
-
-    .regular-block {
-        flex-basis: 33%;
-    }
-}
-@media screen and (max-width: 768px) {
-    .regular-block {
-        flex-basis: 50%;
-    }
-}
-@media screen and (max-width: 480px) {
-    .regular-block {
-        flex-basis: 100%;
-    }
+.footer.portfolio {
+    margin-top: 20px;
 }
 .achievements {
     border-top: 2px solid #54ad4f;
@@ -1560,8 +1604,3 @@ input.input {
     margin: 0 auto;
     max-width: 196px;
 }
-.footer.portfolio {
-    margin-top: 20px;
-}
-
-
