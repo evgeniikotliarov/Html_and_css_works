@@ -75,29 +75,6 @@ $(document).ready(function(){
       }
     ]
   });
-
-  document.getElementById('request_project').addEventListener('submit', function (ev) {
-    ev.preventDefault();
-    var name = document.getElementById('name').value;
-    var phone_or_email = document.getElementById('phone_or_email').value;
-    var about_project = document.getElementById('about_project').value;
-    var file = document.getElementById('file_input').files[0];
-
-    var formData = new FormData();
-    formData.append('name', name);
-    formData.append('phone_or_email', phone_or_email);
-    formData.append('about_project', about_project);
-    formData.append('file', file);
-
-    fetch('http://localhost:63342/send', {
-      method: 'POST',
-      body: formData
-    }).then(function (value) {
-      myLanding.showFormSuccess();
-    }).catch(function (reason) {
-      myLanding.showFormError();
-    })
-  })
 });
 
 
