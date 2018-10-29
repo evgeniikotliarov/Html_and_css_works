@@ -1800,3 +1800,26 @@ input.input {
     margin: 0 auto;
     max-width: 196px;
 }
+.project_header {
+    padding-top: 83px;
+    padding-bottom: 49px;
+}
+.project_header h1 {
+    font-weight: bold;
+    font-size: 46px;
+}
+.project-first-block {
+    display: block;
+    float: left;
+    margin-bottom: 37px;
+    width: 100%;
+}
+.project-notes {
+    display: block;
+    float: left;
+    margin-left: 40px;
+}
+.numeral {
+    font-weight: bold;
+    font-size: 25px;
+}
