@@ -1847,3 +1847,49 @@ input.input {
     display: block;
     margin-top: 3px;
 }
+.project-slider .dots-dark {
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 22px;
+}
+.task-block, .process-block {
+    max-width: 823px;
+}
+.task-block h2, .process-block h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.task-block {
+    margin-bottom: 46px;
+}
+.task-block p, .process-block p {
+    line-height: 1.45;
+}
+.process-block p {
+    margin-bottom: 25px;
+}
+.process-block ul.list {
+    padding-left: 20px;
+    margin-top: -18px;
+    margin-bottom: 25px;
+}
+.more-projects {
+    border-top: 2px solid #54ad4f;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 21px;
+    margin-bottom: 52px;
+}
+.more-interesting .projects {
+    margin-bottom: 53px;
+}
+.project-slider-wrapper {
+    width: 100%;
+    max-width: 960px;
+    display: block;
+    float: left;
+}
+.project-slide img {
+    width: 100%;
+}
