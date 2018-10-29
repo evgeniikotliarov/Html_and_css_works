@@ -1823,3 +1823,27 @@ input.input {
     font-weight: bold;
     font-size: 25px;
 }
+.green-square {
+    width: 50px;
+    height: 50px;
+    background-color: #53ad50;
+    float: left;
+    margin-right: 10px;
+}
+.project-note {
+    min-height: 70px;
+}
+.project-note .note {
+    margin-left: 10px;
+    float: left;
+    max-width: 115px;
+    padding-top: 9px;
+    margin-bottom: 40px;
+}
+.language {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;
+    margin-top: 3px;
+}
