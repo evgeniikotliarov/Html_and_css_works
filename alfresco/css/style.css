@@ -1,3 +1,28 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
 body {
     font-family: 'PT Sans', sans-serif;
     margin: 0;
@@ -6,16 +31,14 @@ body {
     min-width: 320px;
     -webkit-text-size-adjust: none;
 }
-.content {
+.iphone-se {
     width: 320px;
     height: 568px;
     margin: 50px auto;
-    background-color: #53ae50;
-    border: solid 1px #8c8c8c;
+    background-color: #8c8c8c;
 }
 .search-block {
     height: 10%;
-    border: solid 1px #c9c9c9;
     background-color: #8c8c8c;
 }
 .search-form {
@@ -24,6 +47,7 @@ body {
 .field{
     display: inline-block;
     position: relative;
+    padding-bottom: 10px;
 }
 .field input{
     height: 35px;
@@ -55,4 +79,34 @@ body {
     background-color: transparent;
     border: none;
     padding-right: 10px;
+}
+.tasks-block {
+    background-color: #fff;
+}
+.task {
+    border: solid 1px #c9c9c9;
+    border-bottom: none;
+    border-radius: 7px 7px 0 0;
+}
+h6 {
+    font-size: 22px;
+    color: #8c8c8c;
+    padding: 10px 10px 5px 10px;
+}
+p {
+    font-size: 12px;
+    color: #8c8c8c;
+    padding: 0 0 5px 10px;
+}
+.expired {
+    background-color: #ffcccc;
+}
+.executed-after-deadline {
+    background-color: #f9e4b3;
+}
+.it-is-due-date {
+    background-color: #edf9b3;
+}
+.performed {
+    background-color: #b3f9c5;
 }
