@@ -1,0 +1,58 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    min-width: 320px;
+    -webkit-text-size-adjust: none;
+}
+.content {
+    width: 320px;
+    height: 568px;
+    margin: 50px auto;
+    background-color: #53ae50;
+    border: solid 1px #8c8c8c;
+}
+.search-block {
+    height: 10%;
+    border: solid 1px #c9c9c9;
+    background-color: #8c8c8c;
+}
+.search-form {
+    padding-left: 10px;
+}
+.field{
+    display: inline-block;
+    position: relative;
+}
+.field input{
+    height: 35px;
+    padding: 0 0 0 40px;
+    margin-top: 10px;
+    border: 1px solid #a4adb5;
+    width: 80%;
+    opacity: 0.5;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.field label{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 56px;
+    width: 43px;
+    background: url("../images/search_icon.png") 50% 50% no-repeat;
+    opacity: 0.5;
+}
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+.btn-for-form {
+    float: right;
+    font-size: 46px;
+    color: #c9c9c9;
+    background-color: transparent;
+    border: none;
+    padding-right: 10px;
+}
