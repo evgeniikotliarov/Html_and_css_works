@@ -37,9 +37,8 @@ body {
     margin: 50px auto;
     background-color: #8c8c8c;
 }
-.search-block {
-    height: 10%;
-    background-color: #8c8c8c;
+.content {
+    padding-bottom: 50px;
 }
 .search-form {
     padding-left: 10px;
@@ -86,17 +85,20 @@ body {
 .task {
     border: solid 1px #c9c9c9;
     border-bottom: none;
-    border-radius: 7px 7px 0 0;
-}
-h6 {
-    font-size: 22px;
-    color: #8c8c8c;
-    padding: 10px 10px 5px 10px;
+    padding-bottom: 40px;
 }
 p {
     font-size: 12px;
     color: #8c8c8c;
     padding: 0 0 5px 10px;
+}
+h6 {
+    font-size: 20px;
+    color: #8c8c8c;
+    padding: 10px 10px 5px 10px;
+}
+h6 span {
+    font-size: 1.1rem;
 }
 .expired {
     background-color: #ffcccc;
@@ -105,8 +107,9 @@ p {
     background-color: #f9e4b3;
 }
 .it-is-due-date {
-    background-color: #edf9b3;
+    background-color: #edf9d3;
 }
 .performed {
     background-color: #b3f9c5;
 }
+/*First screen*/
