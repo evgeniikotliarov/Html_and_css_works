@@ -112,4 +112,76 @@ h6 span {
 .performed {
     background-color: #b3f9c5;
 }
+.clear {
+    clear: both;
+}
 /*First screen*/
+.white {
+    background-color: #fff;
+    border: solid 1px black;
+}
+.search-box {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e9e9e9;
+    border-bottom: solid 1px #8c8c8c;
+}
+.search-box a {
+    display: inline-block;
+}
+.btn-calendar {
+    text-decoration: none;
+}
+.btn-calendar p{
+    font-size: 40px;
+    color: #cf3b3b;
+    padding: 0 5px;
+}
+h2 {
+    padding-left: 5px;
+    font-size: 32px;
+    color: #cf3b3b;
+}
+.year-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px 36px;
+}
+.year-wrap a {
+    text-decoration: none;
+    color: #14202b;
+
+}
+.month {
+    width: 102px;
+    border: solid 1px transparent;
+}
+h5 {
+    font-size: 14px;
+}
+.date {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    /*border: solid 1px blue;*/
+}
+.date p {
+    /*border: solid 1px red;*/
+    padding: 0;
+    margin: 0;
+    font-size: 7px;
+    color: #14202b;
+}
+.foot {
+    border-top: solid 1px #8c8c8c;
+    border-bottom: none;
+}
+.footer-links {
+    text-decoration: none;
+}
+.footer-links p {
+    color: #cf3b3b;
+    font-size: 16px;
+    padding: 10px 20px 10px 0 ;
+}
