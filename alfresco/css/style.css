@@ -158,9 +158,11 @@ h5 {
     vertical-align: top;
 }
 .tbl thead tr th{
-    padding: 0 0 0 5px;
+    padding: 5px;
 }
-
+thead {
+    border: solid 1px #333333;
+}
 .tbl tbody tr td{
     padding: 10px;
     font-size: 12px;
@@ -193,7 +195,44 @@ h5 {
 .tbl tbody tr td:nth-child(3){
     width: 45px;
 }
-
-
-
-
+/*third-screen*/
+.header {
+    border-bottom: solid 1px #8c8c8c;
+}
+h4 {
+    padding: 10px;
+}
+h4 a {
+    text-decoration: none;
+    color: #14202b;
+}
+.chief-task {
+    width: 100%;
+    display: inline-block;
+    border-bottom: solid 1px #8c8c8c;
+}
+.menu-toggle {
+    display: inline-block;
+    background: transparent;
+    width: 20px;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-left: 10px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.menu-toggle .line {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #8c8c8c;
+    margin: 4px 0;
+    border-radius: 10px;
+}
+.task-content {
+    display: inline-block;
+}
+.line-middle {
+    opacity: .7;
+}
