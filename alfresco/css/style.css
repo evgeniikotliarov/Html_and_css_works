@@ -152,7 +152,8 @@ h4 a {
 }
 .chief-task {
     width: 100%;
-    display: inline-block;
+    display: flex;
+    align-items: flex-start;
     border-bottom: solid 1px #8c8c8c;
 }
 .menu-toggle {
@@ -163,7 +164,6 @@ h4 a {
     outline: none;
     padding: 0;
     margin-left: 10px;
-    vertical-align: top;
     cursor: pointer;
 }
 .menu-toggle .line {
@@ -176,6 +176,10 @@ h4 a {
 }
 .task-content {
     display: inline-block;
+}
+.task-content span {
+    color: #14202b;
+    opacity: .7;
 }
 .line-middle {
     opacity: .7;
