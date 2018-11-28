@@ -23,6 +23,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+b {
+    font-weight: bold;
+}
 body {
     font-family: 'PT Sans', sans-serif;
     margin: 0;
@@ -119,7 +122,6 @@ h5 {
 }
 .date p {
     white-space: pre-line;
-    /*border: solid 1px red;*/
     padding: 0;
     margin: 0;
     font-size: 8px;
@@ -137,3 +139,61 @@ h5 {
     font-size: 16px;
     padding: 10px 20px 10px 0 ;
 }
+/*table*/
+.container{
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.main-block{
+    width: 320px;
+    margin: 0 auto;
+}
+.tbl thead tr th{
+    color:  #333333;
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 0.33px;
+    line-height: 10px;
+    vertical-align: top;
+}
+.tbl thead tr th{
+    padding: 0 0 0 5px;
+}
+
+.tbl tbody tr td{
+    padding: 10px;
+    font-size: 12px;
+}
+.tbl tbody tr td a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.tbl tbody tr:nth-child(2n+1) td{
+    background: #f9f9f9;
+    z-index: -1;
+}
+.tbl tbody tr:nth-child(2n+1):hover td{
+    background: #fff;
+    z-index: 100;
+}
+.tbl tbody tr:hover{
+    color: #3e8441;
+    background: #fff;
+
+}
+.tbl tbody tr:hover a{
+    color: #3e8441;
+    background: #fff;
+}
+.tbl tbody tr td:first-child{
+    width: 38px;
+}
+.tbl tbody tr td:nth-child(3){
+    width: 45px;
+}
+
+
+
+
